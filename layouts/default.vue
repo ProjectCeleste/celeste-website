@@ -1,51 +1,26 @@
 <template>
   <div>
     <b-navbar>
-      <template slot="brand">
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img src="~assets/buefy.png" alt="Project Celeste" />
-        </b-navbar-item>
+      <template slot="brand" class="navbar-brand-centered">
+        <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
+          <img src="~assets/logo.png" alt="Project Celeste" class="logo" />
+        </nuxt-link>
       </template>
       <template slot="start">
-        <b-navbar-item v-for="(item, key) of items" :key="key" href="#">
-          <nuxt-link :to="item.to" exact-active-class="is-active">
-            <b-icon :icon="item.icon" />
-            {{ item.title }}
-          </nuxt-link>
-        </b-navbar-item>
-        <b-navbar-item href="#">
-          Home
-        </b-navbar-item>
-        <b-navbar-item href="#">
-          Documentation
-        </b-navbar-item>
-        <b-navbar-dropdown label="Info">
-          <b-navbar-item href="#">
-            About
-          </b-navbar-item>
-          <b-navbar-item href="#">
-            Contact
-          </b-navbar-item>
-        </b-navbar-dropdown>
+        <nuxt-link
+          v-for="(item, key) of items"
+          :key="key"
+          :to="item.to"
+          exact-active-class="is-active"
+          class="navbar-item"
+        >
+          {{ item.title }}
+        </nuxt-link>
       </template>
     </b-navbar>
 
     <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
-        </p>
-        <ul class="menu-list">
-          <li v-for="(item, key) of items" :key="key">
-            <nuxt-link :to="item.to" exact-active-class="is-active">
-              <b-icon :icon="item.icon" />
-              {{ item.title }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </aside>
-
-      <div class="container column is-10">
+      <div class="container column is-12">
         <nuxt />
       </div>
     </section>
@@ -59,13 +34,23 @@ export default {
       items: [
         {
           title: "Home",
-          icon: "home",
           to: { name: "index" }
         },
         {
-          title: "Inspire",
-          icon: "lightbulb",
-          to: { name: "inspire" }
+          title: "Status",
+          to: { name: "status" }
+        },
+        {
+          title: "Community",
+          to: { name: "community" }
+        },
+        {
+          title: "Rules",
+          to: { name: "rules" }
+        },
+        {
+          title: "FAQ",
+          to: { name: "faq" }
         }
       ]
     }

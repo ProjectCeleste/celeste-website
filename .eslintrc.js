@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     'vue'
   ],
+  ignorePatterns: ["node_modules/", "dist/"],
   // add your custom rules here
   rules: {
     'semi': [2, 'never'],
