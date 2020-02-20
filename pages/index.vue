@@ -38,7 +38,7 @@ import Card from "~/components/Card"
 
 export default {
   name: "HomePage",
-
+  transition: "fade",
   components: {
     Card
   }
