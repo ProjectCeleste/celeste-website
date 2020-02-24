@@ -27,7 +27,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ["~plugins/b-components"],
   /*
    ** Nuxt.js dev-modules
    */
@@ -39,10 +39,9 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://buefy.github.io/#/documentation
-    "nuxt-buefy",
     // Doc: https://axios.nuxtjs.org/usage
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "nuxtjs-mdi-font"
   ],
   /*
    ** Axios module configuration

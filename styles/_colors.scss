@@ -1,0 +1,79 @@
+@import "~bulma/sass/utilities/_all";
+
+$primary: #1fb73b;
+$primary-invert: findColorInvert($primary);
+
+$color--green: #1fb73b;
+$color--red: hsl(0, 50%, 50%);
+$color--blue: #4976bf;
+$color--light: #efefef;
+$color--dark: #4c5551;
+$color--orange: hsl(40, 100%, 50%);
+
+$color--epic: #b04bdf;
+$color--rare: #3b8fff;
+$color--uncommon: #45ff5e;
+$color--legendary: #ffa500;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+  "white": (
+    $white,
+    $black
+  ),
+  "black": (
+    $black,
+    $white
+  ),
+  "light": (
+    $light,
+    $light-invert
+  ),
+  "dark": (
+    $dark,
+    $dark-invert
+  ),
+  "primary": (
+    $primary,
+    $primary-invert
+  ),
+  "info": (
+    $info,
+    $info-invert
+  ),
+  "success": (
+    $success,
+    $success-invert
+  ),
+  "warning": (
+    $warning,
+    $warning-invert
+  ),
+  "danger": (
+    $danger,
+    $danger-invert
+  )
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+body {
+  --color-accent: #{$color--dark};
+
+  --color--green: #{$color--green};
+  --color--red: #{$color--red};
+  --color--blue: #{$color--blue};
+  --color--light: #{$color--light};
+  --color--dark: #{$color--dark};
+  --color--orange: #{$color--orange};
+
+  --color--epic: #{$color--epic};
+  --color--rare: #{$color--rare};
+  --color--uncommon: #{$color--uncommon};
+  --color--legendary: #{$color--legendary};
+}
+
+@import "~bulma";

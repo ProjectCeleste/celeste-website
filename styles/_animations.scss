@@ -1,0 +1,26 @@
+a {
+  transition: color 0.25s ease-in-out;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s ease-in;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active, .slide-leave-active {
+  transition: opacity .25s ease-in-out, max-height .25s ease-in-out, padding .25s ease-in-out;
+}
+
+.slide-enter, .slide-leave-to {
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: 0;
+}
+
+.slide-enter-to, .slide-leave {
+  max-height: 100em;
+}

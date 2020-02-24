@@ -1,34 +1,21 @@
 <template>
   <section class="section">
     <h2 class="title is-3 has-text-grey">
-      FAQ <b-icon icon="comment-question" size="is-large" />
+      FAQ
+      <b-icon icon="comment-question" size="is-large" icon-size="mdi-48px" />
     </h2>
 
     <div class="columns is-multiline">
-      <b-collapse
+      <div
         v-for="(question, key) of questions"
         :key="key"
-        animation="fade"
         class="column is-full"
-        :open="false"
-        :aria-id="'questionContentId' + key"
       >
-        <div
-          slot="trigger"
-          slot-scope="props"
-          class="card-header question-header"
-          role="button"
-          :aria-controls="'questionContentId' + key"
-        >
-          <p class="card-header-title">
-            {{ question.title }}
-          </p>
-          <a class="card-header-icon">
-            <b-icon :icon="props.open ? 'menu-down' : 'menu-up'"> </b-icon>
-          </a>
-        </div>
-        <div class="card-content" v-html="question.content" />
-      </b-collapse>
+        <b-collapse :open="false" :aria-id="'questionContentId' + key">
+          <span slot="header">{{ question.title }}</span>
+          <div slot="content" v-html="question.content" />
+        </b-collapse>
+      </div>
     </div>
   </section>
 </template>
@@ -94,11 +81,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="scss">
-.question-header {
-  background: var(--color--light);
-  border: none;
-  user-select: none;
-}
-</style>

@@ -8,7 +8,12 @@
       </header>
       <div class="card-content">
         <div class="content has-text-centered">
-          <b-icon :icon="icon" size="is-large" type="is-primary" />
+          <b-icon
+            :icon="icon"
+            size="is-large"
+            icon-size="mdi-48px"
+            type="has-text-primary"
+          />
         </div>
       </div>
       <footer class="card-footer">
@@ -24,6 +29,7 @@
 
 <script>
 export default {
+  name: "BCard",
   props: {
     title: {
       type: String,
