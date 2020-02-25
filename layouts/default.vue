@@ -51,6 +51,10 @@ export default {
         {
           title: "FAQ",
           to: { name: "faq" }
+        },
+        {
+          title: "Personality Quiz",
+          to: { name: "personality-quiz" }
         }
       ]
     }
