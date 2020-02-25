@@ -1,5 +1,5 @@
 <template>
-  <div class="columns is-mobile b-progress">
+  <div :class="containerClass">
     <div
       v-for="i in steps"
       :key="i"
@@ -22,22 +22,39 @@
 export default {
   name: "BProgress",
   props: {
-    steps: { type: Number, required: true }
+    steps: { type: Number, required: true },
+    orientation: { type: String, default: "horizontal" }
   },
   data() {
     return {
       currentStep: 0
     }
   },
+  computed: {
+    containerClass() {
+      return {
+        columns: true,
+        "is-mobile": true,
+        "b-progress": true,
+        "b-progress-vertical": this.orientation === "vertical"
+      }
+    }
+  },
   methods: {
     progress() {
       if (this.currentStep < this.steps) {
         this.currentStep++
-        this.$emit("progress", this.isOpen)
+        this.$emit("progress", this.currentStep)
 
         if (this.currentStep === this.steps) {
           this.$emit("completed")
         }
+      }
+    },
+    back() {
+      if (this.currentStep > 0) {
+        this.currentStep--
+        this.$emit("back", this.currentStep)
       }
     }
   }
@@ -45,7 +62,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$transition-duration: 1.25s;
+$transition-duration: 1s;
 
 .b-progress {
   justify-content: space-evenly;
@@ -61,11 +78,10 @@ $transition-duration: 1.25s;
       width: 2rem;
       overflow: hidden;
       border-radius: 50%;
-      background-color: var(--color--light);
       text-align: center;
       vertical-align: middle;
       color: transparent;
-      transition: background-position 0.25s ease-out, color 0.25s ease-in-out;
+      transition: background-position 0.25s ease-in, color 0.25s ease-in-out;
     }
 
     .step-content,
@@ -79,7 +95,7 @@ $transition-duration: 1.25s;
       background-position: right bottom;
     }
 
-    &:not(:first-child) {
+    &:not(:first-child).completed {
       .step-content {
         transition-delay: $transition-duration;
       }
@@ -92,16 +108,54 @@ $transition-duration: 1.25s;
       height: 0.5rem;
       width: calc(100% - 2rem + 4px);
       top: 50%;
-      transition: background-position $transition-duration ease-in;
+      transition: background-position $transition-duration ease-out;
+      transition-delay: 0.25s;
     }
 
     &.completed {
       .step-content {
         color: #fff;
+        transition-timing-function: ease-out;
+      }
+      .step-segment {
+        transition-delay: 0s;
+        transition-timing-function: ease-in;
       }
       .step-content,
       .step-segment {
         background-position: left bottom;
+      }
+    }
+  }
+
+  &.b-progress-vertical {
+    flex-direction: column;
+
+    .step {
+      .step-content,
+      .step-segment {
+        background: linear-gradient(
+          to bottom,
+          var(--color--green) 50%,
+          var(--color--light) 50%
+        );
+        background-size: 100% 200%;
+        background-position: bottom right;
+      }
+
+      .step-segment {
+        width: 0.5rem;
+        height: calc(100% - 2rem + 4px);
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+      }
+
+      &.completed {
+        .step-content,
+        .step-segment {
+          background-position: top right;
+        }
       }
     }
   }

@@ -5,9 +5,12 @@
       <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
     </h2>
 
-    <b-progress ref="progress" :steps="5" />
+    <b-progress ref="progress" :steps="10" />
     <button class="button is-primary" @click="$refs.progress.progress()">
       Progress
+    </button>
+    <button class="button is-primary" @click="$refs.progress.back()">
+      Back
     </button>
   </section>
 </template>
