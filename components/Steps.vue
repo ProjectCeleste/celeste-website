@@ -23,12 +23,8 @@ export default {
   name: "BSteps",
   props: {
     steps: { type: Number, required: true },
+    currentStep: { type: Number, default: 0 },
     orientation: { type: String, default: "horizontal" }
-  },
-  data() {
-    return {
-      currentStep: 0
-    }
   },
   computed: {
     containerClass() {
