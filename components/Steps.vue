@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: "BProgress",
+  name: "BSteps",
   props: {
     steps: { type: Number, required: true },
     orientation: { type: String, default: "horizontal" }
@@ -35,26 +35,26 @@ export default {
       return {
         columns: true,
         "is-mobile": true,
-        "b-progress": true,
-        "b-progress-vertical": this.orientation === "vertical"
+        "b-steps": true,
+        "b-steps-vertical": this.orientation === "vertical"
       }
     }
   },
   methods: {
-    progress() {
+    next() {
       if (this.currentStep < this.steps) {
         this.currentStep++
-        this.$emit("progress", this.currentStep)
+        this.$emit("next", this.currentStep)
 
         if (this.currentStep === this.steps) {
           this.$emit("completed")
         }
       }
     },
-    back() {
+    previous() {
       if (this.currentStep > 0) {
         this.currentStep--
-        this.$emit("back", this.currentStep)
+        this.$emit("previous", this.currentStep)
       }
     }
   }
@@ -62,9 +62,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$transition-duration: 1s;
+$transition-duration: 0.75s;
 
-.b-progress {
+.b-steps {
   justify-content: space-evenly;
 
   .step {
@@ -128,7 +128,7 @@ $transition-duration: 1s;
     }
   }
 
-  &.b-progress-vertical {
+  &.b-steps-vertical {
     flex-direction: column;
 
     .step {
