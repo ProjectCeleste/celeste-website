@@ -1,0 +1,128 @@
+[
+    {
+        "id": 0,
+        "title": "What would you do?",
+        "options": [
+            {
+                "title": "option 1",
+                "score": {
+                    "g": 5,
+                    "e": 0,
+                    "c": 0,
+                    "p": 0,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 2",
+                "score": {
+                    "g": 0,
+                    "e": 5,
+                    "c": 0,
+                    "p": 0,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 3",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 5,
+                    "p": 0,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Another question?",
+        "options": [
+            {
+                "title": "option 1",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 0,
+                    "p": 5,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 2",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 0,
+                    "p": 0,
+                    "b": 5,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 3",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 0,
+                    "p": 0,
+                    "b": 0,
+                    "n": 5,
+                    "r": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "And another one?",
+        "options": [
+            {
+                "title": "option 1",
+                "score": {
+                    "g": 1,
+                    "e": 1,
+                    "c": 0,
+                    "p": 0,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 2",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 1,
+                    "p": 1,
+                    "b": 0,
+                    "n": 0,
+                    "r": 0
+                }
+            },
+            {
+                "title": "option 3",
+                "score": {
+                    "g": 0,
+                    "e": 0,
+                    "c": 0,
+                    "p": 0,
+                    "b": 1,
+                    "n": 1,
+                    "r": 0
+                }
+            }
+        ]
+    }
+]

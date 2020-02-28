@@ -36,6 +36,13 @@ export default {
       }
     }
   },
+  watch: {
+    currentStep(newVal, oldVal) {
+      if (this.currentStep === this.steps) {
+        this.$emit("completed")
+      }
+    }
+  },
   methods: {
     next() {
       if (this.currentStep < this.steps) {
