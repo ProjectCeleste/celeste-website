@@ -23,14 +23,14 @@
       >
         <div class="columns is-centered is-vcentered">
           <div class="column">
-            <h3 class="subtitle has-white-text">
+            <h3 class="subtitle">
               {{ matchedCiv.name }}
             </h3>
             <p class="content">
               {{ matchedCiv.description }}
             </p>
             <div>
-              <h4 class="subtitle has-white-text">
+              <h4 class="subtitle">
                 Your profile
               </h4>
               <b-progress

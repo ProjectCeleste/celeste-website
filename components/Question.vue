@@ -1,7 +1,7 @@
 <template>
   <div ref="root" class="columns question">
     <div class="column">
-      <h4 class="subtitle has-white-text">
+      <h4 class="subtitle">
         {{ question.title }}
       </h4>
       <div class="is-visible-mobile is-flex is-centered">
@@ -21,10 +21,7 @@
             :name="'option-' + question.id"
             :value="i"
           />
-          <label
-            :for="'option-checkbox-' + question.id + '-' + i"
-            class="has-white-text"
-          >
+          <label :for="'option-checkbox-' + question.id + '-' + i">
             {{ option.title }}
           </label>
         </div>
