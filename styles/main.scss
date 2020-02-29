@@ -24,3 +24,26 @@ body {
 @import "animations";
 
 @import "~bulma-checkradio/src/sass/index.sass";
+
+.button {
+  background: rgb(39,138,157);
+  background: linear-gradient(0deg, rgba(39,138,157,1) 0%, rgba(32,96,113,1) 75%, rgba(45,86,96,1) 100%);
+  border: none;
+}
+
+.content {
+  color: white;
+  text-shadow: 1px 0 1px #192b33;
+}
+
+.aoeo-card {
+  border-image-source: url("~assets/img/borders.png");
+  border-image-slice: 27 27 27 27;
+  border-image-width: 32px 32px 32px 32px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: round round; 
+  padding: 16px;
+
+  background: #312e21;
+  background-clip: content-box;
+}

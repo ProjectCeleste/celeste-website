@@ -1,31 +1,32 @@
 <template>
   <div ref="root" class="columns question">
     <div class="column">
-      <div class="column">
-        <h4 class="subtitle">
-          {{ question.title }}
-        </h4>
-        <div class="is-visible-mobile is-flex is-centered">
-          <img src="https://via.placeholder.com/200x200" />
-        </div>
-        <div class="field">
-          <div
-            v-for="(option, i) in question.options"
-            :key="i"
-            class="question-option"
+      <h4 class="subtitle has-white-text">
+        {{ question.title }}
+      </h4>
+      <div class="is-visible-mobile is-flex is-centered">
+        <img src="https://via.placeholder.com/200x200" />
+      </div>
+      <div class="field">
+        <div
+          v-for="(option, i) in question.options"
+          :key="i"
+          class="question-option"
+        >
+          <input
+            :id="'option-checkbox-' + question.id + '-' + i"
+            v-model="selectedOption"
+            class="is-checkradio is-primary"
+            type="radio"
+            :name="'option-' + question.id"
+            :value="i"
+          />
+          <label
+            :for="'option-checkbox-' + question.id + '-' + i"
+            class="has-white-text"
           >
-            <input
-              :id="'option-checkbox-' + question.id + '-' + i"
-              v-model="selectedOption"
-              class="is-checkradio is-primary"
-              type="radio"
-              :name="'option-' + question.id"
-              :value="i"
-            />
-            <label :for="'option-checkbox-' + question.id + '-' + i">
-              {{ option.title }}
-            </label>
-          </div>
+            {{ option.title }}
+          </label>
         </div>
       </div>
     </div>
@@ -101,6 +102,12 @@ export default {
 
 <style lang="scss" scoped>
 .question {
+  margin-bottom: 0;
+
+  & > .column {
+    padding: 1.25rem;
+  }
+
   .question-option {
     padding: 0.75rem 0;
   }

@@ -1,15 +1,15 @@
 <template>
   <section class="section">
-    <h2 class="title is-3 has-text-grey">
+    <h2 class="title is-3">
       Personality Quiz
       <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
     </h2>
 
-    <div class="columns is-centered is-vcentered-desktop is-mobile">
+    <div class="columns is-centered is-vcentered-desktop is-mobile aoeo-card">
       <b-question
         v-if="currentQuestion < questions.length"
         ref="question"
-        class="column"
+        class="column z-front"
         :question="questions[currentQuestion]"
         :back-disabled="currentQuestion == 0 || transitioning"
         :submit-disabled="transitioning"
@@ -19,18 +19,18 @@
       <div
         v-if="currentQuestion === questions.length"
         ref="results"
-        class="column transparent"
+        class="column transparent z-front results-container"
       >
         <div class="columns is-centered is-vcentered">
           <div class="column">
-            <h3 class="subtitle">
+            <h3 class="subtitle has-white-text">
               {{ matchedCiv.name }}
             </h3>
             <p class="content">
               {{ matchedCiv.description }}
             </p>
             <div>
-              <h4 class="subtitle">
+              <h4 class="subtitle has-white-text">
                 Your profile
               </h4>
               <b-progress
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-narrow z-back">
+      <div class="column is-narrow z-back steps-container">
         <b-steps
           ref="steps"
           :steps="questions.length"
@@ -171,5 +171,13 @@ export default {
 .quiz-result-character {
   height: 350px;
   width: auto;
+}
+
+.steps-container {
+  padding-right: 1.5rem;
+}
+
+.results-container {
+  padding: 1.25rem;
 }
 </style>

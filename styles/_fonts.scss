@@ -5,3 +5,22 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+
+* {
+  font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
+}
+
+.title, .subtitle {
+  font-family: "Ashley Crawford MT";
+}
+
+.has-white-text {
+  color: #fff;
+  text-shadow: 1px 0 1px #192b33;
+
+  &.title, &.subtitle {
+    text-shadow: 2px 0 2px #192b33;
+  }
+}

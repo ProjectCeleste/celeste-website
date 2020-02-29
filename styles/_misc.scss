@@ -7,7 +7,15 @@
 }
 
 .z-back {
-  z-index: -1;
+  z-index: 0;
+}
+
+.z-middle {
+  z-index: 1;
+}
+
+.z-front {
+  z-index: 2;
 }
 
 .is-flex.is-centered {
