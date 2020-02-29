@@ -15,12 +15,13 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxtjs-mdi-font": "^1.0.2",
+    "@nuxtjs/style-resources": "^1.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/style-resources": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.1.0",
@@ -34,7 +35,6 @@
     "eslint-plugin-vue": "^6.2.1",
     "jest": "^24.1.0",
     "node-sass": "^4.13.1",
-    "nuxtjs-mdi-font": "^1.0.2",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "vue-jest": "^4.0.0-0"
