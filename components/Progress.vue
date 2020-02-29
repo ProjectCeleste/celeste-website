@@ -55,7 +55,7 @@ $progress-bar-duration: 2s !default;
     );
     background-position-x: right;
     background-size: 200% 100%;
-    transition: all $progress-bar-duration ease;
+    transition: background-position-x $progress-bar-duration ease;
 
     @each $name, $pair in $colors {
       $color: nth($pair, 1);

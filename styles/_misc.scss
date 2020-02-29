@@ -28,6 +28,10 @@
   flex-direction: column-reverse;
 }
 
+.transparent {
+  opacity: 0;
+}
+
 @media screen and (min-width: $tablet) {
   .is-visible-mobile {
     display: none !important;

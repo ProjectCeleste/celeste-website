@@ -19,7 +19,7 @@
       <div
         v-if="currentQuestion === questions.length"
         ref="results"
-        class="column"
+        class="column transparent"
       >
         <div class="columns is-centered is-vcentered">
           <div class="column">
@@ -148,6 +148,8 @@ export default {
     },
     onCompleted() {
       setTimeout(() => {
+        this.$refs.results.classList.add("slide-in-right")
+        this.$refs.results.classList.remove("transparent")
         for (let i = 0; i < this.questions.length; i++) {
           const question = this.questions[i]
           const option = question.options[question.selectedOption]
@@ -155,8 +157,6 @@ export default {
             this.score[civ] += option.score[civ]
           }
         }
-
-        this.$refs.results.classList.add("slide-in-right")
         setTimeout(() => {
           this.$refs.results.classList.remove("slide-in-right")
           this.transitioning = false
