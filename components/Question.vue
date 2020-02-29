@@ -5,6 +5,10 @@
         <h4 class="subtitle">
           {{ question.title }}
         </h4>
+        <img
+          src="https://via.placeholder.com/200x200"
+          class="is-visible-mobile"
+        />
         <div class="field">
           <div
             v-for="(option, i) in question.options"
@@ -27,12 +31,13 @@
       </div>
     </div>
     <div class="column is-narrow">
-      <img src="https://via.placeholder.com/200x200" />
-      <div class="columns is-variable is-1">
+      <img src="https://via.placeholder.com/200x200" class="is-hidden-mobile" />
+      <div class="columns is-variable is-1 is-mobile">
         <div class="column is-narrow">
           <button
             class="button is-primary"
             title="Previous question"
+            :disabled="backDisabled"
             @click="$emit('back')"
           >
             <b-icon icon="chevron-left" size="is-medium" icon-size="mdi-24px" />
@@ -41,6 +46,7 @@
         <div class="column">
           <button
             class="button is-primary is-fullwidth"
+            :disabled="submitDisabled"
             @click="$emit('submit', selectedOption)"
           >
             Submit
@@ -58,6 +64,14 @@ export default {
     question: {
       type: Object,
       required: true
+    },
+    backDisabled: {
+      type: Boolean,
+      default: false
+    },
+    submitDisabled: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -82,7 +96,7 @@ export default {
 <style lang="scss" scoped>
 .question {
   .question-option {
-    padding: 0.75rem;
+    padding: 0.75rem 0;
   }
 }
 </style>

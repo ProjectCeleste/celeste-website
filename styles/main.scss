@@ -1,4 +1,5 @@
 @import "vars/colors";
+@import "vars/breakpoints";
 
 body {
   --color-accent: #{$color--dark};

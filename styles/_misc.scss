@@ -11,3 +11,43 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.columns.reverse {
+  flex-direction: row-reverse;
+}
+
+.column.reverse {
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: $tablet) {
+  .is-visible-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $tablet - 1px) {
+  .columns.reverse-mobile {
+    flex-direction: row-reverse;
+  }
+  
+  .column.reverse-mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+@each $name, $breakpoint in $breakpoints {
+  @media screen and (min-width: $breakpoint) {
+    .is-vcentered-#{$name} {
+      align-items: center;
+    }
+  
+    .columns.reverse-#{$name} {
+      flex-direction: row-reverse;
+    }
+  
+    .column.reverse-#{$name} {
+      flex-direction: column-reverse;
+    }
+  }
+}

@@ -5,20 +5,18 @@
       <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
     </h2>
 
-    <div class="columns is-centered is-vcentered">
+    <div class="columns is-centered is-vcentered-desktop is-mobile">
       <b-question
         v-if="currentQuestion < questions.length"
         class="column is-narrow"
         :question="questions[currentQuestion]"
+        :back-disabled="currentQuestion == 0"
         @submit="onSubmit"
         @back="onBack"
       />
-      <div
-        v-if="currentQuestion === questions.length"
-        class="column is-narrow is-8"
-      >
+      <div v-if="currentQuestion === questions.length" class="column">
         <div class="columns is-centered is-vcentered">
-          <div class="column is-half">
+          <div class="column">
             <h3 class="subtitle">
               {{ matchedCiv.name }}
             </h3>
@@ -37,18 +35,17 @@
               />
             </div>
           </div>
-          <div class="column is-narrow">
+          <div class="column is-narrow is-hidden-touch">
             <img :src="matchedCiv.character" class="quiz-result-character" />
           </div>
         </div>
       </div>
-    </div>
-    <div class="columns is-centered">
       <div class="column is-narrow">
         <b-steps
           ref="steps"
           :steps="questions.length"
           :current-step="currentQuestion"
+          orientation="vertical"
         />
       </div>
     </div>
