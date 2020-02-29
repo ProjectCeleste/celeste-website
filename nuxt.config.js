@@ -23,7 +23,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["@/styles/main.scss"],
+  css: ["~/styles/main.scss"],
+  styleResources: {
+    scss: ["~styles/vars/*.scss"]
+  },
   /*
    ** Plugins to load before mounting the App
    */
@@ -41,6 +44,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
+    "@nuxtjs/style-resources",
     "nuxtjs-mdi-font"
   ],
   /*

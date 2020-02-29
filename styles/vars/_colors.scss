@@ -59,21 +59,3 @@ $colors: (
 $link: $primary;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
-
-body {
-  --color-accent: #{$color--dark};
-
-  --color--green: #{$color--green};
-  --color--red: #{$color--red};
-  --color--blue: #{$color--blue};
-  --color--light: #{$color--light};
-  --color--dark: #{$color--dark};
-  --color--orange: #{$color--orange};
-
-  --color--epic: #{$color--epic};
-  --color--rare: #{$color--rare};
-  --color--uncommon: #{$color--uncommon};
-  --color--legendary: #{$color--legendary};
-}
-
-@import "~bulma";

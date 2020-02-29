@@ -5,3 +5,9 @@
 .nowrap {
   white-space: nowrap;
 }
+
+.column.is-vcentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
