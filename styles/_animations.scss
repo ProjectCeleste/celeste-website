@@ -24,3 +24,41 @@ a {
 .slide-enter-to, .slide-leave {
   max-height: 100em;
 }
+
+@keyframes slide-out-left {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-25%);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(25%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-out-left {
+  animation: slide-out-left 0.5s ease;
+}
+
+.slide-in-left {
+  animation: slide-out-left 0.5s ease;
+  animation-direction: reverse;
+}
+
+.slide-in-right {
+  animation: slide-in-right 0.5s ease;
+}
+
+.slide-out-right {
+  animation: slide-in-right 0.5s ease;
+  animation-direction: reverse;
+}

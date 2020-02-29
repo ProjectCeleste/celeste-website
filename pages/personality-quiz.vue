@@ -8,22 +8,31 @@
     <div class="columns is-centered is-vcentered-desktop is-mobile">
       <b-question
         v-if="currentQuestion < questions.length"
-        class="column is-narrow"
+        ref="question"
+        class="column"
         :question="questions[currentQuestion]"
-        :back-disabled="currentQuestion == 0"
+        :back-disabled="currentQuestion == 0 || transitioning"
+        :submit-disabled="transitioning"
         @submit="onSubmit"
         @back="onBack"
       />
-      <div v-if="currentQuestion === questions.length" class="column">
+      <div
+        v-if="currentQuestion === questions.length"
+        ref="results"
+        class="column"
+      >
         <div class="columns is-centered is-vcentered">
           <div class="column">
             <h3 class="subtitle">
               {{ matchedCiv.name }}
             </h3>
-            <p>
+            <p class="content">
               {{ matchedCiv.description }}
             </p>
-            <div class="quiz-progress-container">
+            <div>
+              <h4 class="subtitle">
+                Your profile
+              </h4>
               <b-progress
                 v-for="(s, civ) in score"
                 :key="civ"
@@ -40,11 +49,11 @@
           </div>
         </div>
       </div>
-      <div class="column is-narrow">
+      <div class="column is-narrow z-back">
         <b-steps
           ref="steps"
           :steps="questions.length"
-          :current-step="currentQuestion"
+          :current-step="currentStep"
           orientation="vertical"
         />
       </div>
@@ -60,6 +69,8 @@ export default {
   data() {
     return {
       currentQuestion: 0,
+      currentStep: 0,
+      transitioning: false,
       questions: require("assets/data/personality_quiz_questions.json"),
       civs: Civs,
       score: {
@@ -96,17 +107,43 @@ export default {
   methods: {
     onSubmit(selectedOption) {
       this.questions[this.currentQuestion].selectedOption = selectedOption
-      if (this.currentQuestion < this.questions.length) {
-        this.currentQuestion++
-
-        if (this.currentQuestion === this.questions.length) {
-          this.onCompleted()
-        }
-      }
+      this.nextQuestion()
     },
     onBack() {
-      if (this.currentQuestion > 0) {
-        this.currentQuestion--
+      if (this.currentStep > 0) {
+        this.$refs.question.$el.classList.add("slide-out-right")
+        this.currentStep--
+        this.transitioning = true
+        setTimeout(() => {
+          this.currentQuestion--
+          this.$refs.question.$el.classList.remove("slide-out-right")
+          this.$refs.question.$el.classList.add("slide-in-left")
+          setTimeout(() => {
+            this.$refs.question.$el.classList.remove("slide-in-left")
+            this.transitioning = false
+          }, 500)
+        }, 500)
+      }
+    },
+    nextQuestion() {
+      if (this.currentStep < this.questions.length) {
+        this.$refs.question.$el.classList.add("slide-out-left")
+        this.currentStep++
+        this.transitioning = true
+        setTimeout(() => {
+          this.currentQuestion++
+          this.$refs.question.$el.classList.remove("slide-out-left")
+          this.$refs.question.$el.classList.add("slide-in-right")
+
+          if (this.currentStep === this.questions.length) {
+            this.onCompleted()
+          } else {
+            setTimeout(() => {
+              this.$refs.question.$el.classList.remove("slide-in-right")
+              this.transitioning = false
+            }, 500)
+          }
+        }, 500)
       }
     },
     onCompleted() {
@@ -118,6 +155,12 @@ export default {
             this.score[civ] += option.score[civ]
           }
         }
+
+        this.$refs.results.classList.add("slide-in-right")
+        setTimeout(() => {
+          this.$refs.results.classList.remove("slide-in-right")
+          this.transitioning = false
+        }, 500)
       }, 0)
     }
   }
@@ -125,11 +168,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.quiz-progress-container {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .quiz-result-character {
   height: 350px;
   width: auto;

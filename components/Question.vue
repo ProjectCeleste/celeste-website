@@ -1,14 +1,13 @@
 <template>
-  <div class="columns question">
+  <div ref="root" class="columns question">
     <div class="column">
       <div class="column">
         <h4 class="subtitle">
           {{ question.title }}
         </h4>
-        <img
-          src="https://via.placeholder.com/200x200"
-          class="is-visible-mobile"
-        />
+        <div class="is-visible-mobile is-flex is-centered">
+          <img src="https://via.placeholder.com/200x200" />
+        </div>
         <div class="field">
           <div
             v-for="(option, i) in question.options"
@@ -46,7 +45,7 @@
         <div class="column">
           <button
             class="button is-primary is-fullwidth"
-            :disabled="submitDisabled"
+            :disabled="newSubmitDisabled"
             @click="$emit('submit', selectedOption)"
           >
             Submit
@@ -76,10 +75,17 @@ export default {
   },
   data() {
     return {
-      selectedOption: undefined
+      selectedOption: undefined,
+      newSubmitDisabled: false
     }
   },
   watch: {
+    selectedOption(newVal, oldVal) {
+      this.newSubmitDisabled = newVal < 0
+    },
+    submitDisabled(newVal, oldVal) {
+      this.newSubmitDisabled = newVal || this.selectedOption < 0
+    },
     question: {
       immediate: true,
       deep: true,
