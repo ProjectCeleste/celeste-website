@@ -100,13 +100,9 @@ export default {
 <style lang="scss" scoped>
 .question {
   margin-bottom: 0;
+}
 
-  & > .column {
-    padding: 1.25rem;
-  }
-
-  .question-option {
-    padding: 0.75rem 0;
-  }
+.question-option {
+  margin: 0.75rem 0;
 }
 </style>

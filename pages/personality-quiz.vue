@@ -6,11 +6,11 @@
         <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
       </h2>
 
-      <div class="columns is-centered is-vcentered-desktop is-mobile">
+      <div class="columns is-centered is-vcentered is-mobile">
         <b-question
           v-if="currentQuestion < questions.length"
           ref="question"
-          class="column z-front"
+          class="column z-front is-narrow"
           :question="questions[currentQuestion]"
           :back-disabled="currentQuestion == 0 || transitioning"
           :submit-disabled="transitioning"
