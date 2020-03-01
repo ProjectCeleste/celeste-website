@@ -1,21 +1,45 @@
 <template>
   <section class="section columns">
     <div class="container column is-12">
-      <h2 class="title is-3">
-        FAQ
-        <b-icon icon="comment-question" size="is-large" icon-size="mdi-48px" />
-      </h2>
+      <div class="card">
+        <div class="card-header">
+          <div class="columns card-header-title section-title">
+            <div class="column">
+              <h2 class="title is-3">
+                FAQ
+                <b-icon
+                  icon="comment-question"
+                  size="is-large"
+                  icon-size="mdi-48px"
+                />
+              </h2>
 
-      <div class="columns is-multiline">
-        <div
-          v-for="(question, key) of questions"
-          :key="key"
-          class="column is-full"
-        >
-          <b-collapse :open="false" :aria-id="'questionContentId' + key">
-            <span slot="header">{{ question.title }}</span>
-            <div slot="content" v-html="question.content" />
-          </b-collapse>
+              <h3 class="subtitle">
+                Any question?
+              </h3>
+              <p class="content">
+                Learn everything you need to know and find answers to your
+                questions in the FAQ.
+              </p>
+            </div>
+            <div class="column is-narrow">
+              <img src="~assets/img/faq.png" class="section-icon" />
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="columns is-multiline">
+            <div
+              v-for="(question, key) of questions"
+              :key="key"
+              class="column is-full"
+            >
+              <b-collapse :open="false" :aria-id="'questionContentId' + key">
+                <span slot="header">{{ question.title }}</span>
+                <div slot="content" v-html="question.content" />
+              </b-collapse>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -83,3 +107,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.section {
+  background-image: url("~assets/img/background_3.jpg");
+  background-position: center top;
+}
+
+.section-title {
+  margin: 0;
+}
+</style>
