@@ -17,6 +17,8 @@ body {
   --color--legendary: #{$color--legendary};
 }
 
+$navbar-height: 5rem;
+
 @import "~bulma";
 
 @import "fonts";

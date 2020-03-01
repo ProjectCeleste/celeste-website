@@ -1,24 +1,6 @@
 <template>
   <div>
-    <b-navbar>
-      <template slot="brand" class="navbar-brand-centered">
-        <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
-          <img src="~assets/logo.png" alt="Project Celeste" class="logo" />
-        </nuxt-link>
-      </template>
-      <template slot="start">
-        <nuxt-link
-          v-for="(item, key) of items"
-          :key="key"
-          :to="item.to"
-          exact-active-class="is-active"
-          class="navbar-item"
-        >
-          {{ item.title }}
-        </nuxt-link>
-      </template>
-    </b-navbar>
-
+    <b-navbar />
     <section class="main-content">
       <nuxt />
     </section>
@@ -26,40 +8,5 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      items: [
-        {
-          title: "Home",
-          to: { name: "index" }
-        },
-        {
-          title: "Civilizations",
-          to: { name: "civilizations" }
-        },
-        {
-          title: "Status",
-          to: { name: "status" }
-        },
-        {
-          title: "Community",
-          to: { name: "community" }
-        },
-        {
-          title: "Rules",
-          to: { name: "rules" }
-        },
-        {
-          title: "FAQ",
-          to: { name: "faq" }
-        },
-        {
-          title: "Personality Quiz",
-          to: { name: "personality-quiz" }
-        }
-      ]
-    }
-  }
-}
+export default {}
 </script>

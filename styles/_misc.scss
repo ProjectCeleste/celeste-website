@@ -31,6 +31,12 @@
   max-height: 200px;
 }
 
+.main-content {
+  & > .section {
+    margin-top: 0;
+  }
+}
+
 .column.is-vcentered {
   display: flex;
   flex-direction: column;

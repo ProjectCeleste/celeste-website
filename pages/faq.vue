@@ -22,7 +22,7 @@
                 questions in the FAQ.
               </p>
             </div>
-            <div class="column is-narrow">
+            <div class="column is-narrow is-hidden-mobile">
               <img src="~assets/img/faq.png" class="section-icon" />
             </div>
           </div>
