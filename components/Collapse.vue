@@ -12,7 +12,7 @@
       </a>
     </div>
     <transition name="slide">
-      <div v-if="isOpen" class="card-content">
+      <div v-if="isOpen" class="card-content content">
         <slot name="content" />
       </div>
     </transition>

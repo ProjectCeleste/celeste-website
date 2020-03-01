@@ -22,6 +22,10 @@
   justify-content: center;
 }
 
+.is-flex-column {
+  flex-direction: column;
+}
+
 .column.is-vcentered {
   display: flex;
   flex-direction: column;

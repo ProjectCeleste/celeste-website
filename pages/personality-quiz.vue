@@ -1,62 +1,83 @@
 <template>
-  <section class="section colmuns">
-    <div class="container column is-12">
-      <h2 class="title is-3">
-        Personality Quiz
-        <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
-      </h2>
-
-      <div class="columns is-centered is-vcentered is-mobile">
-        <b-question
-          v-if="currentQuestion < questions.length"
-          ref="question"
-          class="column z-front is-narrow"
-          :question="questions[currentQuestion]"
-          :back-disabled="currentQuestion == 0 || transitioning"
-          :submit-disabled="transitioning"
-          @submit="onSubmit"
-          @back="onBack"
-        />
-        <div
-          v-if="currentQuestion === questions.length"
-          ref="results"
-          class="column transparent z-front results-container"
-        >
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="card">
+          <header class="card-header">
+            <div class="card-header-title is-flex-column">
+              <h2 class="title is-3">
+                Personality Quiz
+                <b-icon
+                  icon="account-question"
+                  size="is-large"
+                  icon-size="mdi-48px"
+                />
+              </h2>
               <h3 class="subtitle">
-                {{ matchedCiv.name }}
+                Discover the civilization that suits you the most!
               </h3>
-              <p class="content">
-                {{ matchedCiv.description }}
-              </p>
-              <div>
-                <h4 class="subtitle">
-                  Your profile
-                </h4>
-                <b-progress
-                  v-for="(s, civ) in score"
-                  :key="civ"
-                  :img="civs[civ].icon"
-                  :value="s"
-                  :max="total"
-                  :title="civs[civ].name"
-                  class="is-marginless"
+            </div>
+          </header>
+          <div class="card-content">
+            <div
+              class="columns is-centered is-vcentered is-mobile quiz-container"
+            >
+              <b-question
+                v-if="currentQuestion < questions.length"
+                ref="question"
+                class="column z-front is-narrow"
+                :question="questions[currentQuestion]"
+                :back-disabled="currentQuestion == 0 || transitioning"
+                :submit-disabled="transitioning"
+                @submit="onSubmit"
+                @back="onBack"
+              />
+              <div
+                v-if="currentQuestion === questions.length"
+                ref="results"
+                class="column transparent z-front results-container"
+              >
+                <div class="columns is-centered is-vcentered">
+                  <div class="column">
+                    <h3 class="title">
+                      {{ matchedCiv.name }}
+                    </h3>
+                    <p class="content">
+                      {{ matchedCiv.description }}
+                    </p>
+                    <div>
+                      <h4 class="subtitle">
+                        Your profile
+                      </h4>
+                      <b-progress
+                        v-for="(s, civ) in score"
+                        :key="civ"
+                        :img="civs[civ].icon"
+                        :value="s"
+                        :max="total"
+                        :title="civs[civ].name"
+                        class="is-marginless"
+                      />
+                    </div>
+                  </div>
+                  <div class="column is-narrow is-hidden-touch">
+                    <img
+                      :src="matchedCiv.character"
+                      class="quiz-result-character"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="column is-narrow z-back steps-container">
+                <b-steps
+                  ref="steps"
+                  :steps="questions.length"
+                  :current-step="currentStep"
+                  orientation="vertical"
                 />
               </div>
             </div>
-            <div class="column is-narrow is-hidden-touch">
-              <img :src="matchedCiv.character" class="quiz-result-character" />
-            </div>
           </div>
-        </div>
-        <div class="column is-narrow z-back steps-container">
-          <b-steps
-            ref="steps"
-            :steps="questions.length"
-            :current-step="currentStep"
-            orientation="vertical"
-          />
         </div>
       </div>
     </div>
@@ -170,13 +191,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.hero {
+  background-image: url("~assets/img/background_1.jpg");
+  background-position: center top;
+}
+
 .quiz-result-character {
   height: 350px;
   width: auto;
-}
-
-.steps-container {
-  padding-right: 1.5rem;
 }
 
 .results-container {

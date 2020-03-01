@@ -9,7 +9,7 @@
         <div v-for="(rule, key) of rules" :key="key" class="column is-12">
           <div class="card">
             <div
-              class="card-content"
+              class="card-content content"
               v-html="'<b>' + (key + 1) + '.&nbsp;</b>' + rule"
             />
           </div>
