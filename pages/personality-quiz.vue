@@ -2,18 +2,13 @@
   <section class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
-        <div class="card">
+        <div class="card is-dark">
           <header class="card-header">
             <div class="card-header-title is-flex-column">
-              <h2 class="title is-3">
+              <h2 class="title is-3 has-text-gold">
                 Personality Quiz
-                <b-icon
-                  icon="account-question"
-                  size="is-large"
-                  icon-size="mdi-48px"
-                />
               </h2>
-              <h3 class="subtitle">
+              <h3 class="subtitle has-text-grey-lighter">
                 Discover the civilization that suits you the most!
               </h3>
             </div>
@@ -39,25 +34,28 @@
               >
                 <div class="columns is-centered is-vcentered">
                   <div class="column">
-                    <h3 class="title">
-                      {{ matchedCiv.name }}
+                    <h3 class="title is-flex is-vcentered has-text-white">
+                      <img class="civ-shield" :src="matchedCiv.icon" />
+                      <span>{{ matchedCiv.name }}</span>
                     </h3>
                     <p class="content">
                       {{ matchedCiv.description }}
                     </p>
                     <div>
-                      <h4 class="subtitle">
-                        Your profile
-                      </h4>
-                      <b-progress
-                        v-for="(s, civ) in score"
-                        :key="civ"
-                        :img="civs[civ].icon"
-                        :value="s"
-                        :max="total"
-                        :title="civs[civ].name"
-                        class="is-marginless"
-                      />
+                      <b-collapse :open="false">
+                        <span slot="header">Your profile</span>
+                        <div slot="content">
+                          <b-progress
+                            v-for="(s, civ) in score"
+                            :key="civ"
+                            :img="civs[civ].icon"
+                            :value="s"
+                            :max="total"
+                            :title="civs[civ].name"
+                            class="is-marginless"
+                          />
+                        </div>
+                      </b-collapse>
                     </div>
                   </div>
                   <div class="column is-narrow is-hidden-touch">
@@ -196,12 +194,20 @@ export default {
   background-position: center top;
 }
 
-.quiz-result-character {
-  height: 350px;
-  width: auto;
+.steps-container {
+  margin-right: 0.25rem;
 }
 
 .results-container {
   padding: 1.25rem;
+}
+
+.civ-shield {
+  max-height: 45px;
+  margin-right: 0.5rem;
+
+  + span {
+    line-height: 45px;
+  }
 }
 </style>

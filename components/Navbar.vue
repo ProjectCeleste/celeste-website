@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
         <img src="~assets/logo_roman.png" alt="Project Celeste" class="logo" />
@@ -75,6 +75,7 @@
 
 <script>
 export default {
+  // TODO responsiveness, group with dropdowns?
   name: "BNavbar",
   data() {
     return {
@@ -141,19 +142,20 @@ export default {
 
 <style lang="scss">
 .navbar {
-  background: transparent;
+  background: $color--darker !important;
   font-size: 1.1rem;
+  color: #fff;
 
   .navbar-item {
     color: white;
+    font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
+    text-shadow: 2px 0 2px #192b33;
     transition: background-color 0.5s ease;
 
-    &:hover {
-      color: white;
-    }
-
+    &:hover,
     &.is-active {
       color: white;
+      background-color: $color--darker;
     }
   }
 
@@ -178,6 +180,7 @@ export default {
 
     .navbar-item {
       color: $grey-darker !important;
+      text-shadow: none;
 
       &.is-active {
         background-color: $grey-lighter;

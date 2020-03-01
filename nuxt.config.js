@@ -12,9 +12,69 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
-      }
+      },
+      {
+        rel: "og:site_name",
+        content: "Age of Empires Online - Project Celeste"
+      },
+      { rel: "og:title", content: "Age of Empires Online - Project Celeste" },
+      { rel: "og:type", content: "website" },
+      {
+        rel: "og:description",
+        content:
+          "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
+      },
+      {
+        rel: "og:image",
+        content: "https://www.projectceleste.com/assets/meta/512.png"
+      }, // TODO change og icon
+      {
+        rel: "twitter:title",
+        content: "Age of Empires Online - Project Celeste"
+      },
+      {
+        rel: "twitter:description",
+        content:
+          "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
+      },
+      {
+        rel: "twitter:image:src",
+        content: "https://www.projectceleste.com/assets/meta/512.png"
+      },
+      { rel: "twitter:card", content: "summary" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: `/favicon/WebsiteLogo_16.png`
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: `/favicon/WebsiteLogo_32.png`
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "64x64",
+        href: `/favicon/WebsiteLogo_64.png`
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "128x128",
+        href: `/favicon/WebsiteLogo_128.png`
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "256x256",
+        href: `/favicon/WebsiteLogo_256.png`
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color

@@ -1,12 +1,12 @@
 <template>
   <div class="card is-paddingless">
     <div class="card-header collapse-header" @click="toggle">
-      <p class="card-header-title">
+      <p class="card-header-title has-text-white">
         <slot name="header" />
       </p>
       <a class="card-header-icon">
         <b-icon
-          :icon="isOpen ? 'menu-down' : 'menu-up'"
+          :icon="isOpen ? 'chevron-down' : 'chevron-up'"
           icon-size="mdi-24px"
         ></b-icon>
       </a>
@@ -54,6 +54,8 @@ export default {
 
 <style scoped lang="scss">
 .collapse-header {
+  font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
+  text-shadow: 2px 0 2px #192b33;
   background: var(--color--light);
   border: none;
   user-select: none;
@@ -61,9 +63,14 @@ export default {
   &:hover {
     cursor: pointer;
   }
+
+  .card-header-icon {
+    text-shadow: none;
+  }
 }
 
 .card-content {
   overflow: hidden;
+  border: $color--light 2px solid;
 }
 </style>

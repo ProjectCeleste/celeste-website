@@ -10,6 +10,8 @@ body {
   --color--light: #{$color--light};
   --color--dark: #{$color--dark};
   --color--orange: #{$color--orange};
+  
+  --color--info: #{$info};
 
   --color--epic: #{$color--epic};
   --color--rare: #{$color--rare};
@@ -24,5 +26,14 @@ $navbar-height: 5rem;
 @import "fonts";
 @import "misc";
 @import "animations";
+
+.card {
+  color: white;
+  background-color: transparent;
+
+  .card-header, .card-content, .card-footer {
+    background-color: $color--darker;
+  }
+}
 
 @import "~bulma-checkradio/src/sass/index.sass";

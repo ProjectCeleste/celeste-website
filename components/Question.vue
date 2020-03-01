@@ -1,7 +1,7 @@
 <template>
   <div ref="root" class="columns question">
     <div class="column">
-      <h4 class="subtitle">
+      <h4 class="subtitle has-text-white">
         {{ question.title }}
       </h4>
       <div class="is-visible-mobile is-flex is-centered">
@@ -16,7 +16,7 @@
           <input
             :id="'option-checkbox-' + question.id + '-' + i"
             v-model="selectedOption"
-            class="is-checkradio is-primary"
+            class="is-checkradio is-info"
             type="radio"
             :name="'option-' + question.id"
             :value="i"
@@ -32,7 +32,7 @@
       <div class="columns is-variable is-1 is-mobile">
         <div class="column is-narrow">
           <button
-            class="button is-primary"
+            class="button is-info"
             title="Previous question"
             :disabled="backDisabled"
             @click="$emit('back')"
@@ -42,7 +42,7 @@
         </div>
         <div class="column">
           <button
-            class="button is-primary is-fullwidth"
+            class="button is-info is-fullwidth"
             :disabled="newSubmitDisabled"
             @click="$emit('submit', selectedOption)"
           >

@@ -5,7 +5,7 @@
         <div class="card-header">
           <div class="columns card-header-title section-title">
             <div class="column">
-              <h2 class="title is-3">
+              <h2 class="title is-3 has-text-gold">
                 FAQ
                 <b-icon
                   icon="comment-question"
@@ -14,7 +14,7 @@
                 />
               </h2>
 
-              <h3 class="subtitle">
+              <h3 class="subtitle has-text-grey-lighter">
                 Any question?
               </h3>
               <p class="content">
@@ -34,7 +34,7 @@
               :key="key"
               class="column is-full"
             >
-              <b-collapse :open="false" :aria-id="'questionContentId' + key">
+              <b-collapse :open="false">
                 <span slot="header">{{ question.title }}</span>
                 <div slot="content" v-html="question.content" />
               </b-collapse>

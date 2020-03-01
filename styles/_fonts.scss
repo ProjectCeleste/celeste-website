@@ -11,3 +11,16 @@
 .content {
   font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
 }
+
+.title, .subtitle {
+  font-family: 'Ashley Crawford MT', 'Times New Roman', 'Arimo', sans-serif;
+  text-shadow: 2px 0 2px #192b33;
+}
+
+.has-text-ashley {
+  font-family: 'Ashley Crawford MT', 'Times New Roman', 'Arimo', sans-serif;
+}
+
+.has-text-gold {
+  color: $color--gold !important;
+}
