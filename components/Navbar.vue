@@ -2,7 +2,7 @@
   <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
-        <img src="~assets/logo.png" alt="Project Celeste" class="logo" />
+        <img src="~assets/logo_roman.png" alt="Project Celeste" class="logo" />
       </nuxt-link>
     </div>
 
