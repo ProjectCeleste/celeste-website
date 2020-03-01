@@ -1,16 +1,18 @@
 <template>
-  <section class="section">
-    <h2 class="title is-3">
-      Rules <b-icon icon="gavel" size="is-large" icon-size="mdi-48px" />
-    </h2>
+  <section class="section columns">
+    <div class="container column is-12">
+      <h2 class="title is-3">
+        Rules <b-icon icon="gavel" size="is-large" icon-size="mdi-48px" />
+      </h2>
 
-    <div class="columns is-multiline">
-      <div v-for="(rule, key) of rules" :key="key" class="column is-12">
-        <div class="card">
-          <div
-            class="card-content"
-            v-html="'<b>' + (key + 1) + '.&nbsp;</b>' + rule"
-          />
+      <div class="columns is-multiline">
+        <div v-for="(rule, key) of rules" :key="key" class="column is-12">
+          <div class="card">
+            <div
+              class="card-content"
+              v-html="'<b>' + (key + 1) + '.&nbsp;</b>' + rule"
+            />
+          </div>
         </div>
       </div>
     </div>

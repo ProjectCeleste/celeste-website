@@ -1,20 +1,22 @@
 <template>
-  <section class="section">
-    <h2 class="title is-3">
-      FAQ
-      <b-icon icon="comment-question" size="is-large" icon-size="mdi-48px" />
-    </h2>
+  <section class="section columns">
+    <div class="container column is-12">
+      <h2 class="title is-3">
+        FAQ
+        <b-icon icon="comment-question" size="is-large" icon-size="mdi-48px" />
+      </h2>
 
-    <div class="columns is-multiline">
-      <div
-        v-for="(question, key) of questions"
-        :key="key"
-        class="column is-full"
-      >
-        <b-collapse :open="false" :aria-id="'questionContentId' + key">
-          <span slot="header">{{ question.title }}</span>
-          <div slot="content" v-html="question.content" />
-        </b-collapse>
+      <div class="columns is-multiline">
+        <div
+          v-for="(question, key) of questions"
+          :key="key"
+          class="column is-full"
+        >
+          <b-collapse :open="false" :aria-id="'questionContentId' + key">
+            <span slot="header">{{ question.title }}</span>
+            <div slot="content" v-html="question.content" />
+          </b-collapse>
+        </div>
       </div>
     </div>
   </section>

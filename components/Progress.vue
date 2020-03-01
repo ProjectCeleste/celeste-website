@@ -5,7 +5,7 @@
     </div>
     <div class="column is-vcentered">
       <div
-        class="b-progress-bar"
+        class="b-progress-bar is-info"
         :style="{ 'background-position-x': progress }"
       />
     </div>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$progress-bar-background-color: #c2b693 !default;
+$progress-bar-background-color: $color--light !default;
 $progress-border-radius: $radius-rounded !default;
 $progress-bar-duration: 2s !default;
 

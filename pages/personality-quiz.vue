@@ -1,61 +1,63 @@
 <template>
-  <section class="section">
-    <h2 class="title is-3">
-      Personality Quiz
-      <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
-    </h2>
+  <section class="section colmuns">
+    <div class="container column is-12">
+      <h2 class="title is-3">
+        Personality Quiz
+        <b-icon icon="account-question" size="is-large" icon-size="mdi-48px" />
+      </h2>
 
-    <div class="columns is-centered is-vcentered-desktop is-mobile aoeo-card">
-      <b-question
-        v-if="currentQuestion < questions.length"
-        ref="question"
-        class="column z-front"
-        :question="questions[currentQuestion]"
-        :back-disabled="currentQuestion == 0 || transitioning"
-        :submit-disabled="transitioning"
-        @submit="onSubmit"
-        @back="onBack"
-      />
-      <div
-        v-if="currentQuestion === questions.length"
-        ref="results"
-        class="column transparent z-front results-container"
-      >
-        <div class="columns is-centered is-vcentered">
-          <div class="column">
-            <h3 class="subtitle">
-              {{ matchedCiv.name }}
-            </h3>
-            <p class="content">
-              {{ matchedCiv.description }}
-            </p>
-            <div>
-              <h4 class="subtitle">
-                Your profile
-              </h4>
-              <b-progress
-                v-for="(s, civ) in score"
-                :key="civ"
-                :img="civs[civ].icon"
-                :value="s"
-                :max="total"
-                :title="civs[civ].name"
-                class="is-marginless"
-              />
+      <div class="columns is-centered is-vcentered-desktop is-mobile">
+        <b-question
+          v-if="currentQuestion < questions.length"
+          ref="question"
+          class="column z-front"
+          :question="questions[currentQuestion]"
+          :back-disabled="currentQuestion == 0 || transitioning"
+          :submit-disabled="transitioning"
+          @submit="onSubmit"
+          @back="onBack"
+        />
+        <div
+          v-if="currentQuestion === questions.length"
+          ref="results"
+          class="column transparent z-front results-container"
+        >
+          <div class="columns is-centered is-vcentered">
+            <div class="column">
+              <h3 class="subtitle">
+                {{ matchedCiv.name }}
+              </h3>
+              <p class="content">
+                {{ matchedCiv.description }}
+              </p>
+              <div>
+                <h4 class="subtitle">
+                  Your profile
+                </h4>
+                <b-progress
+                  v-for="(s, civ) in score"
+                  :key="civ"
+                  :img="civs[civ].icon"
+                  :value="s"
+                  :max="total"
+                  :title="civs[civ].name"
+                  class="is-marginless"
+                />
+              </div>
+            </div>
+            <div class="column is-narrow is-hidden-touch">
+              <img :src="matchedCiv.character" class="quiz-result-character" />
             </div>
           </div>
-          <div class="column is-narrow is-hidden-touch">
-            <img :src="matchedCiv.character" class="quiz-result-character" />
-          </div>
         </div>
-      </div>
-      <div class="column is-narrow z-back steps-container">
-        <b-steps
-          ref="steps"
-          :steps="questions.length"
-          :current-step="currentStep"
-          orientation="vertical"
-        />
+        <div class="column is-narrow z-back steps-container">
+          <b-steps
+            ref="steps"
+            :steps="questions.length"
+            :current-step="currentStep"
+            orientation="vertical"
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -161,7 +163,7 @@ export default {
           this.$refs.results.classList.remove("slide-in-right")
           this.transitioning = false
         }, 500)
-      }, 0)
+      }, 100)
     }
   }
 }

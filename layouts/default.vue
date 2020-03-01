@@ -19,10 +19,8 @@
       </template>
     </b-navbar>
 
-    <section class="main-content columns">
-      <div class="container column is-12">
-        <nuxt />
-      </div>
+    <section class="main-content">
+      <nuxt />
     </section>
   </div>
 </template>
@@ -35,6 +33,10 @@ export default {
         {
           title: "Home",
           to: { name: "index" }
+        },
+        {
+          title: "Civilizations",
+          to: { name: "civilizations" }
         },
         {
           title: "Status",
