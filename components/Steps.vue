@@ -117,7 +117,7 @@ $transition-duration: 0.75s;
 
     &.completed {
       .step-content {
-        color: #fff;
+        color: $color--gold;
         transition-timing-function: ease-out;
       }
       .step-segment {

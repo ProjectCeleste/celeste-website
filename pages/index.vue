@@ -1,48 +1,24 @@
 <template>
-  <section class="section columns">
-    <div class="container column is-12">
-      <div class="columns is-mobile">
-        <card title="Free" icon="github-circle">
-          Open source on
-          <a href="https://github.com/buefy/buefy">
-            GitHub
-          </a>
-        </card>
-
-        <card title="Responsive" icon="cellphone-link">
-          <b class="has-text-grey">
-            Every
-          </b>
-          component is responsive
-        </card>
-
-        <card title="Modern" icon="alert-decagram">
-          Built with
-          <a href="https://vuejs.org/">
-            Vue.js
-          </a>
-          and
-          <a href="http://bulma.io/">
-            Bulma
-          </a>
-        </card>
-
-        <card title="Lightweight" icon="arrange-bring-to-front">
-          No other internal dependency
-        </card>
+  <section class="section hero is-fullheight has-text-centered">
+    <video autoplay loop="true" class="video-background">
+      <source type="video/mp4" src="~assets/landing.mp4" />
+    </video>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-gold is-1">
+          Age of Empires Online
+        </h1>
+        <h2 class="subtitle has-text-grey-lighter is-3">
+          Project Celeste
+        </h2>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Card from "~/components/Card"
-
 export default {
   name: "HomePage",
-  transition: "fade",
-  components: {
-    Card
-  }
+  transition: "fade"
 }
 </script>
