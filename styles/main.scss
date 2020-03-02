@@ -27,13 +27,7 @@ $navbar-height: 5rem;
 @import "misc";
 @import "animations";
 
-.card {
-  color: white;
-  background-color: transparent;
-
-  .card-header, .card-content, .card-footer {
-    background-color: $color--darker;
-  }
-}
+@import "card";
+@import "table-of-contents";
 
 @import "~bulma-checkradio/src/sass/index.sass";

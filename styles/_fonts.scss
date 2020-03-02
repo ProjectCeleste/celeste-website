@@ -8,8 +8,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
 
+a {
+  &:hover {
+    color: $link-hover;
+  }
+}
+
 .content {
   font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.monospace {
+	font-family: monospace, monospace;
 }
 
 .title, .subtitle {

@@ -5,6 +5,7 @@ $primary-invert: findColorInvert($primary);
 
 $secondary: rgba(126, 21, 23, 0.90);
 $tertiary: rgba(176, 36, 38, 0.90);
+$tertiary-invert: findColorInvert($tertiary);
 $info: $tertiary;
 
 $color--green: #1fb73b;
@@ -23,6 +24,8 @@ $color--medium: rgb(129,93,50);
 $color--lightish: rgb(175,130,74);
 $color--light: rgba(190,157,116,0.9);
 $color--lighter: rgba(218,180,133,0.9);
+$color--lighter-invert: findColorInvert($color--lighter);
+
 
 $color--epic: #b04bdf;
 $color--rare: #3b8fff;
@@ -70,6 +73,7 @@ $colors: (
 );
 
 // Links
-$link: $primary;
-$link-invert: $primary-invert;
+$link: $color--lighter;
+$link-hover: darken($color--lighter, 10%);
+$link-invert: $color--light;
 $link-focus-border: $primary;
