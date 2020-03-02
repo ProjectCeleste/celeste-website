@@ -192,6 +192,8 @@ export default {
 .hero {
   background-image: url("~assets/img/background_1.jpg");
   background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .steps-container {

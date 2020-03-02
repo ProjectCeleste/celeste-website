@@ -112,6 +112,8 @@ export default {
 .section {
   background-image: url("~assets/img/background_3.jpg");
   background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-title {
