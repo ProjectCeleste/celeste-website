@@ -434,9 +434,5 @@ export default {
 <style lang="scss" scoped>
 .section {
   background-image: url("~assets/img/background_4.jpg");
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 </style>

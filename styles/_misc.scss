@@ -82,6 +82,13 @@
   margin: 0;
 }
 
+.section {
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 ul {
   li {
     ul {
