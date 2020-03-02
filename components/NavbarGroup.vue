@@ -76,6 +76,7 @@ export default {
 
     .navbar-item {
       color: $grey-lighter !important;
+      background: $color--darker--opaque;
 
       &:hover,
       &.is-active {

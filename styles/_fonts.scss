@@ -47,3 +47,26 @@ a {
 .has-text-gold {
   color: $color--gold !important;
 }
+
+@media screen and (max-width: $tablet - 1) {
+  .title, .subtitle {
+    @each $size in $sizes {
+      $i: index($sizes, $size);
+      &.is-#{$i} {
+        font-size: $size * 0.75;
+      }
+    }
+  }
+
+  .icon {
+    &.is-large {
+      width: $icon-dimensions-large * 0.75;
+      height: $icon-dimensions-large * 0.75;
+
+      .mdi-48px.mdi-set, .mdi-48px.mdi::before {
+        font-size: 48px * 0.75;
+      }
+    }
+  }
+  
+}
