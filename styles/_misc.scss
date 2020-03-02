@@ -82,6 +82,14 @@
   margin: 0;
 }
 
+ul {
+  li {
+    ul {
+      margin-top: 0 !important;
+    }
+  }
+}
+
 @media screen and (min-width: $tablet) {
   .is-visible-mobile {
     display: none !important;

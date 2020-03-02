@@ -97,16 +97,17 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/eslint-module"
+    "@nuxtjs/eslint-module",
+    "vue-scrollto/nuxt",
+    "@nuxtjs/style-resources",
+    "nuxtjs-mdi-font"
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    "@nuxtjs/axios",
-    "@nuxtjs/style-resources",
-    "nuxtjs-mdi-font"
+    "@nuxtjs/axios"
   ],
   /*
    ** Axios module configuration

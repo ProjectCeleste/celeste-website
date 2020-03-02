@@ -14,10 +14,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6",
-    "nuxtjs-mdi-font": "^1.0.2",
-    "@nuxtjs/style-resources": "^1.0.0"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
@@ -37,6 +35,9 @@
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
-    "vue-jest": "^4.0.0-0"
+    "vue-jest": "^4.0.0-0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nuxtjs-mdi-font": "^1.0.2",
+    "vue-scrollto": "^2.17.1"
   }
 }

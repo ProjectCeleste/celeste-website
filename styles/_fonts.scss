@@ -14,6 +14,14 @@ a {
   }
 }
 
+.card-header-icon {
+  color: $primary;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
 .content {
   font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
 
@@ -23,7 +31,8 @@ a {
 }
 
 .monospace {
-	font-family: monospace, monospace;
+  font-family: monospace, monospace;
+  font-size: 90%;
 }
 
 .title, .subtitle {
