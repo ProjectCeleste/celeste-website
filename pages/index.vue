@@ -3,7 +3,7 @@
     <video autoplay loop="true" class="video-background">
       <source type="video/mp4" src="~assets/landing.mp4" />
     </video>
-    <div class="hero-body">
+    <div class="hero-body is-middle">
       <div class="container">
         <h1 class="title has-text-gold is-1">
           Age of Empires Online

@@ -79,7 +79,7 @@ export default {
 
       &:hover,
       &.is-active {
-        color: white;
+        color: white !important;
         background-color: $color--darker--active;
       }
     }
