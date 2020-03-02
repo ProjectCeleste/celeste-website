@@ -1,34 +1,31 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation dropdown">
     <div class="navbar-brand">
       <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
         <img src="~assets/logo_roman.png" alt="Project Celeste" class="logo" />
       </nuxt-link>
     </div>
 
-    <div class="navbar-menu">
+    <div class="navbar-menu navbar-menu-wide">
       <div class="navbar-start">
-        <nuxt-link
-          v-for="(item, key) of itemsStart"
-          :key="key + 'start'"
-          :to="item.to"
-          exact-active-class="is-active"
-          class="navbar-item"
+        <b-navbar-group
+          v-for="(group, key) of itemsStart"
+          :key="key + '_group_start'"
+          :items="group.items"
+          :title="group.title"
+          :is-right="true"
         >
-          {{ item.title }}
-        </nuxt-link>
+        </b-navbar-group>
       </div>
 
       <div class="navbar-end">
-        <nuxt-link
-          v-for="(item, key) of itemsEnd"
-          :key="key + 'end'"
-          :to="item.to"
-          exact-active-class="is-active"
-          class="navbar-item"
+        <b-navbar-group
+          v-for="(group, key) of itemsEnd"
+          :key="key + '_group_end'"
+          :items="group.items"
+          :title="group.title"
         >
-          {{ item.title }}
-        </nuxt-link>
+        </b-navbar-group>
       </div>
     </div>
 
@@ -50,24 +47,28 @@
       :class="{ 'is-active': showNav }"
     >
       <div class="navbar-end">
-        <nuxt-link
-          v-for="(item, key) of itemsStart"
-          :key="key + 'mobile_start'"
-          :to="item.to"
-          exact-active-class="is-active"
-          class="navbar-item"
-        >
-          {{ item.title }}
-        </nuxt-link>
-        <nuxt-link
-          v-for="(item, key) of itemsEnd"
-          :key="key + 'mobile_end'"
-          :to="item.to"
-          exact-active-class="is-active"
-          class="navbar-item"
-        >
-          {{ item.title }}
-        </nuxt-link>
+        <template v-for="(group, key) of itemsStart">
+          <nuxt-link
+            v-for="(item, keyItem) of group.items"
+            :key="keyItem + '_mobile_' + key + '_item_start'"
+            :to="item.to"
+            exact-active-class="is-active"
+            class="navbar-item"
+          >
+            {{ item.title }}
+          </nuxt-link>
+        </template>
+        <template v-for="(group, key) of itemsEnd">
+          <nuxt-link
+            v-for="(item, keyItem) of group.items"
+            :key="keyItem + '_mobile_' + key + '_item_end'"
+            :to="item.to"
+            exact-active-class="is-active"
+            class="navbar-item"
+          >
+            {{ item.title }}
+          </nuxt-link>
+        </template>
       </div>
     </div>
   </nav>
@@ -82,46 +83,70 @@ export default {
       showNav: false,
       itemsStart: [
         {
-          title: "Home",
-          to: { name: "index" }
+          title: "Game",
+          items: [
+            {
+              title: "Civilizations",
+              to: { name: "civilizations" }
+            },
+            {
+              title: "Guides",
+              to: { name: "guides" }
+            },
+            {
+              title: "Marketplace",
+              to: { name: "marketplace" }
+            }
+          ]
         },
         {
-          title: "Civilizations",
-          to: { name: "civilizations" }
-        },
-        {
-          title: "Status",
-          to: { name: "status" }
-        },
-        {
-          title: "Marketplace",
-          to: { name: "status" }
+          title: "Support",
+          items: [
+            {
+              title: "Status",
+              to: { name: "status" }
+            },
+            {
+              title: "FAQ",
+              to: { name: "faq" }
+            }
+          ]
         }
-        // {
-        //   title: "Personality Quiz",
-        //   to: { name: "personality-quiz" }
-        // }
       ],
       itemsEnd: [
         {
           title: "Community",
-          to: { name: "community" }
+          items: [
+            {
+              title: "Players",
+              to: { name: "players" }
+            },
+            {
+              title: "Personality Quiz",
+              to: { name: "personality-quiz" }
+            },
+            {
+              title: "Leaderboard",
+              to: { name: "leaderboard" }
+            },
+            {
+              title: "Community sites",
+              to: { name: "community" }
+            }
+          ]
         },
         {
-          title: "Players",
-          to: { name: "personality-quiz" }
-        },
-        {
-          title: "Leaderboard",
-          to: { name: "community" }
-        },
-        {
-          title: "Rules",
-          to: { name: "rules" }
-        },
-        {
-          title: "FAQ",
-          to: { name: "faq" }
+          title: "Play!",
+          items: [
+            {
+              title: "Install",
+              to: { name: "install" }
+            },
+            {
+              title: "Rules",
+              to: { name: "rules" }
+            }
+          ]
         }
       ]
     }
@@ -141,21 +166,34 @@ export default {
 </script>
 
 <style lang="scss">
+$logo-height: 120px;
+$logo-width: 160px;
+
 .navbar {
-  background: $color--darker !important;
+  background: $color--darker--opaque !important;
   font-size: 1.1rem;
   color: #fff;
 
-  .navbar-item {
-    color: white;
-    font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
-    text-shadow: 2px 0 2px #192b33;
-    transition: background-color 0.5s ease;
+  .navbar-burger {
+    color: $color--lighter;
+  }
 
-    &:hover,
-    &.is-active {
-      color: white;
-      background-color: $color--darker;
+  .navbar-menu.navbar-menu-wide {
+    .navbar-start,
+    .navbar-end {
+      flex-grow: 1;
+      width: 50%;
+      max-width: 50%;
+    }
+
+    .navbar-start {
+      justify-content: flex-end;
+      margin-right: $logo-width / 2;
+    }
+
+    .navbar-end {
+      justify-content: flex-start;
+      margin-left: $logo-width / 2;
     }
   }
 
@@ -168,10 +206,14 @@ export default {
     .navbar-item:hover,
     .navbar-item.nuxt-link-active {
       background: none !important;
+      padding: 0;
     }
   }
 
   .navbar-menu-mobile {
+    background: $color--darker--opaque !important;
+    padding-top: 3rem;
+
     @media screen and (min-width: 1024px) {
       & {
         display: none;
@@ -179,17 +221,22 @@ export default {
     }
 
     .navbar-item {
-      color: $grey-darker !important;
-      text-shadow: none;
+      color: $grey-lighter !important;
+      font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
+      transition: background-color 0.25s ease, background-color 0.25s ease;
+      text-shadow: 2px 0 2px #192b33;
 
+      &:hover,
       &.is-active {
-        background-color: $grey-lighter;
+        color: white;
+        background-color: $color--darker--active;
       }
     }
   }
 
   .logo {
-    max-height: 120px;
+    max-height: $logo-height;
+    max-width: $logo-width;
   }
 }
 </style>
