@@ -56,7 +56,7 @@ export default {
 .collapse-header {
   font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
   text-shadow: 2px 0 2px #192b33;
-  background: var(--color--light);
+  background: $color--light;
   border: none;
   user-select: none;
 

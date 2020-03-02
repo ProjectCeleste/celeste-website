@@ -225,6 +225,7 @@ $logo-width: 160px;
       font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
       transition: background-color 0.25s ease, background-color 0.25s ease;
       text-shadow: 2px 0 2px #192b33;
+      background: $color--darker--opaque;
 
       &:hover,
       &.is-active {

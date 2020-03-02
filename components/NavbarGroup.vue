@@ -91,6 +91,7 @@ export default {
   .navbar-item.is-hoverable:hover .navbar-dropdown {
     display: block !important;
   }
+
   .navbar-item.is-hoverable:focus-within .navbar-dropdown {
     display: none;
   }

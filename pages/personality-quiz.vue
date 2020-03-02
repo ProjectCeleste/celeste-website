@@ -66,7 +66,9 @@
                   </div>
                 </div>
               </div>
-              <div class="column is-narrow z-back steps-container">
+              <div
+                class="column is-narrow z-back steps-container is-hidden-mobile"
+              >
                 <b-steps
                   ref="steps"
                   :steps="questions.length"

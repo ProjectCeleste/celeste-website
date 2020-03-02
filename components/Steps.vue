@@ -89,11 +89,7 @@ $transition-duration: 0.75s;
 
     .step-content,
     .step-segment {
-      background: linear-gradient(
-        to right,
-        var(--color--info) 50%,
-        var(--color--light) 50%
-      );
+      background: linear-gradient(to right, $info 50%, $color--light 50%);
       background-size: 200% 100%;
       background-position: right bottom;
     }
@@ -137,11 +133,7 @@ $transition-duration: 0.75s;
     .step {
       .step-content,
       .step-segment {
-        background: linear-gradient(
-          to bottom,
-          var(--color--info) 50%,
-          var(--color--light) 50%
-        );
+        background: linear-gradient(to bottom, $info 50%, $color--light 50%);
         background-size: 100% 200%;
         background-position: bottom right;
       }

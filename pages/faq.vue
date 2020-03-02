@@ -66,7 +66,7 @@ export default {
         },
         {
           title: "What are the system requirements for Age of Empires Online?",
-          content: `<ul>
+          content: `<ul class="ul">
                         <li><b>Processor:</b> Dual Core, 2Ghz or higher</li>
                         <li><b>Video card:</b> 128 MB Shader 2 supported card or higher</li>
                         <li><b>Memory:</b> Win XP SP3/Vista Home Basic – 1GB; Vista Premium, Ultimate/Windows 7 (32 bit) – 1.5GB; Windows 7 (64 bit) – 2.5GB</li>
