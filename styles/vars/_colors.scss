@@ -24,7 +24,7 @@ $color--rare: #3b8fff;
 $color--uncommon: #45ff5e;
 $color--legendary: #ffa500;
 
-$color--facebook: #1877f2;
+$color--facebook: #3a559f;
 $color--youtube: #ff0000;
 $color--reddit: #ff4500;
 $color--twitch: #9146ff;
@@ -75,3 +75,5 @@ $link: $color--lighter;
 $link-hover: darken($color--lighter, 10%);
 $link-invert: $color--light;
 $link-focus-border: $primary;
+
+$color--selection: $tertiary;

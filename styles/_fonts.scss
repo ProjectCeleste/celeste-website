@@ -8,6 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
 
+::-moz-selection, ::selection {
+  background: rgba( $color--selection, .7 );
+}
+
 a {
   &:hover {
     color: $link-hover;
