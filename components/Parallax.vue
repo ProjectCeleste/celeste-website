@@ -14,7 +14,7 @@ export default {
   name: "Parallax",
   data() {
     return {
-      speeds: [2, 5, 16, 26, 36, 30]
+      speeds: [2, 5, 16, 26, 36, 0]
     }
   },
   mounted() {
