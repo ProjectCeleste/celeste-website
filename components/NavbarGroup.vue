@@ -32,11 +32,11 @@ export default {
 .navbar-item {
   color: $grey-lighter !important;
   font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
-  transition: background-color 0.25s ease, background-color 0.25s ease;
+  transition: background-color 0.25s ease;
   text-shadow: 2px 0 2px #192b33;
 
   .navbar-link {
-    transition: background-color 0.25s ease, background-color 0.25s ease;
+    transition: background-color 0.25s ease;
     color: $grey-lighter;
 
     &:hover {
@@ -72,10 +72,12 @@ export default {
 
   .navbar-dropdown {
     border: none;
+    transition: background-color 0.25s ease;
     background: $color--darker--opaque;
 
     .navbar-item {
       color: $grey-lighter !important;
+      transition: background-color 0.25s ease;
       background: $color--darker--opaque;
 
       &:hover,

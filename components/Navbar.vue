@@ -1,15 +1,21 @@
 <template>
   <nav
     id="nav"
-    class="navbar"
+    :class="{ navbar: true, 'navbar-landing': $nuxt.$route.name == 'index' }"
     role="navigation"
     aria-label="main navigation dropdown"
   >
-    <div class="navbar-brand">
-      <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
-        <img src="~assets/logo_roman.png" alt="Project Celeste" class="logo" />
-      </nuxt-link>
-    </div>
+    <transition name="fade">
+      <div v-if="$nuxt.$route.name != 'index'" class="navbar-brand">
+        <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
+          <img
+            src="~assets/logo_roman.png"
+            alt="Project Celeste"
+            class="logo"
+          />
+        </nuxt-link>
+      </div>
+    </transition>
 
     <div class="navbar-menu navbar-menu-wide">
       <div class="navbar-start">
@@ -176,8 +182,35 @@ $logo-width: 160px;
 
 .navbar {
   background: $color--darker--opaque !important;
+  transition: background-color 0.5s ease;
   font-size: 1.1rem;
   color: #fff;
+
+  &.navbar-landing {
+    background: linear-gradient(
+      180deg,
+      $color--darker--opaque 0%,
+      rgba($color--darker--opaque, 0) 100%
+    ) !important;
+
+    .navbar-menu.navbar-menu-wide {
+      .navbar-item {
+        background: transparent;
+
+        .navbar-link {
+          background: transparent;
+        }
+        &:hover,
+        &.is-active {
+          background-color: rgba($color--darker--opaque, 0.5) !important;
+        }
+
+        .navbar-dropdown {
+          background-color: rgba($color--darker--opaque, 0.5) !important;
+        }
+      }
+    }
+  }
 
   .navbar-burger {
     color: $color--lighter;
