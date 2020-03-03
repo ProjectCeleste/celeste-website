@@ -28,6 +28,6 @@ export default {
 
 <style lang="scss" scoped>
 #after-parallax {
-  background: linear-gradient(180deg, #1d1101 0%, $color--darker--opaque 20%);
+  background: linear-gradient(180deg, #1d1101 0%, $color--darker--opaque 50%);
 }
 </style>

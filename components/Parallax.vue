@@ -6,6 +6,7 @@
     <div id="parallax-layer-3" ref="layer3" class="parallax-layer" />
     <div id="parallax-layer-4" ref="layer4" class="parallax-layer" />
     <div id="parallax-layer-5" ref="layer5" class="parallax-layer" />
+    <div id="parallax-layer-6" ref="layer6" class="parallax-layer" />
   </section>
 </template>
 
@@ -14,7 +15,7 @@ export default {
   name: "Parallax",
   data() {
     return {
-      speeds: [2, 5, 16, 26, 36, 0]
+      speeds: [2, 8, 5, 16, 26, 36, 0]
     }
   },
   mounted() {
@@ -29,7 +30,7 @@ export default {
   methods: {
     update() {
       const top = window.pageYOffset
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 7; i++) {
         const y = -((top * this.speeds[i]) / 100)
         this.$refs[
           "layer" + i
@@ -60,27 +61,31 @@ export default {
 
 #parallax-layer-0 {
   background-image: url("~assets/img/landing/day/CelesteParallax-0.png");
-  z-index: -6;
+  z-index: -8;
 }
 #parallax-layer-1 {
   background-image: url("~assets/img/landing/day/CelesteParallax-1.png");
-  z-index: -5;
+  z-index: -7;
 }
 #parallax-layer-2 {
   background-image: url("~assets/img/landing/day/CelesteParallax-2.png");
-  z-index: -4;
+  z-index: -6;
 }
 #parallax-layer-3 {
   background-image: url("~assets/img/landing/day/CelesteParallax-3.png");
-  z-index: -3;
+  z-index: -5;
 }
 #parallax-layer-4 {
   background-image: url("~assets/img/landing/day/CelesteParallax-4.png");
-  z-index: -2;
+  z-index: -4;
 }
 #parallax-layer-5 {
-  position: relative;
   background-image: url("~assets/img/landing/day/CelesteParallax-5.png");
+  z-index: -3;
+}
+#parallax-layer-6 {
+  position: relative;
+  background-image: url("~assets/img/landing/day/CelesteParallax-6.png");
   z-index: -2;
 
   &:after {
