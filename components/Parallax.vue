@@ -45,7 +45,7 @@ export default {
   min-height: 100vh;
   max-height: 100vh;
   margin-top: -$navbar-height;
-  overflow: hidden;
+  overflow-y: hidden;
 
   .parallax-layer {
     position: fixed;
@@ -55,6 +55,18 @@ export default {
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: $desktop - 1px) {
+  #parallax-layer-1 {
+    background-position-x: 35%;
+  }
+
+  #parallax-layer-4 {
+    background-size: calc(3840px / 2.5);
+    background-position-x: 55%;
+    background-position-y: 90%;
   }
 }
 

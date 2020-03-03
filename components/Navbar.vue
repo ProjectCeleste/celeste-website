@@ -193,6 +193,10 @@ $logo-width: 160px;
       rgba($color--darker--opaque, 0) 100%
     ) !important;
 
+    .navbar-burger {
+      color: #fff !important;
+    }
+
     .navbar-menu.navbar-menu-wide {
       .navbar-item {
         background: transparent;
@@ -202,11 +206,11 @@ $logo-width: 160px;
         }
         &:hover,
         &.is-active {
-          background-color: rgba($color--darker--opaque, 0.75) !important;
+          background-color: rgba($color--darker--opaque, 0.92) !important;
         }
 
         .navbar-dropdown {
-          background-color: rgba($color--darker--opaque, 0.75) !important;
+          background-color: rgba($color--darker--opaque, 0.92) !important;
         }
       }
     }
