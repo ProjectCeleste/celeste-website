@@ -8,14 +8,7 @@ $tertiary: rgba(176, 36, 38, 0.90);
 $tertiary-invert: findColorInvert($tertiary);
 $info: $tertiary;
 
-$color--green: #1fb73b;
-$color--red: hsl(0, 50%, 50%);
-$color--blue: #4976bf;
-$color--light: #efefef;
-$color--dark: #4c5551;
-$color--orange: hsl(40, 100%, 50%);
 $color--gold: #ffd400;
-
 $color--darker: rgba(46,45,41,0.95);
 $color--darker--opaque: rgb(46,45,41);
 $color--darker--active: darken($color--darker--opaque, 5%);
@@ -26,13 +19,18 @@ $color--light: rgba(190,157,116,0.9);
 $color--lighter: rgba(218,180,133,0.9);
 $color--lighter-invert: findColorInvert($color--lighter);
 
-
 $color--epic: #b04bdf;
 $color--rare: #3b8fff;
 $color--uncommon: #45ff5e;
 $color--legendary: #ffa500;
 
-// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$color--facebook: #1877f2;
+$color--youtube: #ff0000;
+$color--reddit: #ff4500;
+$color--twitch: #9146ff;
+$color--discord: #7289da;
+$color--forums: $tertiary;
+
 $colors: (
   "white": (
     $white,

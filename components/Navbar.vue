@@ -1,5 +1,10 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation dropdown">
+  <nav
+    id="nav"
+    class="navbar"
+    role="navigation"
+    aria-label="main navigation dropdown"
+  >
     <div class="navbar-brand">
       <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
         <img src="~assets/logo_roman.png" alt="Project Celeste" class="logo" />

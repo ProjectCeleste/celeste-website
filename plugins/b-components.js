@@ -8,6 +8,7 @@ import BCollapse from "~/components/Collapse.vue"
 import BSteps from "~/components/Steps.vue"
 import BQuestion from "~/components/Question.vue"
 import BProgress from "~/components/Progress.vue"
+import BFooter from "~/components/Footer.vue"
 
 const components = {
   BCard,
@@ -17,7 +18,8 @@ const components = {
   BCollapse,
   BSteps,
   BQuestion,
-  BProgress
+  BProgress,
+  BFooter
 }
 
 Object.entries(components).forEach(([name, component]) => {

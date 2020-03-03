@@ -4,6 +4,7 @@
     <section class="main-content">
       <nuxt />
     </section>
+    <b-footer />
   </div>
 </template>
 

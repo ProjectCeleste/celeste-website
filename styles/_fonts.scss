@@ -48,6 +48,31 @@ a {
   color: $color--gold !important;
 }
 
+.social-media-link {
+  color: #ffffff;
+
+  &:hover {
+    &.forums {
+      color: $color--forums;
+    }
+    &.discord {
+      color: $color--discord;
+    }
+    &.reddit {
+      color: $color--reddit;
+    }
+    &.facebook {
+      color: $color--facebook;
+    }
+    &.twitch {
+      color: $color--twitch;
+    }
+    &.youtube {
+      color: $color--youtube;
+    }
+  }
+}
+
 @media screen and (max-width: $tablet - 1) {
   .title, .subtitle {
     @each $size in $sizes {
