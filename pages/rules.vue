@@ -47,6 +47,6 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_2.png");
+  background-image: url("~assets/img/background_6.jpg");
 }
 </style>

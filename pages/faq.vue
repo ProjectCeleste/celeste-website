@@ -110,6 +110,6 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_3.jpg");
+  background-image: url("~assets/img/background_7.jpg");
 }
 </style>
