@@ -202,11 +202,11 @@ $logo-width: 160px;
         }
         &:hover,
         &.is-active {
-          background-color: rgba($color--darker--opaque, 0.5) !important;
+          background-color: rgba($color--darker--opaque, 0.75) !important;
         }
 
         .navbar-dropdown {
-          background-color: rgba($color--darker--opaque, 0.5) !important;
+          background-color: rgba($color--darker--opaque, 0.75) !important;
         }
       }
     }

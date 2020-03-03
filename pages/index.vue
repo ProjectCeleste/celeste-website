@@ -7,6 +7,9 @@
     >
       <div class="hero-body is-middle">
         <div class="container">
+          <div class="separator">
+            <img src="~/assets/img/separator.png" />
+          </div>
           <h1 class="title has-text-gold is-1">
             Age of Empires Online
           </h1>
@@ -29,5 +32,9 @@ export default {
 <style lang="scss" scoped>
 #after-parallax {
   background: linear-gradient(180deg, #1d1101 0%, $color--darker--opaque 50%);
+}
+
+.separator {
+  margin: 6rem 0;
 }
 </style>
