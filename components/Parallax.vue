@@ -71,28 +71,28 @@ export default {
 }
 
 #parallax-layer-0 {
-  background-image: url("~assets/img/landing/day/CelesteParallax-0.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-0.webp");
   z-index: -7;
 }
 #parallax-layer-1 {
-  background-image: url("~assets/img/landing/day/CelesteParallax-1.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-1.webp");
   z-index: -6;
 }
 #parallax-layer-2 {
-  background-image: url("~assets/img/landing/day/CelesteParallax-2.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-2.webp");
   z-index: -5;
 }
 #parallax-layer-3 {
-  background-image: url("~assets/img/landing/day/CelesteParallax-3.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-3.webp");
   z-index: -4;
 }
 #parallax-layer-4 {
-  background-image: url("~assets/img/landing/day/CelesteParallax-4.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-4.webp");
   z-index: -3;
 }
 #parallax-layer-5 {
   position: relative;
-  background-image: url("~assets/img/landing/day/CelesteParallax-5.png");
+  background-image: url("~assets/img/landing/day/CelesteParallax-5.webp");
   z-index: -2;
 
   &:after {
