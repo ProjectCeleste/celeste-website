@@ -27,7 +27,8 @@ export default {
       },
       {
         rel: "og:image",
-        content: "https://www.projectceleste.com/assets/meta/512.png"
+        content: "https://www.projectceleste.com/assets/meta/512.png",
+        crossorigin: "anonymous"
       }, // TODO change og icon
       {
         rel: "twitter:title",
@@ -40,7 +41,8 @@ export default {
       },
       {
         rel: "twitter:image:src",
-        content: "https://www.projectceleste.com/assets/meta/512.png"
+        content: "https://www.projectceleste.com/assets/meta/512.png",
+        crossorigin: "anonymous"
       },
       { rel: "twitter:card", content: "summary" }
     ],
@@ -74,6 +76,18 @@ export default {
         type: "image/png",
         sizes: "256x256",
         href: `/favicon/WebsiteLogo_256.png`
+      },
+      {
+        rel: "preload",
+        as: "font",
+        type: "font/woff",
+        href: `/fonts/AshleyCrawfordMT-Bold.woff`
+      },
+      {
+        rel: "preload",
+        as: "font",
+        type: "font/woff2",
+        href: `/fonts/AshleyCrawfordMT-Bold.woff2`
       }
     ]
   },

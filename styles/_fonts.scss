@@ -1,9 +1,11 @@
 @font-face {
   font-family: "Ashley Crawford MT";
-  src: url("~@/assets/fonts/AshleyCrawfordMT-Bold.woff2") format("woff2"),
-    url("~@/assets/fonts/AshleyCrawfordMT-Bold.woff") format("woff");
+  src: url("/fonts/AshleyCrawfordMT-Bold.woff2") format("woff2"),
+    url("/fonts/AshleyCrawfordMT-Bold.woff") format("woff"),
+    local('Times New Roman'), local('Nimbus Roman');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
