@@ -28,12 +28,15 @@ export default {
   },
   methods: {
     update() {
-      const top = window.pageYOffset
-      for (let i = 0; i < this.speeds.length; i++) {
-        const y = -((top * this.speeds[i]) / 100)
-        this.$refs[
-          "layer" + i
-        ].style.transform = `translate3d(0px, ${y}px, 0px)`
+      if (this.$el.getBoundingClientRect().bottom >= 0) {
+        const top = window.pageYOffset
+
+        for (let i = 0; i < this.speeds.length; i++) {
+          const y = -((top * this.speeds[i]) / 100)
+          this.$refs[
+            "layer" + i
+          ].style.transform = `translate3d(0px, ${y}px, 0px)`
+        }
       }
     }
   }
