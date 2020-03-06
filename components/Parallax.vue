@@ -97,21 +97,5 @@ export default {
   position: relative;
   background-image: url("~assets/img/landing/day/CelesteParallax-5.webp");
   z-index: -2;
-
-  &:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: linear-gradient(
-      180deg,
-      #1d1101 0%,
-      $color--darker--opaque 100%
-    );
-  }
 }
 </style>
