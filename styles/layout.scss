@@ -1,5 +1,13 @@
 .is-flex.is-centered {
   justify-content: center;
+
+  & > * {
+    align-self: center;
+  }
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .is-flex-column {

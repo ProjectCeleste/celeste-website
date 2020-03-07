@@ -1,29 +1,22 @@
 <template>
   <section class="section columns">
-    <div class="container column is-12">
-      <h2 class="title is-3 has-text-gold">
-        Community
-        <b-icon icon="account-group" size="is-large" icon-size="mdi-48px" />
-      </h2>
-
-      <div class="columns">
+    <div class="container column is-12 is-vcentered">
+      <div class="columns is-multiline">
         <div
           v-for="(link, index) in links"
           :key="index"
-          class="column is-3-desktop is-6 is-12-mobile"
+          class="column is-4-desktop is-6"
         >
           <div class="card is-fullheight">
             <div class="card-content has-text-centered is-fullheight">
-              <div>
-                <img :src="link.icon" class="community-icon" />
-              </div>
               <a
                 rel="nofollow"
                 :href="link.url"
                 target="_blank"
-                class="title is-4 has-text-gold"
+                class="community-site-title title has-text-gold is-flex is-flex-column is-centered is-fullheight"
               >
-                {{ link.title }}
+                <img :src="link.icon" class="community-icon" />
+                <span>{{ link.title }}</span>
               </a>
             </div>
           </div>
@@ -42,17 +35,47 @@ export default {
         {
           title: "Forums",
           url: "https://forums.projectceleste.com/",
-          icon: require("~/assets/img/community/CaesarPortrait.png")
+          icon: require("~/assets/img/community/CaesarPortrait.webp")
         },
         {
           title: "Discord",
           url: "https://discordapp.com/invite/YbkZ9GZ",
-          icon: require("~/assets/img/community/Discord_Logo.png")
+          icon: require("~/assets/img/community/Discord_Logo.webp")
         },
         {
           title: "Reddit",
           url: "https://www.reddit.com/r/projectceleste",
-          icon: require("~/assets/img/community/RedditLogo.png")
+          icon: require("~/assets/img/community/RedditLogo.webp")
+        },
+        {
+          title: "Facebook",
+          url: "https://www.facebook.com/ProjectCelesteAoEO",
+          icon: require("~/assets/img/community/Facebook_Logo.webp")
+        },
+        {
+          title: "Youtube",
+          url: "https://www.youtube.com/channel/UC5gS69ffCAeqvJrqWvlnZgg",
+          icon: require("~/assets/img/community/PompeyPortrait-BlogHeaderEdition.png") // TODO need youtube icon
+        },
+        {
+          title: "Twitch",
+          url: "https://www.twitch.tv/projectceleste",
+          icon: require("~/assets/img/community/TwitchLogo.webp") // TODO need twitch icon
+        },
+        {
+          title: "Champion",
+          url: "https://champion.projectceleste.com/",
+          icon: require("~/assets/img/community/ChampModeWebsiteIcon.webp")
+        },
+        {
+          title: "Item Search",
+          url: "https://search.projectceleste.com/",
+          icon: require("~/assets/img/community/ItemSearch_Icon.webp") // TODO need search icon
+        },
+        {
+          title: "Unit Builder",
+          url: "https://unitstats.projectceleste.com/",
+          icon: require("~/assets/img/community/Stats_Tool_Icon.webp") // TODO need unitstats icon
         }
       ]
     }
@@ -62,11 +85,16 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_13.jpg");
+  background-image: url("~assets/img/background_9.jpg");
 }
 
 .community-icon {
   max-width: 220px;
   width: 100%;
+  margin: auto;
+}
+
+.community-site-title {
+  font-size: $size-4;
 }
 </style>
