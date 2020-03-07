@@ -8,7 +8,7 @@
       <div class="hero-body is-middle">
         <div class="container">
           <div class="separator">
-            <img src="~/assets/img/separator.png" />
+            <img src="~/assets/img/separator.webp" />
           </div>
           <h1 class="title has-text-gold is-1">
             Age of Empires Online
