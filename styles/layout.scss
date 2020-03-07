@@ -39,6 +39,11 @@
   justify-content: center;
 }
 
+.section.is-vcentered {
+  display: flex;
+  align-items: center;
+}
+
 .columns.reverse {
   flex-direction: row-reverse;
 }

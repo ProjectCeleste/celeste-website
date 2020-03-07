@@ -1,6 +1,6 @@
 <template>
-  <section class="section columns">
-    <div class="container column is-12 is-vcentered">
+  <section class="section is-vcentered">
+    <div class="container">
       <div class="columns is-multiline">
         <div
           v-for="(link, index) in links"
