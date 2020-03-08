@@ -9,8 +9,8 @@ $tertiary-invert: findColorInvert($tertiary);
 $info: $tertiary;
 
 $color--gold: #ffd400;
-$color--darker: rgba(46,45,41,0.95);
-$color--darker--opaque: rgb(46,45,41);
+$color--darker--opaque: #252019;
+$color--darker: rgba($color--darker--opaque,0.95);
 $color--darker--active: darken($color--darker--opaque, 5%);
 $color--dark: rgba(60,39,14,0.9);
 $color--medium: rgb(129,93,50);
