@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="is-flex is-flex-column">
     <b-navbar />
     <section class="main-content">
       <nuxt />

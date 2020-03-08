@@ -1,6 +1,6 @@
 <template>
-  <section class="section columns">
-    <div class="container column is-12">
+  <section class="section">
+    <div class="container">
       <div class="card">
         <div class="card-header">
           <div class="columns card-header-title section-title">

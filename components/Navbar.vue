@@ -1,7 +1,11 @@
 <template>
   <nav
     id="nav"
-    :class="{ navbar: true, 'navbar-landing': $nuxt.$route.name == 'index' }"
+    :class="{
+      navbar: true,
+      'navbar-landing': $nuxt.$route.name == 'index',
+      'navbar-open': showNav
+    }"
     role="navigation"
     aria-label="main navigation dropdown"
   >
@@ -193,6 +197,11 @@ $logo-width: 160px;
       rgba($color--darker--opaque, 0) 100%
     ) !important;
 
+    &.navbar-open {
+      transition: none;
+      background: $color--darker--opaque !important;
+    }
+
     .navbar-burger {
       color: #fff !important;
     }
@@ -255,6 +264,9 @@ $logo-width: 160px;
   .navbar-menu-mobile {
     background: $color--darker--opaque !important;
     padding-top: 3rem;
+    position: absolute;
+    right: 0;
+    left: 0;
 
     @media screen and (min-width: 1024px) {
       & {

@@ -1,6 +1,6 @@
 <template>
-  <section class="section columns">
-    <div class="container column is-12">
+  <section class="section">
+    <div class="container">
       <h2 class="title is-3">
         Marketplace
         <b-icon icon="basket" size="is-large" icon-size="mdi-48px" />

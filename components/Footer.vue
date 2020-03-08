@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer z-front">
     <div class="content has-text-centered">
       <a
         v-scroll-to="{

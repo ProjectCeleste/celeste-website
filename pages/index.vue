@@ -16,6 +16,14 @@
           <h2 class="subtitle has-text-grey-lighter is-3">
             Project Celeste
           </h2>
+          <div class="content">
+            <nuxt-link
+              to="install"
+              class="button is-large title is-primary has-text-gold"
+            >
+              Play for free!
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </section>
