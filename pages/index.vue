@@ -107,6 +107,50 @@
       </div>
     </section>
 
+    <section class="section">
+      <div class="container">
+        <div
+          class="columns is-variable is-1 is-multiline is-centered is-mobile"
+        >
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/greek.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/egypt.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/persia.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/celt.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/babylon.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/norse.png" />
+          </div>
+          <div class="column civ-icon">
+            <img src="~/assets/img/civ/roman.png" />
+          </div>
+        </div>
+        <div class="has-text-centered">
+          <p class="title is-4 has-text-gold">
+            <strong>Civilizations</strong>
+          </p>
+          <p class="content">
+            Play as the Greeks, Egyptians, Persians, Celts, Babylonians, Norse
+            and Romans. Each civilization is unique in its own way and has its
+            own play style. Find out which one suits you the most by answering a
+            few questions in our personality quiz!
+          </p>
+          <nuxt-link to="personality-quiz" class="button is-primary is-medium">
+            <span>Personality Quiz</span>
+          </nuxt-link>
+        </div>
+      </div>
+    </section>
+
     <section
       id="play-hero"
       class="hero is-success is-fullheight has-text-centered"
@@ -166,14 +210,26 @@ export default {
   background-size: cover;
 }
 
+.hero,
+.half-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.half-background {
+  min-height: 50vh;
+}
+
 #battle-separator {
   background-image: url("~assets/img/background_4.jpg");
 }
 
 #play-hero {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-image: url("~assets/img/background_14.jpg");
+}
+
+.civ-icon {
+  max-width: 128px;
 }
 </style>
