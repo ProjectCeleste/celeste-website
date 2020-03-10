@@ -35,7 +35,7 @@ export default {
         {
           title: "Forums",
           url: "https://forums.projectceleste.com/",
-          icon: require("~/assets/img/community/CaesarPortrait.webp")
+          icon: require("~/assets/img/community/Forums_Logo.webp")
         },
         {
           title: "Discord",
@@ -55,12 +55,12 @@ export default {
         {
           title: "Youtube",
           url: "https://www.youtube.com/channel/UC5gS69ffCAeqvJrqWvlnZgg",
-          icon: require("~/assets/img/community/PompeyPortrait-BlogHeaderEdition.png") // TODO need youtube icon
+          icon: require("~/assets/img/community/YoutubeLogo.webp")
         },
         {
           title: "Twitch",
           url: "https://www.twitch.tv/projectceleste",
-          icon: require("~/assets/img/community/TwitchLogo.webp") // TODO need twitch icon
+          icon: require("~/assets/img/community/TwitchLogo.webp")
         },
         {
           title: "Champion",
@@ -70,12 +70,12 @@ export default {
         {
           title: "Item Search",
           url: "https://search.projectceleste.com/",
-          icon: require("~/assets/img/community/ItemSearch_Icon.webp") // TODO need search icon
+          icon: require("~/assets/img/community/ItemSearch_Icon.webp")
         },
         {
           title: "Unit Builder",
           url: "https://unitstats.projectceleste.com/",
-          icon: require("~/assets/img/community/Stats_Tool_Icon.webp") // TODO need unitstats icon
+          icon: require("~/assets/img/community/Stats_Tool_Icon.webp")
         }
       ]
     }
@@ -88,13 +88,17 @@ export default {
   background-image: url("~assets/img/background_9.jpg");
 }
 
-.community-icon {
-  max-width: 220px;
-  width: 100%;
-  margin: auto;
-}
-
 .community-site-title {
   font-size: $size-4;
+
+  .community-icon {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+  }
+
+  & > span {
+    margin-top: 1rem;
+  }
 }
 </style>

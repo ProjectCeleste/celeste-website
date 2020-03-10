@@ -119,10 +119,10 @@
             <img src="~/assets/img/civ/egypt.png" />
           </div>
           <div class="column civ-icon">
-            <img src="~/assets/img/civ/persia.png" />
+            <img src="~/assets/img/civ/celt.png" />
           </div>
           <div class="column civ-icon">
-            <img src="~/assets/img/civ/celt.png" />
+            <img src="~/assets/img/civ/persia.png" />
           </div>
           <div class="column civ-icon">
             <img src="~/assets/img/civ/babylon.png" />
@@ -139,7 +139,7 @@
             <strong>Civilizations</strong>
           </p>
           <p class="content">
-            Play as the Greeks, Egyptians, Persians, Celts, Babylonians, Norse
+            Play as the Greeks, Egyptians, Celts, Persians, Babylonians, Norse
             and Romans. Each civilization is unique in its own way and has its
             own play style. Find out which one suits you the most by answering a
             few questions in our personality quiz!
