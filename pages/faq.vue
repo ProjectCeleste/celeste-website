@@ -23,7 +23,7 @@
               </p>
             </div>
             <div class="column is-narrow is-hidden-mobile">
-              <img src="~assets/img/faq.png" class="section-icon" />
+              <img src="~assets/img/faq.webp" class="section-icon" />
             </div>
           </div>
         </div>
@@ -110,6 +110,6 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_7.jpg");
+  background-image: url("~assets/img/background_7.webp");
 }
 </style>
