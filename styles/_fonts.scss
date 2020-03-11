@@ -28,9 +28,11 @@ a {
   }
 }
 
-.content {
+.content, .menu {
   font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
+}
 
+.content {
   ul {
     list-style: none;
   }

@@ -5,3 +5,12 @@ $tabs-link-hover-color: white;
 $tabs-link-active-border-bottom-color: $color--lightish;
 $tabs-border-bottom-width: 2px;
 $tabs-link-active-color: white;
+
+$tabs-color-basic: rgb(181.05, 109.65, 66.3);
+$tabs-color-intermediate: rgb(198.9, 198.9, 198.9);
+$tabs-color-advanced: rgb(255, 204, 0);
+$tabs-colors: (
+    "basic": $tabs-color-basic,
+    "intermediate": $tabs-color-intermediate,
+    "advanced": $tabs-color-advanced
+);

@@ -15,6 +15,13 @@
                   </h2>
                 </div>
               </div>
+              <ul class="menu-list">
+                <li>
+                  <nuxt-link to="/guides" exact-active-class="is-active">
+                    Home
+                  </nuxt-link>
+                </li>
+              </ul>
               <p class="menu-label">
                 PvE
               </p>
@@ -29,77 +36,82 @@
                 PvP
               </p>
               <ul class="menu-list">
-                <li><a>Basic Questions</a></li>
-                <li><a>Fundamentals</a></li>
                 <li>
-                  <a class="is-active">Build orders</a>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/1 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Basic Questions</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/2 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Fundamentals</span>
+                  </a>
+                </li>
+                <li>
+                  <nuxt-link
+                    to="/guides/build-orders"
+                    exact-active-class="is-active"
+                  >
+                    <img
+                      src="~/assets/img/guides/nav/3 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Build orders</span>
+                  </nuxt-link>
+                </li>
+                <li>
                   <ul>
                     <li><a>Barracks into Town Center</a></li>
                     <li><a>Town Center First</a></li>
                     <li><a>Dock First</a></li>
                   </ul>
                 </li>
-                <li><a>Early Game Tips</a></li>
-                <li><a>Unit Control</a></li>
-                <li><a>Economy Management</a></li>
-                <li><a>Scouting Tips</a></li>
+                <li>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/4 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Early Game Tips</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/5 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Unit Control</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/6 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Economy Management</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img
+                      src="~/assets/img/guides/nav/7 - Active.png"
+                      class="guide-link-icon"
+                    />
+                    <span>Scouting Tips</span>
+                  </a>
+                </li>
               </ul>
             </aside>
-            <div class="column">
-              <h4
-                class="title is-4 has-text-centered has-text-white guide-title"
-              >
-                Build Orders
-              </h4>
-              <div class="tabs is-centered">
-                <ul>
-                  <li class="is-active">
-                    <a>Basic</a>
-                  </li>
-                  <li><a>Intermediate</a></li>
-                  <li><a>Advanced</a></li>
-                </ul>
-              </div>
-              <div class="is-flex is-vcentered content">
-                <div>
-                  <p class="content title is-5 has-text-white">
-                    1. Always Make Villagers
-                  </p>
-                  <p class="content">
-                    Constantly train Villagers until you have 70-90 of them. The
-                    only time your Town Center should not be training Villagers
-                    is when you are aging up or researching something in it. If
-                    you follow this simple yet critically important rule, you
-                    will quickly see improved results in your matches.
-                  </p>
-                </div>
-                <div class="guide-img">
-                  <img src="~/assets/img/guides/sample.png" />
-                </div>
-              </div>
-              <p class="content title is-5 has-text-white">
-                2. Avoid Idle Villagers
-              </p>
-              <p class="content">
-                Idle Villagers are nothing but a detriment to your economy.
-                Constantly pay attention to the Idle Villager notification and
-                make sure to assign a Hotkey for it (Default Hotkey: V) so
-                you’re always ready to task your idle Villagers to get to work
-                and not stand idle. Idle Villagers are useless Villagers!
-              </p>
-
-              <p class="content title is-5 has-text-white">
-                3. Spend your resources!
-              </p>
-              <p class="content">
-                Try and keep all of your resources spent at all times. The only
-                time you should stop spending resources is for when you are
-                saving up to advance to the next Age or to research an expensive
-                upgrade. If you are starting to stockpile on a certain resrouce,
-                don&apos;t hesitate to move your Villagers from one resource
-                type to another!
-              </p>
-            </div>
+            <nuxt-child />
           </div>
         </div>
       </div>
@@ -117,7 +129,8 @@ export default {
 .section {
   background-image: url("~assets/img/background_16.png");
 }
-
+</style>
+<style lang="scss">
 .guide-title {
   padding-top: 0.75rem;
 }
@@ -125,7 +138,43 @@ export default {
 .guide-img {
   flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  img {
+    margin: auto;
+  }
+}
+
+.menu-list li {
+  a {
+    display: flex;
+
+    .guide-link-icon {
+      max-height: 36px;
+      max-width: 36px;
+      margin-right: 0.75rem;
+    }
+
+    & > span {
+      align-self: center;
+    }
+  }
+}
+
+.tabs ul li {
+  width: 160px;
+
+  @each $name, $color in $tabs-colors {
+    &.is-#{$name} {
+      a {
+        color: darken($color, 5%);
+      }
+
+      &:hover a,
+      &.is-active a {
+        border-bottom-color: $color;
+        color: $color;
+      }
+    }
+  }
 }
 </style>
