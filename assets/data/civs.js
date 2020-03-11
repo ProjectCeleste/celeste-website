@@ -18,7 +18,7 @@ export default {
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit.   Voluptatum, incidunt deleniti! Consectetur fugiat aut voluptatem! Commodi blanditiis quaerat, ipsum earum exercitationem quidem sed provident veniam quas officia tenetur voluptates facilis?",
     icon: require("~/assets/img/civ/celt.png"),
-    character: require("~/assets/img/civ/celt_character.png")
+    character: require("~/assets/img/civ/celt_character.webp")
   },
   p: {
     name: "Persians",
@@ -33,7 +33,7 @@ export default {
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit.   Voluptatum, incidunt deleniti! Consectetur fugiat aut voluptatem! Commodi blanditiis quaerat, ipsum earum exercitationem quidem sed provident veniam quas officia tenetur voluptates facilis?",
     icon: require("~/assets/img/civ/babylon.png"),
-    character: require("~/assets/img/civ/babylon_character.png")
+    character: require("~/assets/img/civ/babylon_character.webp")
   },
   n: {
     name: "Norse",
