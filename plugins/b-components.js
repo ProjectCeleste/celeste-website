@@ -10,6 +10,7 @@ import BQuestion from "~/components/Question.vue"
 import BProgress from "~/components/Progress.vue"
 import BFooter from "~/components/Footer.vue"
 import Parallax from "~/components/Parallax.vue"
+import GuideSection from "~/components/GuideSection.vue"
 
 const components = {
   BCard,
@@ -21,7 +22,8 @@ const components = {
   BQuestion,
   BProgress,
   BFooter,
-  Parallax
+  Parallax,
+  GuideSection
 }
 
 Object.entries(components).forEach(([name, component]) => {

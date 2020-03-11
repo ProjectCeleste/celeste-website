@@ -37,13 +37,16 @@
               </p>
               <ul class="menu-list">
                 <li>
-                  <a>
+                  <nuxt-link
+                    to="/guides/basic-questions"
+                    active-class="is-active"
+                  >
                     <img
                       src="~/assets/img/guides/nav/1 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Basic Questions</span>
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/guides/fundamentals" active-class="is-active">
@@ -156,11 +159,6 @@ export default {
 
 .guide-img {
   flex-shrink: 0;
-  display: flex;
-
-  img {
-    margin: auto;
-  }
 }
 
 .menu-list li {
