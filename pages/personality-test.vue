@@ -5,7 +5,7 @@
         <header class="card-header">
           <div class="card-header-title is-flex-column has-text-centered">
             <h2 class="title is-3 has-text-gold">
-              Personality Quiz
+              Personality Test
             </h2>
             <h3 class="subtitle has-text-grey-lighter">
               Discover the civilization that suits you the most!

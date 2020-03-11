@@ -137,8 +137,8 @@ export default {
               to: { name: "players" }
             },
             {
-              title: "Personality Quiz",
-              to: { name: "personality-quiz" }
+              title: "Personality Test",
+              to: { name: "personality-test" }
             },
             {
               title: "Leaderboard",
