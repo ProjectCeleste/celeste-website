@@ -86,14 +86,6 @@ ul.is-marginless {
   min-height: calc(100vh - #{$navbar-height});
 }
 
-.tabs ul {
-  width:100%;
-  flex-direction:row;
-  flex-wrap:wrap;
-  flex-shrink: 1;
-  border-bottom-color: transparent;
-}
-
 @media screen and (min-width: $tablet) {
   .is-visible-mobile {
     display: none !important;

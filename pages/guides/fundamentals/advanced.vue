@@ -1,32 +1,15 @@
 <template>
-  <div class="column">
-    <h4 class="title is-4 has-text-centered has-text-white guide-title">
-      Build Orders
-    </h4>
-    <div class="tabs is-centered">
-      <ul>
-        <li class="is-active is-basic">
-          <a>Basic</a>
-        </li>
-        <li class="is-intermediate">
-          <a>Intermediate</a>
-        </li>
-        <li class="is-advanced">
-          <a>Advanced</a>
-        </li>
-      </ul>
-    </div>
+  <div>
     <div class="is-flex-desktop is-vcentered content">
       <div>
         <p class="content title is-5 has-text-gold">
-          1. Always Make Villagers
+          1. Advanced
         </p>
         <p class="content">
-          Constantly train Villagers until you have 70-90 of them. The only time
-          your Town Center should not be training Villagers is when you are
-          aging up or researching something in it. If you follow this simple yet
-          critically important rule, you will quickly see improved results in
-          your matches.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, et! Unde
+          enim explicabo rerum blanditiis vitae rem deleniti recusandae. Commodi
+          obcaecati quibusdam in quos reiciendis corporis dolorum facilis rerum
+          saepe.
         </p>
       </div>
       <div class="guide-img">

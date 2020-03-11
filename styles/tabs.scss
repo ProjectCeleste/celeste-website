@@ -1,0 +1,30 @@
+.tabs ul {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  border-bottom-color: transparent;
+
+  li {
+    width: 160px;
+
+    a.is-active {
+      border-bottom-color: $tabs-link-active-border-bottom-color;
+      color: $tabs-link-active-color;
+    }
+
+    @each $name, $color in $tabs-colors {
+      &.is-#{$name} {
+        a {
+          color: darken($color, 5%);
+          &:hover,
+          &.is-active {
+            border-bottom-color: $color;
+            color: $color;
+          }
+        }
+      }
+    }
+  }
+  
+}

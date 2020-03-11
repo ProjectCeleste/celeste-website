@@ -46,25 +46,25 @@
                   </a>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link
+                    to="/guides/fundamentals"
+                    exact-active-class="is-active"
+                  >
                     <img
                       src="~/assets/img/guides/nav/2 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Fundamentals</span>
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link
-                    to="/guides/build-orders"
-                    exact-active-class="is-active"
-                  >
+                  <a>
                     <img
                       src="~/assets/img/guides/nav/3 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Build orders</span>
-                  </nuxt-link>
+                  </a>
                 </li>
                 <li>
                   <ul>
@@ -156,24 +156,6 @@ export default {
 
     & > span {
       align-self: center;
-    }
-  }
-}
-
-.tabs ul li {
-  width: 160px;
-
-  @each $name, $color in $tabs-colors {
-    &.is-#{$name} {
-      a {
-        color: darken($color, 5%);
-      }
-
-      &:hover a,
-      &.is-active a {
-        border-bottom-color: $color;
-        color: $color;
-      }
     }
   }
 }
