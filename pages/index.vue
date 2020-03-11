@@ -128,10 +128,10 @@
             <img src="~/assets/img/civ/roman.png" />
           </div>
           <div class="column is-narrow civ-icon">
-            <img src="~/assets/img/civ/norse.webp" />
+            <img src="~/assets/img/civ/babylon.webp" />
           </div>
           <div class="column is-narrow civ-icon">
-            <img src="~/assets/img/civ/babylon.webp" />
+            <img src="~/assets/img/civ/norse.webp" />
           </div>
         </div>
         <div class="has-text-centered">
@@ -139,12 +139,15 @@
             <strong>Civilizations</strong>
           </p>
           <p class="content">
-            Play as the Greeks, Egyptians, Celts, Persians, Romans, Norse and
-            Babylonians. Each civilization is unique in its own way and has its
+            Play as the Greeks, Egyptians, Celts, Persians, Romans, Babylonians
+            and Norse. Each civilization is unique in its own way and has its
             own play style. Find out which one suits you the most by answering a
             few questions in our personality test!
           </p>
-          <nuxt-link to="personality-test" class="button is-primary is-medium">
+          <nuxt-link
+            to="personality-test"
+            class="button is-primary is-medium title"
+          >
             <span>Personality Test</span>
           </nuxt-link>
         </div>
