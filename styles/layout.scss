@@ -86,6 +86,10 @@ ul.is-marginless {
   min-height: calc(100vh - #{$navbar-height});
 }
 
+.menu-list > li > ul {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: $tablet) {
   .is-visible-mobile {
     display: none !important;

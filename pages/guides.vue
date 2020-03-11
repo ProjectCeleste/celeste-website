@@ -46,10 +46,7 @@
                   </a>
                 </li>
                 <li>
-                  <nuxt-link
-                    to="/guides/fundamentals"
-                    exact-active-class="is-active"
-                  >
+                  <nuxt-link to="/guides/fundamentals" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/2 - Active.png"
                       class="guide-link-icon"
@@ -65,12 +62,34 @@
                     />
                     <span>Build orders</span>
                   </a>
-                </li>
-                <li>
                   <ul>
-                    <li><a>Barracks into Town Center</a></li>
-                    <li><a>Town Center First</a></li>
-                    <li><a>Dock First</a></li>
+                    <li>
+                      <a>
+                        <img
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 1 - Active.png"
+                          class="guide-link-icon guide-link-sub-icon"
+                        />
+                        <span>Barracks into Town Center</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <img
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 2 - Active.png"
+                          class="guide-link-icon guide-link-sub-icon"
+                        />
+                        <span>Town Center First</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <img
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 3 - Active.png"
+                          class="guide-link-icon guide-link-sub-icon"
+                        />
+                        <span>Dock First</span>
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -152,6 +171,11 @@ export default {
       max-height: 36px;
       max-width: 36px;
       margin-right: 0.75rem;
+
+      &.guide-link-sub-icon {
+        max-width: 24px;
+        max-height: 24px;
+      }
     }
 
     & > span {
