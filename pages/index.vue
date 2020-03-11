@@ -112,25 +112,25 @@
         <div
           class="columns is-variable is-1 is-multiline is-centered is-mobile"
         >
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/greek.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/greek.webp" />
           </div>
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/egypt.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/egypt.webp" />
           </div>
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/celt.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/celt.webp" />
           </div>
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/persia.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/persia.webp" />
           </div>
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/babylon.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/babylon.webp" />
           </div>
-          <div class="column civ-icon">
-            <img src="~/assets/img/civ/norse.png" />
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/norse.webp" />
           </div>
-          <div class="column civ-icon">
+          <div class="column is-narrow civ-icon">
             <img src="~/assets/img/civ/roman.png" />
           </div>
         </div>
@@ -229,7 +229,7 @@ export default {
   background-image: url("~assets/img/background_14.jpg");
 }
 
-.civ-icon {
+.civ-icon img {
   max-width: 128px;
 }
 </style>
