@@ -3,7 +3,7 @@
     <div class="columns is-multiline is-vcentered">
       <div class="column is-12-touch">
         <p class="content">
-          This build will alow you to get ahead of your opponent by securing an
+          This build will allow you to get ahead of your opponent by securing an
           economic advantage early on, but is susceptible to early aggression.
         </p>
         <ul class="content ul">

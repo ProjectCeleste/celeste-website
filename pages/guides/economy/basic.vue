@@ -26,7 +26,7 @@
           Your Villagers move further into the treeline over time. This will
           result in lots of gathering time lost when walking from Trees to
           Storehouses. Constantly replace your Wood Storehouses to ensure
-          eficient Wood gathering.
+          efficient Wood gathering.
         </p>
       </div>
       <div class="column is-narrow guide-img">
