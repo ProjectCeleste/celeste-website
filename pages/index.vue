@@ -125,7 +125,7 @@
             <img src="~/assets/img/civ/persia.webp" />
           </div>
           <div class="column is-narrow civ-icon">
-            <img src="~/assets/img/civ/roman.png" />
+            <img src="~/assets/img/civ/roman.webp" />
           </div>
           <div class="column is-narrow civ-icon">
             <img src="~/assets/img/civ/babylon.webp" />
