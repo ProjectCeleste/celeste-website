@@ -39,7 +39,7 @@
                 <li>
                   <nuxt-link
                     to="/guides/basic-questions"
-                    active-class="is-active"
+                    exact-active-class="is-active"
                   >
                     <img
                       src="~/assets/img/guides/nav/1 - Active.png"
@@ -129,22 +129,25 @@
                   </nuxt-link>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link to="/guides/economy" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/6 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Economy Management</span>
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link
+                    to="/guides/scouting"
+                    exact-active-class="is-active"
+                  >
                     <img
                       src="~/assets/img/guides/nav/7 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Scouting Tips</span>
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </aside>

@@ -1,0 +1,64 @@
+<template>
+  <div>
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="content title is-5 has-text-gold">
+          1. Research Economy Upgrades
+        </p>
+        <p class="content">
+          Storehouse Upgrades are one of the most important aspects of economy
+          management. Make sure you get your Upgrades as soon as you can. If you
+          are gathering from Berries, make sure to research Picker&apos;s
+          Gloves.
+        </p>
+      </div>
+      <div class="column is-narrow guide-img">
+        <img src="~/assets/img/guides/sample.png" />
+      </div>
+    </div>
+
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="content title is-5 has-text-gold">
+          2. Replace Wood Storehouses
+        </p>
+        <p class="content">
+          Your Villagers move further into the treeline over time. This will
+          result in lots of gathering time lost when walking from Trees to
+          Storehouses. Constantly replace your Wood Storehouses to ensure
+          eficient Wood gathering.
+        </p>
+      </div>
+      <div class="column is-narrow guide-img">
+        <img src="~/assets/img/guides/sample.png" />
+      </div>
+    </div>
+
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="content title is-5 has-text-gold">
+          3. Hunts or Berries?
+        </p>
+        <p class="content">
+          Huntable animals and Berry Bushes are both great Food sources.
+          However, Huntables gather much faster than Berries, therefore you
+          should try and gather from them before moving over to Berries.
+        </p>
+        <p class="content">
+          Be careful, however, that while Huntables are a faster source of Food,
+          they also deplete faster than Berries and are usually more exposed
+          than them.
+        </p>
+      </div>
+      <div class="column is-narrow guide-img">
+        <img src="~/assets/img/guides/sample.png" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  transition: "fade"
+}
+</script>
