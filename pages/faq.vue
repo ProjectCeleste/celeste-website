@@ -76,7 +76,7 @@ export default {
         },
         {
           title: "What platforms is the game available on?",
-          content: `<p>Age of Empires Online is available via Steam in English, German, French, and Spanish.</p>`
+          content: `<p>Age of Empires Online is available via Steam in English, German, French, Spanish, Brazilian Portuguese and Simplified Chinese.</p>`
         },
         {
           title: "Is an internet connection required?",

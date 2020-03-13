@@ -63,7 +63,7 @@ export default {
           icon: require("~/assets/img/community/TwitchLogo.webp")
         },
         {
-          title: "Champion",
+          title: "Champion Mode",
           url: "https://champion.projectceleste.com/",
           icon: require("~/assets/img/community/ChampModeWebsiteIcon.webp")
         },
@@ -92,7 +92,7 @@ export default {
   font-size: $size-4;
 
   .community-icon {
-    max-width: 220px;
+    max-width: 150px;
     width: 100%;
     margin: auto;
   }

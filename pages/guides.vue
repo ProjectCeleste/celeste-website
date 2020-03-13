@@ -167,7 +167,7 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_16.webp");
+  background-image: url("~assets/img/background_18.webp");
 }
 </style>
 <style lang="scss">
@@ -177,6 +177,10 @@ export default {
 
 .guide-img {
   text-align: center;
+  img {
+    border: 2px solid #afa588;
+    border-radius: 15px;
+  }
 }
 
 .menu-list li {
