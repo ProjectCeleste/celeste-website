@@ -46,7 +46,7 @@ export default {
     name: "Romans",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit.   Voluptatum, incidunt deleniti! Consectetur fugiat aut voluptatem! Commodi blanditiis quaerat, ipsum earum exercitationem quidem sed provident veniam quas officia tenetur voluptates facilis?",
-    icon: require("~/assets/img/civ/roman.png"),
-    character: require("~/assets/img/civ/roman_character.png")
+    icon: require("~/assets/img/civ/roman.webp"),
+    character: require("~/assets/img/civ/roman_character.webp")
   }
 }

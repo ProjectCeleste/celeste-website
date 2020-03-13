@@ -13,7 +13,7 @@
         </p>
       </div>
       <div class="column is-narrow guide-img">
-        <img src="~/assets/img/guides/sample.png" />
+        <img src="~/assets/img/guides/Tab 4/Tip 1 Pic.webp" />
       </div>
     </div>
 
@@ -30,7 +30,7 @@
         </p>
       </div>
       <div class="column is-narrow guide-img">
-        <img src="~/assets/img/guides/sample.png" />
+        <img src="~/assets/img/guides/Tab 4/Tip 2 Pic.webp" />
       </div>
     </div>
 
@@ -47,7 +47,7 @@
         </p>
       </div>
       <div class="column is-narrow guide-img">
-        <img src="~/assets/img/guides/sample.png" />
+        <img src="~/assets/img/guides/Tab 4/Tip 3 Pic.webp" />
       </div>
     </div>
 
@@ -68,7 +68,7 @@
         </p>
       </div>
       <div class="column is-narrow guide-img">
-        <img src="~/assets/img/guides/sample.png" />
+        <img src="~/assets/img/guides/Tab 4/Tip 4 Pic.webp" />
       </div>
     </div>
   </guide-section>

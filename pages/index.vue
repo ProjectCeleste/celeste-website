@@ -225,11 +225,11 @@ export default {
 }
 
 #battle-separator {
-  background-image: url("~assets/img/background_4.jpg");
+  background-image: url("~assets/img/background_4.webp");
 }
 
 #play-hero {
-  background-image: url("~assets/img/background_14.jpg");
+  background-image: url("~assets/img/background_14.webp");
 }
 
 .civ-icon img {

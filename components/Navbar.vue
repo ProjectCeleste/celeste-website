@@ -13,7 +13,7 @@
       <div v-if="$nuxt.$route.name != 'index'" class="navbar-brand">
         <nuxt-link :to="{ name: 'index' }" class="navbar-item is-primary">
           <img
-            src="~assets/logo_roman.png"
+            src="~assets/logo_roman.webp"
             alt="Project Celeste"
             class="logo"
           />

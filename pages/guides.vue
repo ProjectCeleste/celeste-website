@@ -42,7 +42,7 @@
                     exact-active-class="is-active"
                   >
                     <img
-                      src="~/assets/img/guides/nav/1 - Active.png"
+                      src="~/assets/img/guides/nav/1 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Basic Questions</span>
@@ -51,7 +51,7 @@
                 <li>
                   <nuxt-link to="/guides/fundamentals" active-class="is-active">
                     <img
-                      src="~/assets/img/guides/nav/2 - Active.png"
+                      src="~/assets/img/guides/nav/2 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Fundamentals</span>
@@ -63,7 +63,7 @@
                     exact-active-class="is-active"
                   >
                     <img
-                      src="~/assets/img/guides/nav/3 - Active.png"
+                      src="~/assets/img/guides/nav/3 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Build orders</span>
@@ -75,7 +75,7 @@
                         exact-active-class="is-active"
                       >
                         <img
-                          src="~/assets/img/guides/nav/Tab 3 Subgroup 1 - Active.png"
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 1 - Active.webp"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Barracks into Town Center</span>
@@ -87,7 +87,7 @@
                         exact-active-class="is-active"
                       >
                         <img
-                          src="~/assets/img/guides/nav/Tab 3 Subgroup 2 - Active.png"
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 2 - Active.webp"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Town Center First</span>
@@ -99,7 +99,7 @@
                         exact-active-class="is-active"
                       >
                         <img
-                          src="~/assets/img/guides/nav/Tab 3 Subgroup 3 - Active.png"
+                          src="~/assets/img/guides/nav/Tab 3 Subgroup 3 - Active.webp"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Dock First</span>
@@ -113,7 +113,7 @@
                     exact-active-class="is-active"
                   >
                     <img
-                      src="~/assets/img/guides/nav/4 - Active.png"
+                      src="~/assets/img/guides/nav/4 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Early Game Tips</span>
@@ -122,7 +122,7 @@
                 <li>
                   <nuxt-link to="/guides/unit-control" active-class="is-active">
                     <img
-                      src="~/assets/img/guides/nav/5 - Active.png"
+                      src="~/assets/img/guides/nav/5 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Unit Control</span>
@@ -131,7 +131,7 @@
                 <li>
                   <nuxt-link to="/guides/economy" active-class="is-active">
                     <img
-                      src="~/assets/img/guides/nav/6 - Active.png"
+                      src="~/assets/img/guides/nav/6 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Economy Management</span>
@@ -143,7 +143,7 @@
                     exact-active-class="is-active"
                   >
                     <img
-                      src="~/assets/img/guides/nav/7 - Active.png"
+                      src="~/assets/img/guides/nav/7 - Active.webp"
                       class="guide-link-icon"
                     />
                     <span>Scouting Tips</span>
@@ -167,7 +167,7 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_16.png");
+  background-image: url("~assets/img/background_16.webp");
 }
 </style>
 <style lang="scss">
@@ -176,7 +176,7 @@ export default {
 }
 
 .guide-img {
-  flex-shrink: 0;
+  text-align: center;
 }
 
 .menu-list li {
