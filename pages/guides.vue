@@ -58,40 +58,52 @@
                   </nuxt-link>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link
+                    to="/guides/build-orders"
+                    exact-active-class="is-active"
+                  >
                     <img
                       src="~/assets/img/guides/nav/3 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Build orders</span>
-                  </a>
+                  </nuxt-link>
                   <ul>
                     <li>
-                      <a>
+                      <nuxt-link
+                        to="/guides/build-orders/barracks-into-town-center"
+                        exact-active-class="is-active"
+                      >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 1 - Active.png"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Barracks into Town Center</span>
-                      </a>
+                      </nuxt-link>
                     </li>
                     <li>
-                      <a>
+                      <nuxt-link
+                        to="/guides/build-orders/town-center-first"
+                        exact-active-class="is-active"
+                      >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 2 - Active.png"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Town Center First</span>
-                      </a>
+                      </nuxt-link>
                     </li>
                     <li>
-                      <a>
+                      <nuxt-link
+                        to="/guides/build-orders/dock-first"
+                        exact-active-class="is-active"
+                      >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 3 - Active.png"
                           class="guide-link-icon guide-link-sub-icon"
                         />
                         <span>Dock First</span>
-                      </a>
+                      </nuxt-link>
                     </li>
                   </ul>
                 </li>

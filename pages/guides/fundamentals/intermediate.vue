@@ -1,42 +1,56 @@
 <template>
   <div>
-    <div class="is-flex-desktop is-vcentered content">
-      <div>
+    <div class="columns is-vcentered">
+      <div class="column">
         <p class="content title is-5 has-text-gold">
-          1. Intermediate
+          1. Keep Making Units
         </p>
         <p class="content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          quibusdam culpa dolorum, repudiandae corporis veniam saepe et officiis
-          incidunt? Fugit blanditiis ea explicabo ullam possimus dolorum
-          quisquam, veritatis nesciunt aut.
+          Constantly train Military Units. The only time when you should
+          consider stopping Military Unit production is when you are saving up
+          resource to research an expensive Upgrade, or to build an expensive
+          Building, such as a Town Center, or a Fortress.
         </p>
       </div>
-      <div class="guide-img">
+      <div class="column is-narrow guide-img">
         <img src="~/assets/img/guides/sample.png" />
       </div>
     </div>
-    <p class="content title is-5 has-text-gold">
-      2. Avoid Idle Villagers
-    </p>
-    <p class="content">
-      Idle Villagers are nothing but a detriment to your economy. Constantly pay
-      attention to the Idle Villager notification and make sure to assign a
-      Hotkey for it (Default Hotkey: V) so you’re always ready to task your idle
-      Villagers to get to work and not stand idle. Idle Villagers are useless
-      Villagers!
-    </p>
 
-    <p class="content title is-5 has-text-gold">
-      3. Spend your resources!
-    </p>
-    <p class="content">
-      Try and keep all of your resources spent at all times. The only time you
-      should stop spending resources is for when you are saving up to advance to
-      the next Age or to research an expensive upgrade. If you are starting to
-      stockpile on a certain resrouce, don&apos;t hesitate to move your
-      Villagers from one resource type to another!
-    </p>
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="content title is-5 has-text-gold">
+          2. Keep Making Buildings
+        </p>
+        <p class="content">
+          Many new players don&apos;t make enough Buildings. Having additional
+          Military production Buildings allows you to reinforce much faster so
+          that you can overwhelm your opponent and go for a victory. Have extra
+          Wood stockpiled? Make some more Military Buildings!
+        </p>
+      </div>
+      <div class="column is-narrow guide-img">
+        <img src="~/assets/img/guides/sample.png" />
+      </div>
+    </div>
+
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="content title is-5 has-text-gold">
+          3. Research Upgrades
+        </p>
+        <p class="content">
+          Upgrades improve your Villagers&apos; efficiency, your Military
+          Units&apos; combat effectiveness and benefit your civilization in
+          various ways. Armory Upgrades are particularly important, as they make
+          your Units much more cost-effective and pop-effective, resulting in a
+          much higher quality army. Research them as soon as possible!
+        </p>
+      </div>
+      <div class="column is-narrow guide-img">
+        <img src="~/assets/img/guides/sample.png" />
+      </div>
+    </div>
   </div>
 </template>
 

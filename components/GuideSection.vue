@@ -34,7 +34,7 @@ export default {
   name: "GuideSection",
   props: {
     title: { type: String, required: true },
-    base: { type: String, required: true }
+    base: { type: String, default: undefined }
   }
 }
 </script>
