@@ -108,22 +108,25 @@
                   </ul>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link
+                    to="/guides/early-game-tips"
+                    exact-active-class="is-active"
+                  >
                     <img
                       src="~/assets/img/guides/nav/4 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Early Game Tips</span>
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a>
+                  <nuxt-link to="/guides/unit-control" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/5 - Active.png"
                       class="guide-link-icon"
                     />
                     <span>Unit Control</span>
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
                   <a>
