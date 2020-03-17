@@ -183,6 +183,14 @@ export default {
   }
 }
 
+.guide-banner {
+  height: 200px;
+  border: 2px solid #afa588;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center top;
+}
+
 .menu-list li {
   a {
     display: flex;

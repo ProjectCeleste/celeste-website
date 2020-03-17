@@ -39,6 +39,7 @@
                     class="button is-primary is-medium is-fullwidth"
                     href="https://github.com/ProjectCeleste/Celeste_Launcher/releases/latest"
                     rel="nofollow"
+                    target="_blank"
                   >
                     <b-icon
                       icon="download"
