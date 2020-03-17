@@ -256,12 +256,10 @@ export default {
 
 #battle-separator {
   background-image: url("~assets/img/background_4.webp");
-  background-attachment: fixed;
 }
 
 #town-separator {
   background-image: url("~assets/img/background_19.webp");
-  background-attachment: fixed;
 }
 
 #play-hero {
