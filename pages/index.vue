@@ -154,6 +154,36 @@
       </div>
     </section>
 
+    <div id="town-separator" class="background-separator"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns is-vcentered is-centered">
+          <div class="column is-half has-text-centered">
+            <p class="title is-4 has-text-gold">
+              <strong>Guides</strong>
+            </p>
+            <p class="subtitle is-5 has-text-grey-lighter">
+              Don't know where to start?
+            </p>
+            <p class="content">
+              Don't worry, we've got you covered! Find out everything you need
+              to know to get started in Age of Empires Online thanks to the
+              guides: answers to basic questions, the game's fundamentals, build
+              orders, tips about early game, unit control, economy management,
+              scouting and more.
+            </p>
+            <nuxt-link to="guides" class="button is-primary is-medium title">
+              <span>Read the guides</span>
+            </nuxt-link>
+          </div>
+          <div class="column is-narrow has-text-centered">
+            <img src="~assets/img/LoadingQuestGiver.webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section
       id="play-hero"
       class="hero is-success is-fullheight has-text-centered"
@@ -226,6 +256,12 @@ export default {
 
 #battle-separator {
   background-image: url("~assets/img/background_4.webp");
+  background-attachment: fixed;
+}
+
+#town-separator {
+  background-image: url("~assets/img/background_19.webp");
+  background-attachment: fixed;
 }
 
 #play-hero {
@@ -234,5 +270,11 @@ export default {
 
 .civ-icon img {
   max-width: 128px;
+
+  @media screen and (max-width: $tablet - 1px) {
+    & {
+      max-width: 64px;
+    }
+  }
 }
 </style>

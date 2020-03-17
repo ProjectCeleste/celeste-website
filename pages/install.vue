@@ -455,7 +455,8 @@
 <script>
 export default {
   name: "Install",
-  transition: "fade"
+  transition: "fade",
+  scrollToTop: true
 }
 </script>
 

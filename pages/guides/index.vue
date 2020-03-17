@@ -10,9 +10,10 @@
       Greetings, Warrior! Welcome to the Age of Empires Online guides.
     </p>
     <p class="content">
-      Here you can find everything you need to get started in Age of Empires
-      Online: answers to basic questions, the game's fundamentals, build orders,
-      tips about early game, unit control, economy management and scouting.
+      Here you can find everything you need to know to get started in Age of
+      Empires Online: answers to basic questions, the game's fundamentals, build
+      orders, tips about early game, unit control, economy management and
+      scouting.
     </p>
 
     <p class="content">

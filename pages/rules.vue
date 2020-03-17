@@ -30,6 +30,7 @@
 <script>
 export default {
   transition: "fade",
+  scrollToTop: true,
   data() {
     return {
       rules: [

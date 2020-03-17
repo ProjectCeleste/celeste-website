@@ -75,6 +75,7 @@ import Civs from "assets/data/civs"
 
 export default {
   transition: "fade",
+  scrollToTop: true,
   data() {
     return {
       currentQuestion: 0,
