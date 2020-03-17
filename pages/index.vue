@@ -159,7 +159,9 @@
     <section class="section">
       <div class="container">
         <div class="columns is-vcentered is-centered">
-          <div class="column is-half has-text-centered">
+          <div
+            class="column is-offset-2-desktop is-half-desktop has-text-centered"
+          >
             <p class="title is-4 has-text-gold">
               <strong>Guides</strong>
             </p>
@@ -177,7 +179,7 @@
               <span>Read the guides</span>
             </nuxt-link>
           </div>
-          <div class="column is-narrow has-text-centered">
+          <div class="column is-2 has-text-centered">
             <img src="~assets/img/LoadingQuestGiver.webp" />
           </div>
         </div>
