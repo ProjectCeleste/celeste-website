@@ -15,7 +15,7 @@
 @import "tabs";
 
 html {
-  background-color: #ffd398;
+  background-color: $body-background-color;
 }
 
 @import "~bulma-checkradio/src/sass/index.sass";

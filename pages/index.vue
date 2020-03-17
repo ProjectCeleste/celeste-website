@@ -186,15 +186,12 @@
       </div>
     </section>
 
-    <section
-      id="play-hero"
-      class="hero is-success is-fullheight has-text-centered"
-    >
+    <section id="play-hero" class="hero is-fullheight has-text-centered">
       <div class="hero-body">
         <div class="container is-flex">
           <div class="card is-absolute-centered">
             <div class="card-content">
-              <p class="title is-4">
+              <p class="title is-4 has-text-white">
                 Start your conquest
               </p>
               <nuxt-link
@@ -250,6 +247,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: $body-background-color;
 }
 
 .half-background {
