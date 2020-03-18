@@ -5,7 +5,7 @@
         <b-icon
           size="is-large"
           icon="alert-circle-outline"
-          class="error has-text-danger"
+          class="error has-text-primary"
         />
       </p>
       <h1 v-if="error.statusCode === 404" class="title has-text-gold">
@@ -15,7 +15,7 @@
         An error occurred
       </h1>
       <p class="description">
-        <nuxt-link to="/">
+        <nuxt-link to="/" class="button is-primary is-medium">
           Back to home page
         </nuxt-link>
       </p>
