@@ -19,12 +19,12 @@
         {{ title }}
       </h5>
       <p v-if="description" class="content is-size-7-mobile">
-        <a ref="nofollow" :href="url">
+        <a ref="nofollow" target="_blank" :href="url">
           {{ description }}
         </a>
       </p>
       <p v-else-if="url" class="content is-size-7-mobile">
-        <a ref="nofollow" :href="url">
+        <a ref="nofollow" target="_blank" :href="url">
           {{ url }}
         </a>
       </p>
@@ -69,7 +69,7 @@ export default {
           this.loading = false
           switch (xhttp.status) {
             case 200:
-              this.icon = "check"
+              this.icon = "check-bold"
               this.status = 0
               this.statusTitle = "Up"
               break
