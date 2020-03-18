@@ -161,8 +161,7 @@
 
 <script>
 export default {
-  transition: "fade",
-  scrollToTop: true
+  transition: "fade"
 }
 </script>
 
