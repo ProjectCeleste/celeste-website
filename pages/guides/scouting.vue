@@ -1,7 +1,7 @@
 <template>
   <guide-section title="Scouting Tips">
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           1. Find your Huntables
         </p>
@@ -21,8 +21,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           2. Scout your opponent&apos;s Base
         </p>
@@ -42,8 +42,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           3. Check the opponent&apos;s Stone
         </p>
@@ -65,8 +65,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           4. Build Watch Posts
         </p>

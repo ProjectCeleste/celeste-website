@@ -1,7 +1,7 @@
 <template>
   <guide-section title="Basic Questions">
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           1. Do Levels and Gear matter?
         </p>
@@ -17,8 +17,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           2. Does only winning count?
         </p>
@@ -35,8 +35,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           3. What are the rewards?
         </p>
@@ -51,8 +51,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           4. How Do I Improve?
         </p>

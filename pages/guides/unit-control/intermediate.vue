@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           1. Find all of the same Type
         </p>
@@ -28,8 +28,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           2. Easy Drag Military
         </p>
@@ -53,8 +53,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           3. Raiding and Defense
         </p>

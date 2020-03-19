@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           1. Gold and Stone Storehouses
         </p>
@@ -18,8 +18,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           2. Don&apos;t get House Blocked!
         </p>
@@ -35,8 +35,8 @@
       </div>
     </div>
 
-    <div class="columns is-vcentered">
-      <div class="column">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
           3. Villager Distribution
         </p>
