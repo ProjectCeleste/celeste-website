@@ -190,4 +190,11 @@ export default {
   background-size: cover;
   background-position: center top;
 }
+
+@media screen and (min-width: $desktop) {
+  .guide-container .columns .column {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 </style>

@@ -10,8 +10,8 @@
           focusing on a specific strategy.
         </p>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <h5 class="content title is-5 has-text-gold">
               Barracks into Town Center
             </h5>
@@ -34,8 +34,8 @@
           </div>
         </div>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <h5 class="content title is-5 has-text-gold">
               Town Center First
             </h5>
@@ -58,8 +58,8 @@
           </div>
         </div>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <h5 class="content title is-5 has-text-gold">
               Dock First (Water Maps)
             </h5>

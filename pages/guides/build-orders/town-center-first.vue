@@ -1,13 +1,13 @@
 <template>
   <guide-section title="Town Center First">
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline">
+      <div class="column is-12-touch guide-container">
         <p class="content">
           This build will allow you to get ahead of your opponent by securing an
           economic advantage early on, but is susceptible to early aggression.
         </p>
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>Start by sending your first 3 Villagers to your Hunt.</li>
               <li>
@@ -22,12 +22,17 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 1 Pic.webp" />
+            <p class="content">
+              1. Start with your Hunt
+            </p>
           </div>
         </div>
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>
                 Eighth Villager will build a Storehouse at your starting Stone
@@ -45,12 +50,17 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 2 Pic.webp" />
+            <p class="content">
+              2. Start mining Stone
+            </p>
           </div>
         </div>
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>
                 As soon as you age up you should have around 300 Wood and 300
@@ -71,8 +81,13 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 3 Pic.webp" />
+            <p class="content">
+              3. Build your Town Center
+            </p>
           </div>
         </div>
 
@@ -82,12 +97,28 @@
           same and you can adjust your build with a little practice. Practice
           makes perfect!
         </p>
-
-        <ol class="content ol">
-          <li>Start with your Hunt</li>
-          <li>Start mining Stone</li>
-          <li>Build your Town Center</li>
-        </ol>
+      </div>
+      <div
+        class="column is-narrow is-flex is-flex-column is-hidden-touch is-flex-space-evenly"
+      >
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G2/Tip 1 Pic.webp" />
+          <p class="content">
+            1. Start with your Hunt
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G2/Tip 2 Pic.webp" />
+          <p class="content">
+            2. Start mining Stone
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G2/Tip 3 Pic.webp" />
+          <p class="content">
+            3. Build your Town Center
+          </p>
+        </div>
       </div>
     </div>
   </guide-section>

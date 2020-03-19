@@ -1,15 +1,15 @@
 <template>
   <guide-section title="Dock First (Water Maps)">
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline">
+      <div class="column is-12-touch guide-container">
         <p class="content">
           This build is more advanced than the previous two, and should be used
           only on maps with Water available. Use it only once you&apos;re
           comfortable with the previous builds.
         </p>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <p class="content">
               In the Mountain Crossing map you can use your Dock as your first
               Wood Storehouse, placing it between to your Woodline and the lake
@@ -22,13 +22,18 @@
               or the Woodline next to it.
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 1 Pic.webp" />
+            <p class="content">
+              1. Build your Dock
+            </p>
           </div>
         </div>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <p class="content">
               On other maps like Inland, Oasis or Treasure Island you can build
               a fast Dock after your Hunt and Wood storehouse. You send your
@@ -43,8 +48,13 @@
               to build your dock.
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 2 Pic.webp" />
+            <p class="content">
+              2. Use your Dock as a dropoff
+            </p>
           </div>
         </div>
 
@@ -59,8 +69,8 @@
           Hunt Storehouse or around your Town Center.
         </p>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <p class="content">
               Since Fishing Boats will provide you with a very high Food income,
               you can leave only 3 Villagers on your Hunt and send the rest of
@@ -71,8 +81,13 @@
               to defend against the incoming pressure.
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 3 Pic.webp" />
+            <p class="content">
+              3. Start training Fishing Boats
+            </p>
           </div>
         </div>
 
@@ -85,6 +100,28 @@
           opponent&apos;s Military aggression before you have anything to defend
           with.
         </p>
+      </div>
+      <div
+        class="column is-narrow is-flex is-flex-column is-hidden-touch is-flex-space-evenly"
+      >
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G3/Tip 1 Pic.webp" />
+          <p class="content">
+            1. Build your Dock
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G3/Tip 2 Pic.webp" />
+          <p class="content">
+            2. Use your Dock as a dropoff
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G3/Tip 3 Pic.webp" />
+          <p class="content">
+            3. Start training Fishing Boats
+          </p>
+        </div>
       </div>
     </div>
   </guide-section>

@@ -1,15 +1,15 @@
 <template>
   <guide-section title="Barracks into Town Center">
-    <div class="columns is-multiline is-vcentered">
-      <div class="column is-12-touch">
+    <div class="columns is-multiline">
+      <div class="column is-12-touch guide-container">
         <p class="content">
           The goal of this build is to have some Age I Military Units early on
           to either put some pressure or defend against the opponent&apos;s
           pressure.
         </p>
 
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>Start by sending your first 3 Villagers to your Hunt.</li>
               <li>
@@ -18,12 +18,17 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G1/Tip 1 Pic.webp" />
+            <p class="content">
+              1. Gather Wood from Trees
+            </p>
           </div>
         </div>
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>
                 Once you have 200 Wood you can start building your Barracks.
@@ -39,12 +44,17 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G1/Tip 2 Pic.webp" />
+            <p class="content">
+              2. Build your Barracks
+            </p>
           </div>
         </div>
-        <div class="columns is-vcentered">
-          <div class="column">
+        <div class="columns is-multiline is-centered is-vcentered">
+          <div class="column is-12-touch">
             <ul class="content ul">
               <li>
                 If you use this opening to be aggressive you can use your units
@@ -59,15 +69,37 @@
               </li>
             </ul>
           </div>
-          <div class="column is-narrow guide-img">
+          <div
+            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+          >
             <img src="~/assets/img/guides/Tab 3/G1/Tip 3 Pic.webp" />
+            <p class="content">
+              3. Start training Military
+            </p>
           </div>
         </div>
-        <ol class="content ol">
-          <li>Gather Wood from Trees</li>
-          <li>Build your Barracks</li>
-          <li>Start training Military</li>
-        </ol>
+      </div>
+      <div
+        class="column is-narrow is-flex is-flex-column is-hidden-touch is-flex-space-evenly"
+      >
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G1/Tip 1 Pic.webp" />
+          <p class="content">
+            1. Gather Wood from Trees
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G1/Tip 2 Pic.webp" />
+          <p class="content">
+            2. Build your Barracks
+          </p>
+        </div>
+        <div class="guide-img">
+          <img src="~/assets/img/guides/Tab 3/G1/Tip 3 Pic.webp" />
+          <p class="content">
+            3. Start training Military
+          </p>
+        </div>
       </div>
     </div>
   </guide-section>
