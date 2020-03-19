@@ -57,88 +57,110 @@
               </h5>
               <ul class="content">
                 <li>
-                  <a
+                  <nuxt-link
                     v-scroll-to="{
                       el: '#install_the_original_game'
                     }"
+                    :to="{ hash: '#install_the_original_game' }"
                   >
                     1: Install The Original Game
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
                   <ul>
                     <li>
-                      <a
+                      <nuxt-link
                         v-scroll-to="{
                           el: '#install_the_original_game_using_steam'
                         }"
+                        :to="{ hash: '#install_the_original_game_using_steam' }"
                       >
                         [OPTION 1] Install the original game using Steam
-                      </a>
+                      </nuxt-link>
                     </li>
                     <li>
-                      <a
+                      <nuxt-link
                         v-scroll-to="{
                           el: '#install_the_original_game_without_using_steam'
                         }"
+                        :to="{
+                          hash: '#install_the_original_game_without_using_steam'
+                        }"
                       >
                         [OPTION 2] Install the original game without using Steam
-                      </a>
+                      </nuxt-link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a
+                  <nuxt-link
                     v-scroll-to="{
                       el: '#install_celeste_fan_project_patch'
                     }"
+                    :to="{
+                      hash: '#install_celeste_fan_project_patch'
+                    }"
                   >
                     2: Install Celeste Fan Project Patch
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
-                  <a
+                  <nuxt-link
                     v-scroll-to="{
                       el: '#play_aoeo_celeste_fan_project'
                     }"
+                    :to="{
+                      hash: '#play_aoeo_celeste_fan_project'
+                    }"
                   >
                     3: Play AOEO Celeste Fan Project
-                  </a>
+                  </nuxt-link>
                 </li>
                 <li>
                   <ul>
                     <li>
-                      <a
+                      <nuxt-link
                         v-scroll-to="{
                           el:
+                            '#play_aoeo_celeste_fan_project_using_celeste_launcher'
+                        }"
+                        :to="{
+                          hash:
                             '#play_aoeo_celeste_fan_project_using_celeste_launcher'
                         }"
                       >
                         [OPTION 1] Play AOEO Celeste Fan Project Using Celeste
                         Launcher
-                      </a>
+                      </nuxt-link>
                     </li>
                     <li>
-                      <a
+                      <nuxt-link
                         v-scroll-to="{
                           el:
+                            '#play_aoeo_celeste_fan_project_without_using_celeste_launcher'
+                        }"
+                        :to="{
+                          hash:
                             '#play_aoeo_celeste_fan_project_without_using_celeste_launcher'
                         }"
                       >
                         [OPTION 2 (ADVANCED)] Play AOEO Celeste Fan Project
                         Without Using Celeste Launcher
-                      </a>
+                      </nuxt-link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a
+                  <nuxt-link
                     v-scroll-to="{
                       el: '#troubleshooting'
                     }"
+                    :to="{
+                      hash: '#troubleshooting'
+                    }"
                   >
                     4: Troubleshooting
-                  </a>
+                  </nuxt-link>
                 </li>
               </ul>
             </div>
