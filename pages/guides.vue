@@ -43,7 +43,7 @@
                   >
                     <img
                       src="~/assets/img/guides/nav/1 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Basic Questions</span>
                   </nuxt-link>
@@ -52,7 +52,7 @@
                   <nuxt-link to="/guides/fundamentals" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/2 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Fundamentals</span>
                   </nuxt-link>
@@ -64,7 +64,7 @@
                   >
                     <img
                       src="~/assets/img/guides/nav/3 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Build orders</span>
                   </nuxt-link>
@@ -76,7 +76,7 @@
                       >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 1 - Active.webp"
-                          class="guide-link-icon guide-link-sub-icon"
+                          class="menu-link-icon menu-link-sub-icon"
                         />
                         <span>Barracks into Town Center</span>
                       </nuxt-link>
@@ -88,7 +88,7 @@
                       >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 2 - Active.webp"
-                          class="guide-link-icon guide-link-sub-icon"
+                          class="menu-link-icon menu-link-sub-icon"
                         />
                         <span>Town Center First</span>
                       </nuxt-link>
@@ -100,7 +100,7 @@
                       >
                         <img
                           src="~/assets/img/guides/nav/Tab 3 Subgroup 3 - Active.webp"
-                          class="guide-link-icon guide-link-sub-icon"
+                          class="menu-link-icon menu-link-sub-icon"
                         />
                         <span>Dock First</span>
                       </nuxt-link>
@@ -114,7 +114,7 @@
                   >
                     <img
                       src="~/assets/img/guides/nav/4 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Early Game Tips</span>
                   </nuxt-link>
@@ -123,7 +123,7 @@
                   <nuxt-link to="/guides/unit-control" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/5 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Unit Control</span>
                   </nuxt-link>
@@ -132,7 +132,7 @@
                   <nuxt-link to="/guides/economy" active-class="is-active">
                     <img
                       src="~/assets/img/guides/nav/6 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Economy Management</span>
                   </nuxt-link>
@@ -144,7 +144,7 @@
                   >
                     <img
                       src="~/assets/img/guides/nav/7 - Active.webp"
-                      class="guide-link-icon"
+                      class="menu-link-icon"
                     />
                     <span>Scouting Tips</span>
                   </nuxt-link>
@@ -189,26 +189,5 @@ export default {
   border-radius: 15px;
   background-size: cover;
   background-position: center top;
-}
-
-.menu-list li {
-  a {
-    display: flex;
-
-    .guide-link-icon {
-      max-height: 36px;
-      max-width: 36px;
-      margin-right: 0.75rem;
-
-      &.guide-link-sub-icon {
-        max-width: 24px;
-        max-height: 24px;
-      }
-    }
-
-    & > span {
-      align-self: center;
-    }
-  }
 }
 </style>

@@ -45,5 +45,14 @@
   background-size: cover;
 }
 
+img.bordered {
+  border: 2px solid #afa588;
+  border-radius: 15px;
+}
+
+hr {
+  background-color: $color--light;
+}
+
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}

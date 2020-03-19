@@ -48,6 +48,6 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_6.jpg");
+  background-image: url("~assets/img/background_6.webp");
 }
 </style>

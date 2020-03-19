@@ -9,12 +9,6 @@
     width: 160px;
 
     a {
-      &::-moz-focus-inner {
-        border: 0;
-      }
-      &:focus {
-        outline:none;
-      }
       &.is-active {
         border-bottom-color: $tabs-link-active-border-bottom-color;
         color: $tabs-link-active-color;

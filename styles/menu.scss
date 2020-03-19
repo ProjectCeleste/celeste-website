@@ -1,0 +1,20 @@
+.menu-list li {
+    a {
+      display: flex;
+  
+      .menu-link-icon {
+        max-height: 36px;
+        max-width: 36px;
+        margin-right: 0.75rem;
+  
+        &.menu-link-sub-icon {
+          max-width: 24px;
+          max-height: 24px;
+        }
+      }
+  
+      & > span {
+        align-self: center;
+      }
+    }
+  }
