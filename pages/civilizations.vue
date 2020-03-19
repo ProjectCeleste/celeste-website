@@ -105,7 +105,7 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  background-image: url("~assets/img/background_8.webp");
+  background-image: url("~assets/img/background_20.webp");
 }
 
 .civ-icon {
