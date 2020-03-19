@@ -36,16 +36,31 @@
               <p class="content">
                 {{ matchedCiv.description }}
               </p>
+
+              <p class="content has-text-centered">
+                <nuxt-link
+                  :to="'/civilizations/' + matchedCiv.name.toLowerCase()"
+                  class="button is-primary has-text-ashley"
+                >
+                  Read more
+                </nuxt-link>
+
+                <button class="button is-primary has-text-ashley" @click="init">
+                  Try again
+                </button>
+              </p>
               <div>
                 <b-collapse :open="false">
-                  <span slot="header">Your profile</span>
+                  <span slot="header">
+                    See how you scored for every civilization
+                  </span>
                   <div slot="content">
                     <b-progress
-                      v-for="(s, civ) in score"
+                      v-for="(s, civ) in sortedScores"
                       :key="civ"
                       :img="civs[civ].icon"
                       :value="s"
-                      :max="total"
+                      :max="maxScore"
                       :title="civs[civ].name"
                       class="is-marginless"
                     />
@@ -88,9 +103,9 @@ export default {
         e: 0, // Egypt
         c: 0, // Celts
         p: 0, // Persia
+        r: 0, // Roman
         b: 0, // Babylon
-        n: 0, // Norse
-        r: 0 // Roman
+        n: 0 // Norse
       }
     }
   },
@@ -102,11 +117,31 @@ export default {
       }
       return total
     },
-    matchedCiv() {
-      const max = Object.keys(this.score).reduce((m, k) => {
+    sortedScores() {
+      const ordered = {}
+      Object.keys(this.score)
+        .sort((a, b) =>
+          this.score[a] > this.score[b]
+            ? -1
+            : this.score[b] > this.score[a]
+            ? 1
+            : 0
+        )
+        .forEach(key => {
+          ordered[key] = this.score[key]
+        })
+      return ordered
+    },
+    maxCiv() {
+      return Object.keys(this.score).reduce((m, k) => {
         return this.score[k] > this.score[m] ? k : m
       }, "g")
-      return this.civs[max]
+    },
+    maxScore() {
+      return this.score[this.maxCiv]
+    },
+    matchedCiv() {
+      return this.civs[this.maxCiv]
     }
   },
   beforeMount() {
@@ -172,6 +207,20 @@ export default {
           this.transitioning = false
         }, 500)
       })
+    },
+    init() {
+      this.currentQuestion = 0
+      this.currentStep = 0
+      this.transitioning = false
+      this.score = {
+        g: 0, // Greek
+        e: 0, // Egypt
+        c: 0, // Celts
+        p: 0, // Persia
+        r: 0, // Roman
+        b: 0, // Babylon
+        n: 0 // Norse
+      }
     }
   }
 }
