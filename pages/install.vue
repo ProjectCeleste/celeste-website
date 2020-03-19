@@ -466,6 +466,18 @@
                 </a>
                 , and if you use another one refer to his documentation.
               </p>
+
+              <p class="content">
+                If you have trouble playing coop or pvp, read
+                <a
+                  href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  this guide
+                </a>
+                .
+              </p>
             </div>
           </div>
         </div>
