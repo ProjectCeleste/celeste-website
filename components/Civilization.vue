@@ -87,6 +87,8 @@ export default {
 
   & > div > img {
     margin-left: 0.75rem;
+    width: 64px;
+    height: 64px;
   }
 }
 
@@ -95,8 +97,8 @@ export default {
   text-align: center;
 
   img {
-    width: 100%;
-    max-width: 251px;
+    width: 251px;
+    height: 135px;
   }
 }
 </style>
