@@ -63,6 +63,7 @@
                       :max="maxScore"
                       :title="civs[civ].name"
                       class="is-marginless"
+                      @click.native="navigateToCiv(civ)"
                     />
                   </div>
                 </b-collapse>
@@ -221,6 +222,11 @@ export default {
         b: 0, // Babylon
         n: 0 // Norse
       }
+    },
+    navigateToCiv(civ) {
+      this.$router.push({
+        path: "/civilizations/" + this.civs[civ].name.toLowerCase()
+      })
     }
   }
 }
@@ -252,5 +258,9 @@ export default {
 
 .steps-container {
   margin-top: 1.25rem;
+}
+
+.b-progress:hover {
+  cursor: pointer;
 }
 </style>

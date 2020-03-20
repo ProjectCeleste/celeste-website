@@ -1,5 +1,7 @@
 <template>
-  <div class="columns is-variable is-1 b-progress is-vcentered is-mobile">
+  <div
+    class="b-progress columns is-variable is-1 b-progress is-vcentered is-mobile"
+  >
     <div v-if="img" class="column is-narrow is-vcentered">
       <img class="b-progress-img" :src="img" />
     </div>
