@@ -236,12 +236,18 @@ export default {
 }
 
 .civ-shield {
-  max-height: 45px;
+  height: 45px;
+  width: 45px;
   margin-right: 0.5rem;
 
   + span {
     line-height: 45px;
   }
+}
+
+.quiz-result-character {
+  width: 321px;
+  height: 308px;
 }
 
 .steps-container {
