@@ -15,6 +15,15 @@
       giving them a clear answer to anything thrown at them. They are a great
       first choice for any beginner.
     </p>
+    <p class="content">
+      Use the Greeks' mighty Hoplites to tank in the frontlines while your
+      Gastraphetes, Ballistas and other Ranged units rain death on your
+      opponent.
+    </p>
+    <p class="content">
+      Use Hippikons to flank enemy backlines and take out their key units in
+      battle.
+    </p>
   </civilization>
 </template>
 
@@ -29,7 +38,11 @@ export default {
         "Pop Efficient (Strong in the lategame)",
         "Quick to advance in Technology"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Mobility",
+        "Lategame Economy Strength",
+        "No access to early healing"
+      ],
       keyUnits: [
         {
           name: "Hoplite",

@@ -1,19 +1,28 @@
 <template>
   <civilization
     name="Persians"
-    subtitle="Perfect for beginners"
+    subtitle="Versatility and Lategame Power"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/persia/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The Persians use Toggle Techs, which are a unique mechanic that offer
+      powerful bonuses while having a cost in return. Able to be toggled on and
+      off at any moment's notice, they allow the Persians to adjust their
+      stategy on the fly and adapt to any situation.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      Command the powerful Persian Immortals, who posses both a Melee and a
+      Ranged attack and can decimate any Infantry unit in their wake, or the
+      mighty Asabaras, extremely versatile and well-rounded Cavalry units who
+      join the fight as early as Age 2.
+    </p>
+    <p class="content">
+      In the lategame, you have access to War Wagons that can tear enemy Ranged
+      Units to shreds with ease, all while the tanky Sparabara withstand large
+      amounts of punishment at the front lines.
     </p>
   </civilization>
 </template>
@@ -24,25 +33,31 @@ export default {
   data() {
     return {
       strengths: [
-        "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Adaptability",
+        "Strong Ranged Units",
+        "Powerful and mobile Stable Units",
+        "Toggle Techs"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Gold constrained",
+        "Lots of different Production Buildings"
+      ],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Sparabara",
+          img: require("~/assets/img/civ/persia/sparabara.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "Bowman",
+          img: require("~/assets/img/civ/persia/bowman.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Asabara",
+          img: require("~/assets/img/civ/persia/asabara.png")
+        },
+        {
+          name: "Immortal",
+          img: require("~/assets/img/civ/persia/immortal.png")
         }
       ]
     }

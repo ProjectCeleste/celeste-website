@@ -1,19 +1,26 @@
 <template>
   <civilization
     name="Norse"
-    subtitle="Perfect for beginners"
+    subtitle="Constant Aggression"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/norse/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The Norse make an epic return from Age of Mythology. Many of the mechanics
+      players remember from the Norse in Age of Mythology are back - such as
+      being able to construct Military Buildings with your Infantry Units and
+      always being on the offensive.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      The Norse also have access to War Dogs, fast, mobile Units that cost no
+      population (but have a Build Limit) that can greatly slow down enemy
+      Units, allowing your Army to catch up and send them to their demise.
+    </p>
+    <p class="content">
+      When playing the Norse, you will find that you will always be in control
+      of the map. Use your map control wisely to secure yourself an advantage!
     </p>
   </civilization>
 </template>
@@ -24,25 +31,35 @@ export default {
   data() {
     return {
       strengths: [
-        "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Extremely Aggressive",
+        "Map Control in the early game",
+        "War Dogs",
+        "Ability to construct Military Buildings with Infantry",
+        "Access to two Scouts",
+        "Lots of Barracks Units"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Low Health",
+        "Lack of powerful lategame Siege Units",
+        "Sustained fights",
+        "No access to early healing"
+      ],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Throwing Axeman",
+          img: require("~/assets/img/civ/norse/throwing_axeman.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "Raider",
+          img: require("~/assets/img/civ/norse/raider.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Berserker",
+          img: require("~/assets/img/civ/norse/berserker.png")
+        },
+        {
+          name: "Chief",
+          img: require("~/assets/img/civ/norse/chief.png")
         }
       ]
     }

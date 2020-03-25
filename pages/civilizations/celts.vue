@@ -1,19 +1,23 @@
 <template>
   <civilization
     name="Celts"
-    subtitle="Perfect for beginners"
+    subtitle="High Octane Gameplay"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/celt/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The Celts offer a unique gameplay experience unlike any other civilization
+      by their incredibly strong Infantry Units and powerful Druids - who heal
+      friendly units in battle and giving them a damage boost while doing so -
+      and their ability to get temporary boosts through ritual animal
+      sacrifices.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      Even though their Unit roster may have more holes in it than any other
+      civilization, their brute force and frightening mobility makes for a
+      potentially risky but very rewarding experience.
     </p>
   </civilization>
 </template>
@@ -24,25 +28,30 @@ export default {
   data() {
     return {
       strengths: [
-        "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Fast age up",
+        "Raiding and early game strength",
+        "Strong Infantry",
+        "High Mobility",
+        "High Damage",
+        "Sustained fights"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: ["Low Health", "Lack of powerful lategame Siege Units"],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Long Swordsman",
+          img: require("~/assets/img/civ/celt/swordsman.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "Druid",
+          img: require("~/assets/img/civ/celt/druid.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Woad Raider",
+          img: require("~/assets/img/civ/celt/woadraider.png")
+        },
+        {
+          name: "Champion",
+          img: require("~/assets/img/civ/celt/champion.png")
         }
       ]
     }

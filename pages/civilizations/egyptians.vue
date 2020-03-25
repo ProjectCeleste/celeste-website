@@ -1,19 +1,25 @@
 <template>
   <civilization
     name="Egyptians"
-    subtitle="Perfect for beginners"
+    subtitle="Powerful Elephants and Strength in Numbers"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/egypt/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The most notable difference between Egyptians and other civilizations is
+      their age-up and empowerment mechanics. They are able to age up by
+      building Temples instead of researching a technology in their Town Center.
+      Each of those temples provide them with unique and powerful priests that
+      can be used for economic, military and utility purposes.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      They have access to powerful War Elephants and Elephant Archers in their
+      Fortress and their barracks units are cheap and very quick to produce.
+      Just when you thought you've won against the Egyptians, another stampede
+      of powerful Elephants, Slingers, Axemen and Spearmen come swarming your
+      way.
     </p>
   </civilization>
 </template>
@@ -24,25 +30,30 @@ export default {
   data() {
     return {
       strengths: [
-        "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Cheap, easy to replace Barracks Units",
+        "Cost efficient Units",
+        "Map Control in the early game",
+        "Able to keep training Villagers while aging up",
+        "Powerful and flexible Priest Units"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Pop inefficient Barracks Units",
+        "Somewhat vulnerable in the very early game",
+        "Expensive Elephants that are costly to replace"
+      ],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
+        { name: "Axeman", img: require("~/assets/img/civ/egypt/axeman.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Priestess of Ra",
+          img: require("~/assets/img/civ/egypt/priestess_of_ra.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "War Elephant",
+          img: require("~/assets/img/civ/egypt/war_elephant.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Chariot Archer",
+          img: require("~/assets/img/civ/egypt/chariot_archer.png")
         }
       ]
     }

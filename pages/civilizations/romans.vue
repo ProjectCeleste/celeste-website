@@ -1,19 +1,30 @@
 <template>
   <civilization
     name="Romans"
-    subtitle="Perfect for beginners"
+    subtitle="Quality over Quantity"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/roman/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The Romans bring a new aspect to Age of Empires Online - Officers.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      Officers are powerful, semi-heroic Units that greatly impact battles and
+      increase the effectiveness of your other Units. Having Officers in your
+      army can quickly make the difference between a decisive victory and a
+      crushing defeat.
+    </p>
+    <p class="content">
+      The Romans are fairly well-rounded, like their Greek counterparts, but are
+      also generally more expensive and even more bottle-necked by their
+      Economy.
+    </p>
+    <p class="content">
+      Utilize Roman Engineers to greatly speed up Building construction while
+      your Villagers spend more time gathering resources rather than
+      constructing Buildings.
     </p>
   </civilization>
 </template>
@@ -24,25 +35,34 @@ export default {
   data() {
     return {
       strengths: [
+        "Officers",
+        "Very strong Siege Units",
         "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Lategame Military Strength",
+        "Pop Efficient (Strong in the lategame)"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Mobility",
+        "Lategame Economy Strength",
+        "Expensive Units",
+        "No access to early healing"
+      ],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Legionary",
+          img: require("~/assets/img/civ/roman/legionary.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "Centurion",
+          img: require("~/assets/img/civ/roman/centurion.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Scorpio",
+          img: require("~/assets/img/civ/roman/scorpio.png")
+        },
+        {
+          name: "Onager",
+          img: require("~/assets/img/civ/roman/onager.png")
         }
       ]
     }

@@ -1,19 +1,24 @@
 <template>
   <civilization
     name="Babylonians"
-    subtitle="Perfect for beginners"
+    subtitle="Economic Juggernaut"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
     :img="require('~/assets/img/civ/babylon/civ.webp')"
   >
     <p class="content">
-      The Greeks are the generalist civilization of Age of Empires Online.
+      The Babylonians are unique in that they have access to the Ox Cart - a
+      mobile storehouse that follows your Villagers around, eliminating the need
+      to constantly replace storehouses, saving you lots of resources and
+      greatly boosting your Economy.
     </p>
     <p class="content">
-      Their gameplay is very straightforward and rock-paper-scissor oriented,
-      giving them a clear answer to anything thrown at them. They are a great
-      first choice for any beginner.
+      Even though the Babylonians have access to a Military on par with other
+      civilizations, you will find yourself securing an advantage and winning
+      the game when utilizing their incredibly powerful Economic upgrades and
+      their Gardens, which reduce the training and research time of all
+      Buildings while also granting you a trickle of Food.
     </p>
   </civilization>
 </template>
@@ -24,25 +29,34 @@ export default {
   data() {
     return {
       strengths: [
-        "Well-rounded Military",
-        "Hard Counter Units",
-        "Pop Efficient (Strong in the lategame)",
-        "Quick to advance in Technology"
+        "Ox Carts",
+        "Very powerful Economy",
+        "Gardens",
+        "Cheap Wooden Walls that can be upgraded later",
+        "Versatile Stable Units",
+        "Sustained fights and constantly trading Armies"
       ],
-      weaknesses: ["Mobility", "Lategame Economy Strength"],
+      weaknesses: [
+        "Fairly weak Navy",
+        "Ox Carts can be difficult to replace over long distances",
+        "Expensive Gardens that are costly to replace"
+      ],
       keyUnits: [
-        { name: "Hoplite", img: require("~/assets/img/civ/greek/hoplite.png") },
         {
-          name: "Gastraphetes",
-          img: require("~/assets/img/civ/greek/gastra.png")
+          name: "Shield Bearer",
+          img: require("~/assets/img/civ/babylon/shield_bearer.png")
         },
         {
-          name: "Hippikon",
-          img: require("~/assets/img/civ/greek/hippikon.png")
+          name: "Lancer",
+          img: require("~/assets/img/civ/babylon/lancer.png")
         },
         {
-          name: "Ballista",
-          img: require("~/assets/img/civ/greek/ballista.png")
+          name: "Mounted Archer",
+          img: require("~/assets/img/civ/babylon/mounted_archer.png")
+        },
+        {
+          name: "Siege Tower",
+          img: require("~/assets/img/civ/babylon/siege_tower.png")
         }
       ]
     }
