@@ -91,7 +91,6 @@
 
 <script>
 export default {
-  // TODO responsiveness, group with dropdowns?
   name: "BNavbar",
   data() {
     return {

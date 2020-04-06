@@ -94,6 +94,8 @@ export default {
 
   .community-icon {
     max-width: 150px;
+    max-height: 150px;
+    height: 150px;
     width: 100%;
     margin: auto;
   }
