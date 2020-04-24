@@ -1,5 +1,5 @@
 <template>
-  <div ref="root" class="question">
+  <div ref="root" class="question is-flex is-flex-column">
     <div class="is-flex is-centered content">
       <img src="https://via.placeholder.com/450x200" class="question-img" />
     </div>
@@ -104,6 +104,10 @@ export default {
 
 .question-img {
   max-width: 100%;
+}
+
+.field {
+  align-self: center;
 }
 
 @media screen and (min-width: $tablet) {

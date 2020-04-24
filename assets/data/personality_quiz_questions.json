@@ -1,194 +1,278 @@
 [
-    {
-        "id": 0,
-        "title": "How experienced are you playing the Age of Empires series and Strategy games in general?",
-        "options": [
-            {
-                "title": "Not experienced at all",
-                "score": {
-                    "g": 10,
-                    "e": 9,
-                    "c": 8,
-                    "p": 5,
-                    "r": 7,
-                    "b": 1,
-                    "n": 1
-                }
-            },
-            {
-                "title": "Somewhat experienced",
-                "score": {
-                    "g": 7,
-                    "e": 6,
-                    "c": 5,
-                    "p": 4,
-                    "r": 7,
-                    "b": 2,
-                    "n": 1
-                }
-            },
-            {
-                "title": "Very experienced",
-                "score": {
-                    "g": 0,
-                    "e": 1,
-                    "c": 2,
-                    "p": 5,
-                    "r": 3,
-                    "b": 10,
-                    "n": 10
-                }
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "title": "Which one of these sentences sounds more like you?",
-        "options": [
-            {
-                "title": "I like to stay in my base, gather my forces, build a big army and then move out.",
-                "score": {
-                    "g": 10,
-                    "e": 8,
-                    "c": 1,
-                    "p": 7,
-                    "r": 8,
-                    "b": 7,
-                    "n": 1
-                }
-            },
-            {
-                "title": "I like to be active on the map, putting pressure on the enemy while building up my forces.",
-                "score": {
-                    "g": 1,
-                    "e": 5,
-                    "c": 10,
-                    "p": 7,
-                    "r": 3,
-                    "b": 4,
-                    "n": 10
-                }
-            },
-            {
-                "title": "I am super active with my units and like to attack early and often.",
-                "score": {
-                    "g": 1,
-                    "e": 7,
-                    "c": 10,
-                    "p": 5,
-                    "r": 1,
-                    "b": 3,
-                    "n": 10
-                }
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Military, Economy or Technology?",
-        "options": [
-            {
-                "title": "Military",
-                "score": {
-                    "g": 7,
-                    "e": 7,
-                    "c": 8,
-                    "p": 7,
-                    "r": 10,
-                    "b": 6,
-                    "n": 9
-                }
-            },
-            {
-                "title": "Economy",
-                "score": {
-                    "g": 4,
-                    "e": 9,
-                    "c": 4,
-                    "p": 8,
-                    "r": 2,
-                    "b": 10,
-                    "n": 4
-                }
-            },
-            {
-                "title": "Technology",
-                "score": {
-                    "g": 8,
-                    "e": 8,
-                    "c": 2,
-                    "p": 6,
-                    "r": 4,
-                    "b": 10,
-                    "n": 2
-                }
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "title": "What kind of army do you prefer the most?",
-        "options": [
-            {
-                "title": "Advanced Siege engines and slower moving units with a tankline in front.",
-                "score": {
-                    "g": 9,
-                    "e": 8,
-                    "c": 2,
-                    "p": 8,
-                    "r": 10,
-                    "b": 8,
-                    "n": 2
-                }
-            },
-            {
-                "title": "Lots of Cavalry and other mounted units.",
-                "score": {
-                    "g": 1,
-                    "e": 7,
-                    "c": 4,
-                    "p": 10,
-                    "r": 5,
-                    "b": 8,
-                    "n": 4
-                }
-            },
-            {
-                "title": "A big group of Archers that can attack from a distance.",
-                "score": {
-                    "g": 9,
-                    "e": 2,
-                    "c": 8,
-                    "p": 10,
-                    "r": 4,
-                    "b": 2,
-                    "n": 2
-                }
-            },
-            {
-                "title": "Priests to convert enemy units and a tankline to protect them.",
-                "score": {
-                    "g": 2,
-                    "e": 8,
-                    "c": 2,
-                    "p": 9,
-                    "r": 5,
-                    "b": 10,
-                    "n": 2
-                }
-            },
-            {
-                "title": "Groups of Infantry that can move around the map and deal lots of damage quickly",
-                "score": {
-                    "g": 1,
-                    "e": 7,
-                    "c": 10,
-                    "p": 6,
-                    "r": 9,
-                    "b": 2,
-                    "n": 10
-                }
-            }
-        ]
-    }
+  {
+    "id": 0,
+    "title": "How experienced are you playing the Age of Empires series and Strategy games in general?",
+    "options": [
+      {
+        "title": "Not experienced at all",
+        "score": {
+          "g": 10,
+          "e": 9,
+          "c": 8,
+          "p": 5,
+          "r": 8,
+          "b": 1,
+          "n": 1
+        }
+      },
+      {
+        "title": "Somewhat experienced",
+        "score": {
+          "g": 7,
+          "e": 6,
+          "c": 5,
+          "p": 4,
+          "r": 6,
+          "b": 2,
+          "n": 1
+        }
+      },
+      {
+        "title": "Very experienced",
+        "score": {
+          "g": 0,
+          "e": 1,
+          "c": 2,
+          "p": 3,
+          "r": 5,
+          "b": 10,
+          "n": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Which one of these sentences sounds more like you?",
+    "options": [
+      {
+        "title": "I like to stay in my base, gather my forces, build a big army and then move out.",
+        "score": {
+          "g": 10,
+          "e": 8,
+          "c": 1,
+          "p": 7,
+          "r": 8,
+          "b": 7,
+          "n": 1
+        }
+      },
+      {
+        "title": "I like to be active on the map, putting pressure on the enemy while building up my forces.",
+        "score": {
+          "g": 1,
+          "e": 5,
+          "c": 10,
+          "p": 7,
+          "r": 3,
+          "b": 4,
+          "n": 10
+        }
+      },
+      {
+        "title": "I am super active with my units and like to attack early and often.",
+        "score": {
+          "g": 1,
+          "e": 7,
+          "c": 10,
+          "p": 5,
+          "r": 1,
+          "b": 3,
+          "n": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Military, Economy or Technology?",
+    "options": [
+      {
+        "title": "Military",
+        "score": {
+          "g": 7,
+          "e": 7,
+          "c": 8,
+          "p": 7,
+          "r": 10,
+          "b": 6,
+          "n": 9
+        }
+      },
+      {
+        "title": "Economy",
+        "score": {
+          "g": 4,
+          "e": 9,
+          "c": 4,
+          "p": 8,
+          "r": 2,
+          "b": 10,
+          "n": 4
+        }
+      },
+      {
+        "title": "Technology",
+        "score": {
+          "g": 8,
+          "e": 8,
+          "c": 2,
+          "p": 6,
+          "r": 4,
+          "b": 10,
+          "n": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "What kind of army do you prefer the most?",
+    "options": [
+      {
+        "title": "Advanced Siege engines and slower moving units with a tankline in front.",
+        "score": {
+          "g": 9,
+          "e": 8,
+          "c": 2,
+          "p": 8,
+          "r": 10,
+          "b": 8,
+          "n": 2
+        }
+      },
+      {
+        "title": "Lots of Cavalry and other mounted units.",
+        "score": {
+          "g": 1,
+          "e": 7,
+          "c": 4,
+          "p": 10,
+          "r": 5,
+          "b": 8,
+          "n": 4
+        }
+      },
+      {
+        "title": "A big group of Archers that can attack from a distance.",
+        "score": {
+          "g": 9,
+          "e": 2,
+          "c": 8,
+          "p": 10,
+          "r": 4,
+          "b": 2,
+          "n": 2
+        }
+      },
+      {
+        "title": "Priests to convert enemy units and a tankline to protect them.",
+        "score": {
+          "g": 2,
+          "e": 8,
+          "c": 2,
+          "p": 7,
+          "r": 5,
+          "b": 7,
+          "n": 2
+        }
+      },
+      {
+        "title": "Groups of Infantry that can move around the map and deal lots of damage quickly",
+        "score": {
+          "g": 1,
+          "e": 7,
+          "c": 10,
+          "p": 6,
+          "r": 4,
+          "b": 2,
+          "n": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Which one of these playstyles sounds more fun to you?",
+    "options": [
+      {
+        "title": "Big, expensive units that take a long time to train but are stronger and deal more damage.",
+        "score": {
+          "g": 8,
+          "e": 8,
+          "c": 4,
+          "p": 8,
+          "r": 10,
+          "b": 7,
+          "n": 8
+        }
+      },
+      {
+        "title": "Fast, cheap and quickly trained units that die fast but can be easily replaced (a swarm of units)",
+        "score": {
+          "g": 1,
+          "e": 10,
+          "c": 9,
+          "p": 7,
+          "r": 1,
+          "b": 10,
+          "n": 3
+        }
+      },
+      {
+        "title": "A balanced approach to both unit strength and cost.",
+        "score": {
+          "g": 3,
+          "e": 3,
+          "c": 2,
+          "p": 8,
+          "r": 1,
+          "b": 4,
+          "n": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Do you enjoy using mechanics that are unique to a civilization and aren't present in others?",
+    "options": [
+      {
+        "title": "Yes",
+        "score": {
+          "g": 1,
+          "e": 7,
+          "c": 8,
+          "p": 8,
+          "r": 7,
+          "b": 9,
+          "n": 10
+        }
+      },
+      {
+        "title": "Somewhat",
+        "score": {
+          "g": 1,
+          "e": 3,
+          "c": 2,
+          "p": 2,
+          "r": 3,
+          "b": 1,
+          "n": 5
+        }
+      },
+      {
+        "title": "No",
+        "score": {
+          "g": 10,
+          "e": 3,
+          "c": 5,
+          "p": 6,
+          "r": 5,
+          "b": 1,
+          "n": 1
+        }
+      }
+    ]
+  }
 ]
