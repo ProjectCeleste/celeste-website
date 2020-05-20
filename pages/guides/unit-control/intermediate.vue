@@ -81,6 +81,23 @@
 
 <script>
 export default {
-  transition: "fade"
+  transition: "fade",
+  head() {
+    return {
+      title: "Intermediate Unit Control - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Intermediate Unit Control - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Intermediate Unit Control - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>

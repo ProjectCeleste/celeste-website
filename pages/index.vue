@@ -211,7 +211,24 @@
 <script>
 export default {
   name: "HomePage",
-  transition: "fade"
+  transition: "fade",
+  head() {
+    return {
+      title: "Age Of Empires Online - Project Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Age Of Empires Online - Project Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Age Of Empires Online - Project Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>
 

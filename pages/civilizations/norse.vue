@@ -63,6 +63,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "The Norse - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "The Norse - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "The Norse - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

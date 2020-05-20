@@ -12,7 +12,24 @@
 <script>
 export default {
   transition: "fade",
-  scrollToTop: true
+  scrollToTop: true,
+  head() {
+    return {
+      title: "Leaderboard - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Leaderboard - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Leaderboard - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>
 

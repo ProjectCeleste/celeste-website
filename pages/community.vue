@@ -80,6 +80,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "Community Sites - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Community Sites - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Community Sites - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

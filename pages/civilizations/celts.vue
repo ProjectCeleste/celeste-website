@@ -55,6 +55,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "The Celts - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "The Celts - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "The Celts - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

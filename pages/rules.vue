@@ -42,6 +42,23 @@ export default {
         `If you feel like you recieved a ban by mistake, you may pm one Moderator in our discord and your account can be placed under review. Do NOT pm the lead devs about this, or multiple moderators. If the moderator has not responded to you within 24 hours, you may then message a different mod.`
       ]
     }
+  },
+  head() {
+    return {
+      title: "Rules - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Rules - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Rules - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

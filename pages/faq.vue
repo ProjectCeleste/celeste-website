@@ -105,6 +105,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "FAQ - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "FAQ - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "FAQ - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

@@ -72,6 +72,23 @@
 
 <script>
 export default {
-  transition: "fade"
+  transition: "fade",
+  head() {
+    return {
+      title: "Basic Questions - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Basic Questions - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Basic Questions - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>

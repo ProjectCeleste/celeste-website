@@ -66,6 +66,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "The Romans - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "The Romans - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "The Romans - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

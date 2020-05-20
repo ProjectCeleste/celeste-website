@@ -490,7 +490,24 @@
 export default {
   name: "Install",
   transition: "fade",
-  scrollToTop: true
+  scrollToTop: true,
+  head() {
+    return {
+      title: "Install - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Install - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Install - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>
 

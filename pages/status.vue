@@ -58,6 +58,23 @@ export default {
   scrollToTop: true,
   components: {
     "status-item": StatusItem
+  },
+  head() {
+    return {
+      title: "Status - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Status - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Status - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

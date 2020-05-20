@@ -228,6 +228,23 @@ export default {
         path: "/civilizations/" + this.civs[civ].name.toLowerCase()
       })
     }
+  },
+  head() {
+    return {
+      title: "Personality Test - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Personality Test - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Personality Test - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>

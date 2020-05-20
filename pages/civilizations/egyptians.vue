@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import ogImage from "@/assets/img/civ/egypt_character.png"
+
 export default {
   transition: "fade",
   data() {
@@ -54,6 +56,23 @@ export default {
         {
           name: "Chariot Archer",
           img: require("~/assets/img/civ/egypt/chariot_archer.png")
+        }
+      ]
+    }
+  },
+  head() {
+    return {
+      title: "The Egyptians - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "The Egyptians - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "The Egyptians - Age Of Empires Online Celeste"
         }
       ]
     }

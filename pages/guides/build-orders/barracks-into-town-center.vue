@@ -107,6 +107,26 @@
 
 <script>
 export default {
-  transition: "fade"
+  transition: "fade",
+  head() {
+    return {
+      title:
+        "Barracks Into Town Center Build Order - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content:
+            "Barracks Into Town Center Build Order - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content:
+            "Barracks Into Town Center Build Order - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>

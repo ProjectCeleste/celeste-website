@@ -1,5 +1,11 @@
+const OG_IMAGE = "/img/logo_roman.png"
+const BASE_URL = process.env.BASE_URL || "http://localhost:3000"
+
 export default {
   mode: "universal",
+  env: {
+    baseUrl: BASE_URL
+  },
   /*
    ** Headers of the page
    */
@@ -18,31 +24,38 @@ export default {
         rel: "og:site_name",
         content: "Age of Empires Online - Project Celeste"
       },
-      { rel: "og:title", content: "Age of Empires Online - Project Celeste" },
+      {
+        hid: "og:title",
+        rel: "og:title",
+        content: "Age of Empires Online - Project Celeste"
+      },
       { rel: "og:type", content: "website" },
       {
+        hid: "og:description",
         rel: "og:description",
         content:
           "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
       },
       {
+        hid: "og:image",
         rel: "og:image",
-        content: "https://www.projectceleste.com/assets/meta/512.png",
-        crossorigin: "anonymous"
-      }, // TODO change og icon
+        content: BASE_URL + OG_IMAGE
+      },
       {
+        hid: "twitter:title",
         rel: "twitter:title",
         content: "Age of Empires Online - Project Celeste"
       },
       {
+        hid: "twitter:description",
         rel: "twitter:description",
         content:
           "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
       },
       {
+        hid: "twitter:image:src",
         rel: "twitter:image:src",
-        content: "https://www.projectceleste.com/assets/meta/512.png",
-        crossorigin: "anonymous"
+        content: BASE_URL + OG_IMAGE
       },
       { rel: "twitter:card", content: "summary" }
     ],

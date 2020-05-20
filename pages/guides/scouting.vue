@@ -91,6 +91,23 @@
 
 <script>
 export default {
-  transition: "fade"
+  transition: "fade",
+  head() {
+    return {
+      title: "Scouting - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Scouting - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Scouting - Age Of Empires Online Celeste"
+        }
+      ]
+    }
+  }
 }
 </script>

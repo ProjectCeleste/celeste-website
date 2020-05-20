@@ -61,6 +61,23 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: "The Persians - Age Of Empires Online Celeste",
+      meta: [
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "The Persians - Age Of Empires Online Celeste"
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "The Persians - Age Of Empires Online Celeste"
+        }
+      ]
+    }
   }
 }
 </script>
