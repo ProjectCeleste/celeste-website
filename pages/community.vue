@@ -55,7 +55,7 @@ export default {
         },
         {
           title: "Youtube",
-          url: "https://www.youtube.com/channel/UC5gS69ffCAeqvJrqWvlnZgg",
+          url: "https://www.youtube.com/c/ProjectCeleste",
           icon: require("~/assets/img/community/YoutubeLogo.webp")
         },
         {

@@ -17,8 +17,8 @@
       crushing defeat.
     </p>
     <p class="content">
-      The Romans are fairly well-rounded, like their Greek counterparts, but are
-      also generally more expensive and even more bottle-necked by their
+      The Romans Units are fairly well-rounded, like their Greek counterparts,
+      but are also generally more expensive and even more bottle-necked by their
       Economy.
     </p>
     <p class="content">

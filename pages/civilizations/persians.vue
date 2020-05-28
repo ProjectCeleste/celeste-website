@@ -14,7 +14,7 @@
       stategy on the fly and adapt to any situation.
     </p>
     <p class="content">
-      Command the powerful Persian Immortals, who posses both a Melee and a
+      Command the powerful Persian Immortals, who possess both a Melee and a
       Ranged attack and can decimate any Infantry unit in their wake, or the
       mighty Asabaras, extremely versatile and well-rounded Cavalry units who
       join the fight as early as Age 2.

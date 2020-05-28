@@ -55,7 +55,7 @@ export default {
       questions: [
         {
           title: "What is Age of Empires Online?",
-          content: `<p>Age of Empires Online is the next evolution in the best-selling real-time strategy (RTS) franchise Age of Empires. Developed by Microsoft Game Studios for the Games for Windows – LIVE platform, Age of Empires Online invites players to create a living, growing online world, shared with friends and friendly rivals around the world. Marrying fresh features with classic RTS gameplay, Age of Empires Online pays tribute to the original game while incorporating a new look, feel, and approach that appeals to long-time fans, newcomers, and everyone in between.</p>`
+          content: `<p>Age of Empires Online is the next evolution in the best-selling real-time strategy (RTS) franchise Age of Empires. Developed by Microsoft Game Studios, Age of Empires Online invites players to create a living, growing online world, shared with friends and friendly rivals around the world. Marrying fresh features with classic RTS gameplay, Age of Empires Online pays tribute to the original game while incorporating a new look, feel, and approach that appeals to long-time fans, newcomers, and everyone in between.</p>`
         },
         {
           title: "Is it really free to play?",

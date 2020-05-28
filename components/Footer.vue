@@ -62,7 +62,7 @@
       <div class="column is-narrow">
         <a
           class="social-media-link youtube"
-          href="https://www.youtube.com/channel/UC5gS69ffCAeqvJrqWvlnZgg"
+          href="https://www.youtube.com/c/ProjectCeleste"
           rel="nofollow"
           target="_blank"
           title="Youtube"
