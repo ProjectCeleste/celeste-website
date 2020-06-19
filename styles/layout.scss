@@ -32,7 +32,6 @@
 }
 
 .main-content {
-
   & > .section {
     margin-top: 0;
     min-height: calc(100vh - #{$navbar-height});
@@ -57,20 +56,6 @@
 
 .column.reverse {
   flex-direction: column-reverse;
-}
-
-.video-background {
-  position: absolute;
-  overflow: hidden;
-  z-index: 0;
-
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
 }
 
 ul {

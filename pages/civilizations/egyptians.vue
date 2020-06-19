@@ -25,8 +25,6 @@
 </template>
 
 <script>
-import ogImage from "@/assets/img/civ/egypt_character.png"
-
 export default {
   transition: "fade",
   data() {
