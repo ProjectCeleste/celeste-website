@@ -1,7 +1,7 @@
 <template>
   <div class="column">
     <h4 class="title is-4 has-text-centered has-text-white guide-title">
-      Welcome to the guides!
+      Welcome!
     </h4>
 
     <div class="guide-banner content home-banner" />
