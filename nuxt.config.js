@@ -21,43 +21,43 @@ export default {
           "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
       },
       {
-        rel: "og:site_name",
+        property: "og:site_name",
         content: "Age of Empires Online - Project Celeste"
       },
       {
         hid: "og:title",
-        rel: "og:title",
+        propery: "og:title",
         content: "Age of Empires Online - Project Celeste"
       },
-      { rel: "og:type", content: "website" },
+      { property: "og:type", content: "website" },
       {
         hid: "og:description",
-        rel: "og:description",
+        property: "og:description",
         content:
           "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
       },
       {
         hid: "og:image",
-        rel: "og:image",
+        property: "og:image",
         content: BASE_URL + OG_IMAGE
       },
       {
         hid: "twitter:title",
-        rel: "twitter:title",
+        property: "twitter:title",
         content: "Age of Empires Online - Project Celeste"
       },
       {
         hid: "twitter:description",
-        rel: "twitter:description",
+        property: "twitter:description",
         content:
           "A fan-made community server that brings the excellent Age of Empires Online back to life! Complete co-op quests with your friends or challenge their skills in the PvP arena. Join the community and participate in tournaments or gain high level gear in co-op quests!"
       },
       {
         hid: "twitter:image:src",
-        rel: "twitter:image:src",
+        property: "twitter:image:src",
         content: BASE_URL + OG_IMAGE
       },
-      { rel: "twitter:card", content: "summary" }
+      { property: "twitter:card", content: "summary" }
     ],
     link: [
       {

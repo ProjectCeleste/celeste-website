@@ -49,12 +49,12 @@ export default {
       meta: [
         {
           hid: "og:title",
-          name: "og:title",
+          propery: "og:title",
           content: "Rules - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          name: "twitter:title",
+          propery: "twitter:title",
           content: "Rules - Age Of Empires Online Celeste"
         }
       ]

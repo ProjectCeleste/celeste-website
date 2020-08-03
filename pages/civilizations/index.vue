@@ -6,22 +6,22 @@
 export default {
   transition: "fade",
   meta: {
-    defaultRoute: "basic"
+    defaultRoute: "greeks"
   },
   middleware: ["redirect"],
   head() {
     return {
-      title: "Unit Control - Age Of Empires Online Celeste",
+      title: "Civilizations - Age Of Empires Online Celeste",
       meta: [
         {
           hid: "og:title",
           propery: "og:title",
-          content: "Unit Control - Age Of Empires Online Celeste"
+          content: "Civilizations - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
           propery: "twitter:title",
-          content: "Unit Control - Age Of Empires Online Celeste"
+          content: "Civilizations - Age Of Empires Online Celeste"
         }
       ]
     }

@@ -115,13 +115,13 @@ export default {
       meta: [
         {
           hid: "og:title",
-          name: "og:title",
+          propery: "og:title",
           content:
             "Barracks Into Town Center Build Order - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          name: "twitter:title",
+          propery: "twitter:title",
           content:
             "Barracks Into Town Center Build Order - Age Of Empires Online Celeste"
         }

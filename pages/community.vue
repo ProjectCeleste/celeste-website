@@ -87,12 +87,12 @@ export default {
       meta: [
         {
           hid: "og:title",
-          name: "og:title",
+          propery: "og:title",
           content: "Community Sites - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          name: "twitter:title",
+          propery: "twitter:title",
           content: "Community Sites - Age Of Empires Online Celeste"
         }
       ]

@@ -1,7 +1,5 @@
 <template>
-  <guide-section base="/guides/fundamentals" title="Fundamentals">
-    <nuxt-child />
-  </guide-section>
+  <div></div>
 </template>
 
 <script>
@@ -17,12 +15,12 @@ export default {
       meta: [
         {
           hid: "og:title",
-          name: "og:title",
+          propery: "og:title",
           content: "Fundamentals - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          name: "twitter:title",
+          propery: "twitter:title",
           content: "Fundamentals - Age Of Empires Online Celeste"
         }
       ]

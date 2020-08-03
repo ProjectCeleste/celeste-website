@@ -1,7 +1,5 @@
 <template>
-  <guide-section base="/guides/economy" title="Economy">
-    <div></div>
-  </guide-section>
+  <div></div>
 </template>
 
 <script>
@@ -17,12 +15,12 @@ export default {
       meta: [
         {
           hid: "og:title",
-          name: "og:title",
+          propery: "og:title",
           content: "Economy - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          name: "twitter:title",
+          propery: "twitter:title",
           content: "Economy - Age Of Empires Online Celeste"
         }
       ]

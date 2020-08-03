@@ -95,11 +95,7 @@
 
 <script>
 export default {
-  transition: "fade",
-  meta: {
-    defaultRoute: "greeks"
-  },
-  middleware: ["redirect"]
+  transition: "fade"
 }
 </script>
 
