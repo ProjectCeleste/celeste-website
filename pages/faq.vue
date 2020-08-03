@@ -85,7 +85,7 @@ export default {
         },
         {
           title: "How is downloadable content released?",
-          content: `<p>All new downloadable content will be available to all players automatically with new Patches.</p>`
+          content: `<p>All new downloadable content will be available for free to all players automatically with new Patches.</p>`
         },
         {
           title: "What civilizations are available to play?",
@@ -93,7 +93,7 @@ export default {
         },
         {
           title: "What is the Capital City? How does it work?",
-          content: `<p>The Capital City is your civilization’s home base and where you’ll start building your new empire! By utilizing blueprints you find throughout your campaign, as well as vanity items that can be earned, you can customize your Capital City as you see fit. Blueprints will allow you to build new stores, training halls, historic monuments, gardens, and so much more wherever you see fit. And since your Capital City lives online it will continue to gather resources even when you aren’t logged in! Other players are also able to visit your city while you’re offline and purchase items from your stores.</p>`
+          content: `<p>The Capital City is your civilization’s home base and where you’ll start building your new empire! By utilizing blueprints you find throughout your campaign, as well as vanity items that can be earned, you can customize your Capital City as you see fit. Blueprints will allow you to build new stores, training halls, historic monuments, gardens, and so much more wherever you see fit. And since your Capital City lives online it will continue to gather resources even when you aren’t logged in!</p>` // Other players are also able to visit your city while you’re offline and purchase items from your stores.
         },
         {
           title: "Will there be consequences for not playing?",
@@ -101,7 +101,7 @@ export default {
         },
         {
           title: "Where can I find additional help?",
-          content: `<p>Please <a href="https://discord.gg/pkM2RAm" rel="nofollow" target="_blank">join us on discord</a>.</p>`
+          content: `<p>Please <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">join us on discord</a>.</p>`
         }
       ]
     }
