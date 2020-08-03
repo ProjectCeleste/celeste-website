@@ -1,4 +1,4 @@
-const OG_IMAGE = "/img/logo_roman.png"
+const OG_IMAGE = "/img/og_logo_roman.png"
 const BASE_URL = process.env.BASE_URL || "http://localhost:3000"
 
 export default {
@@ -40,6 +40,14 @@ export default {
         hid: "og:image",
         property: "og:image",
         content: BASE_URL + OG_IMAGE
+      },
+      {
+        property: "og:image:width",
+        content: "400"
+      },
+      {
+        property: "og:image:height",
+        content: "400"
       },
       {
         hid: "twitter:title",
