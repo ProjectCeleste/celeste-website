@@ -240,7 +240,7 @@
                     rel="nofollow"
                     target="_blank"
                   >
-                    Celeste_Launcher_Gui.zip
+                    CelesteLauncher.zip
                   </a>
                 </li>
                 <li>
