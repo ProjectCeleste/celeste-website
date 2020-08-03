@@ -1,8 +1,5 @@
 <template>
   <div ref="root" class="question is-flex is-flex-column">
-    <div class="is-flex is-centered content">
-      <img src="https://via.placeholder.com/450x200" class="question-img" />
-    </div>
     <h4 class="subtitle has-text-white has-text-centered">
       {{ question.title }}
     </h4>
