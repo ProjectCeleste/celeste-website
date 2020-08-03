@@ -133,13 +133,13 @@ export default {
       meta: [
         {
           hid: "og:title",
-          propery: "og:title",
+          property: "og:title",
           content:
             "Town Center First Build Order - Age Of Empires Online Celeste"
         },
         {
           hid: "twitter:title",
-          propery: "twitter:title",
+          property: "twitter:title",
           content:
             "Town Center First Build Order - Age Of Empires Online Celeste"
         }

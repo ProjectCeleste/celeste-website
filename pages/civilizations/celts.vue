@@ -62,12 +62,18 @@ export default {
       meta: [
         {
           hid: "og:title",
-          propery: "og:title",
+          property: "og:title",
           content: "The Celts - Age Of Empires Online Celeste"
         },
         {
+          hid: "og:url",
+          property: "og:url",
+          content:
+            (process.env.BASE_URL || "http://localhost:3000") + this.$route.path
+        },
+        {
           hid: "twitter:title",
-          propery: "twitter:title",
+          property: "twitter:title",
           content: "The Celts - Age Of Empires Online Celeste"
         }
       ]

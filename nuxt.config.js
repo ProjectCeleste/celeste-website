@@ -26,7 +26,7 @@ export default {
       },
       {
         hid: "og:title",
-        propery: "og:title",
+        property: "og:title",
         content: "Age of Empires Online - Project Celeste"
       },
       { property: "og:type", content: "website" },
