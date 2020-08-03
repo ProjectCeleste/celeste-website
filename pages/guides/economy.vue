@@ -1,5 +1,5 @@
 <template>
-  <guide-section base="/guides/economy" title="Unit Control">
+  <guide-section base="/guides/economy" title="Economy">
     <nuxt-child />
   </guide-section>
 </template>
