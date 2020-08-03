@@ -456,13 +456,13 @@
                 If you have any issue to connect to server with the game and/or
                 "Celeste Launcher" you need to allow "Spartan.exe" and "Celeste
                 Launcher.exe" in your firewall. If you use the default Windows
-                firewall follow this
+                Firewall follow this
                 <a
                   href="https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/"
                   rel="nofollow"
                   target="_blank"
                 >
-                  guide (By howtogeek.com)
+                  guide (by howtogeek.com)
                 </a>
                 , and if you use another one refer to his documentation.
               </p>
@@ -518,5 +518,6 @@ export default {
 
 .monospace {
   color: $color--lighter;
+  font-weight: bold;
 }
 </style>
