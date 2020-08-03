@@ -270,9 +270,9 @@
                   ")
                 </li>
                 <li>
-                  <b>3:</b> Now search in game folder the executable
-                  "Celeste_Launcher_Gui" you just copied, right click on it then
-                  "Copy To &gt; Desktop (Shortcut)".
+                  <b>3:</b> Now search in game folder the executable "Celeste
+                  Launcher" you just copied, right click on it then "Copy To
+                  &gt; Desktop (Shortcut)".
                 </li>
               </ul>
               <p class="content">
@@ -454,9 +454,9 @@
 
               <p class="content">
                 If you have any issue to connect to server with the game and/or
-                "Celeste Launcher Gui" you need to allow "Spartan.exe" and
-                "Celeste_Launcher_Gui.exe" in your firewall. If you use the
-                default Windows firewall follow this
+                "Celeste Launcher" you need to allow "Spartan.exe" and "Celeste
+                Launcher.exe" in your firewall. If you use the default Windows
+                firewall follow this
                 <a
                   href="https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/"
                   rel="nofollow"
