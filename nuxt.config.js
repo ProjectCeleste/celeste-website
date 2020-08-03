@@ -2,7 +2,6 @@ const OG_IMAGE = "/img/og_logo_roman.png"
 const BASE_URL = process.env.BASE_URL || "http://localhost:3000"
 
 export default {
-  target: "static",
   mode: "universal",
   env: {
     baseUrl: BASE_URL
