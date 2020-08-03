@@ -248,7 +248,7 @@
                   all the content of the zip archive in a folder and copy it in
                   the same folder has the game was installed, overwrite all
                   existing file if system ask you (If you have used Steam to
-                  install the game the good folder will be "
+                  install the game the default folder will be "
                   <span class="monospace">
                     C:\Program Files\Steam\steamapps\common\Age Of Empires
                     Online
@@ -277,9 +277,9 @@
               </ul>
               <p class="content">
                 <b>Note:</b> If you used Steam to install the game then click on
-                the Hammer in the launcher and then "Helpers &gt; Steam". After
-                executing the steam integration you can the launcher the game
-                with steam.
+                the Settings icon in the launcher and then "Helpers &gt; Steam".
+                After finishing the Steam integration process, you can start the
+                launcher via Steam.
               </p>
             </div>
 
@@ -514,5 +514,9 @@ export default {
 <style lang="scss" scoped>
 .section {
   background-image: url("~assets/img/background_11.jpg");
+}
+
+.monospace {
+  color: $color--lighter;
 }
 </style>
