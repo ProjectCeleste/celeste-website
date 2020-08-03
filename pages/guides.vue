@@ -22,7 +22,7 @@
                   </nuxt-link>
                 </li>
               </ul>
-              <p class="menu-label">
+              <!-- <p class="menu-label">
                 PvE
               </p>
               <ul class="menu-list">
@@ -31,7 +31,7 @@
                 <li><a>Crafting</a></li>
                 <li><a>Workshops</a></li>
                 <li><a>Warehouses</a></li>
-              </ul>
+              </ul> -->
               <p class="menu-label">
                 PvP
               </p>
