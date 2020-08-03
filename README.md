@@ -12,6 +12,7 @@ $ npm install
 $ npm run dev
 
 # build for production and launch server
+$ export BASE_URL=https://www.projectceleste.com
 $ npm run build
 $ npm run start
 
