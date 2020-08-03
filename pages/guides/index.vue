@@ -56,7 +56,8 @@ export default {
         {
           hid: "og:url",
           property: "og:url",
-          content: (process.env.BASE_URL || "http://localhost:3000") + this.$route.path
+          content:
+            (process.env.BASE_URL || "http://localhost:3000") + this.$route.path
         },
         {
           hid: "twitter:title",

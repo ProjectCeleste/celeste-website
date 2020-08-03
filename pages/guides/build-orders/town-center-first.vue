@@ -138,6 +138,12 @@ export default {
             "Town Center First Build Order - Age Of Empires Online Celeste"
         },
         {
+          hid: "og:url",
+          property: "og:url",
+          content:
+            (process.env.BASE_URL || "http://localhost:3000") + this.$route.path
+        },
+        {
           hid: "twitter:title",
           property: "twitter:title",
           content:

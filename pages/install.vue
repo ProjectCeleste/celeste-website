@@ -286,11 +286,10 @@
             <div class="column">
               <h4
                 id="play_aoeo_celeste_fan_project"
-                class="subtitle is-4 has-text-gold"
+                class="title is-4 has-text-gold"
               >
                 3: Play AOEO Celeste Fan Project
               </h4>
-
               <h5
                 id="play_aoeo_celeste_fan_project_using_celeste_launcher"
                 class="subtitle is-5 has-text-grey-lighter"
