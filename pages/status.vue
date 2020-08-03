@@ -23,8 +23,9 @@
             <div class="column">
               <status-item
                 title="Game Server"
-                health="https://api.projectceleste.com/status"
+                health="https://api.projectceleste.com/gamedb/favicon.ico"
               />
+              <!-- TODO game server status: get a more accurate source -->
               <status-item
                 title="Forums"
                 url="https://forums.projectceleste.com"
