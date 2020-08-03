@@ -298,7 +298,7 @@
               </h5>
               <ul class="content">
                 <li>
-                  <b>1</b>: Launch "Celeste Launcher Gui" by using the shorcut
+                  <b>1</b>: Launch "Celeste Launcher.exe" by using the shorcut
                   on your desktop created during previous step
                   <a
                     v-scroll-to="{
@@ -336,7 +336,7 @@
               <ul class="content">
                 <li>
                   <b>1</b>: You need to be already registered, if not use
-                  "Celeste Launcher Gui" to do it.
+                  "Celeste Launcher.exe" to do it.
                 </li>
                 <li>
                   <b>2</b>: Navigate to your game folder and create an shortcut
@@ -361,7 +361,7 @@
 
               <p class="content">
                 Follow these steps if you have any issue to run the game and/or
-                "Celeste Launcher Gui".
+                "Celeste Launcher.exe".
               </p>
               <ul class="content">
                 <li>

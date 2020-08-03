@@ -62,6 +62,11 @@ export default {
           content: `<p>Yes, Age of Empires Online is entirely free to play!</p>`
         },
         {
+          title:
+            "Is it Pay to Win? Does my Level and Gear matter when playing PvP?",
+          content: `<p>Absolutely not! Level and Gear only matters when playing against the AI. When playing against real players, those will only provide a visual upgrade for units and have absolutely no effects on Stats whatsoever.</p>`
+        },
+        {
           title: "Is there a subscription fee?",
           content: `<p>No, there are no subscription fees to play Age of Empires Online.</p>`
         },
