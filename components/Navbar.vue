@@ -106,11 +106,12 @@ export default {
             {
               title: "Guides",
               to: { name: "guides" }
-            },
-            {
-              title: "Marketplace",
-              to: { name: "marketplace" }
             }
+            // {
+            //   title: "Marketplace",
+            //   to: { name: "marketplace" }
+            // }
+            // TODO re-enable marketplace page
           ]
         },
         {
@@ -131,18 +132,20 @@ export default {
         {
           title: "Community",
           items: [
-            {
-              title: "Players",
-              to: { name: "players" }
-            },
+            // {
+            //   title: "Players",
+            //   to: { name: "players" }
+            // },
+            // TODO re-enable players page
             {
               title: "Personality Test",
               to: { name: "personality-test" }
             },
-            {
-              title: "Leaderboard",
-              to: { name: "leaderboard" }
-            },
+            // {
+            //   title: "Leaderboard",
+            //   to: { name: "leaderboard" }
+            // },
+            // TODO re-enable leaderboard page
             {
               title: "Community sites",
               to: { name: "community" }
