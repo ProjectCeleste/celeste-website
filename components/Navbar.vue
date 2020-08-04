@@ -97,6 +97,19 @@ export default {
       showNav: false,
       itemsStart: [
         {
+          title: "Play!",
+          items: [
+            {
+              title: "Install",
+              to: { name: "install" }
+            },
+            {
+              title: "Rules",
+              to: { name: "rules" }
+            }
+          ]
+        },
+        {
           title: "Game",
           items: [
             {
@@ -113,6 +126,31 @@ export default {
             // }
             // TODO re-enable marketplace page
           ]
+        }
+      ],
+      itemsEnd: [
+        {
+          title: "Community",
+          items: [
+            {
+              title: "Community sites",
+              to: { name: "community" }
+            },
+            // {
+            //   title: "Players",
+            //   to: { name: "players" }
+            // },
+            // TODO re-enable players page
+            {
+              title: "Personality Test",
+              to: { name: "personality-test" }
+            }
+            // {
+            //   title: "Leaderboard",
+            //   to: { name: "leaderboard" }
+            // },
+            // TODO re-enable leaderboard page
+          ]
         },
         {
           title: "Support",
@@ -124,44 +162,6 @@ export default {
             {
               title: "FAQ",
               to: { name: "faq" }
-            }
-          ]
-        }
-      ],
-      itemsEnd: [
-        {
-          title: "Community",
-          items: [
-            // {
-            //   title: "Players",
-            //   to: { name: "players" }
-            // },
-            // TODO re-enable players page
-            {
-              title: "Personality Test",
-              to: { name: "personality-test" }
-            },
-            // {
-            //   title: "Leaderboard",
-            //   to: { name: "leaderboard" }
-            // },
-            // TODO re-enable leaderboard page
-            {
-              title: "Community sites",
-              to: { name: "community" }
-            }
-          ]
-        },
-        {
-          title: "Play!",
-          items: [
-            {
-              title: "Install",
-              to: { name: "install" }
-            },
-            {
-              title: "Rules",
-              to: { name: "rules" }
             }
           ]
         }
