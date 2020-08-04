@@ -6,6 +6,17 @@
     <div id="parallax-layer-3" ref="layer3" class="parallax-layer" />
     <div id="parallax-layer-4" ref="layer4" class="parallax-layer" />
     <div id="parallax-layer-5" ref="layer5" class="parallax-layer" />
+    <div class="scroll-indicator has-text-centered">
+      <p class="is-marginless has-text-grey-lighter">
+        More
+      </p>
+      <b-icon
+        icon="chevron-down"
+        size="is-large"
+        icon-size="mdi-48px"
+        type="has-text-gold"
+      />
+    </div>
   </section>
 </template>
 
@@ -43,8 +54,18 @@ export default {
 }
 </script>
 
+<style lang="scss">
+.scroll-indicator {
+  .mdi::before {
+    font-size: 4rem !important;
+    text-shadow: 2px 0 2px #192b33;
+  }
+}
+</style>
+
 <style lang="scss" scoped>
 .parallax-container {
+  position: relative;
   min-height: 100vh;
   max-height: 100vh;
   margin-top: -$navbar-height;
@@ -58,6 +79,19 @@ export default {
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
+  }
+
+  .scroll-indicator {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+
+    p {
+      font-size: 90%;
+      margin-bottom: -0.5rem !important;
+      text-shadow: 2px 0 2px #192b33;
+    }
   }
 }
 
