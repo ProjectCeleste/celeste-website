@@ -180,6 +180,9 @@ export default {
   img {
     border: 2px solid #afa588;
     border-radius: 15px;
+
+    width: 219px;
+    height: 119px;
   }
 }
 

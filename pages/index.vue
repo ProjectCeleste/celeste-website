@@ -252,6 +252,18 @@ export default {
   justify-content: center;
   padding: 4rem 0;
   background-color: $color--darker--opaque;
+
+  img {
+    height: 55px;
+  }
+  @media screen and (max-width: $tablet - 1px) {
+    & {
+      padding: 2rem 0;
+    }
+    img {
+      height: 25px;
+    }
+  }
 }
 
 .columns:not(:last-child) {
@@ -290,11 +302,13 @@ export default {
 }
 
 .civ-icon img {
-  max-width: 128px;
+  width: 128px;
+  height: 128px;
 
   @media screen and (max-width: $tablet - 1px) {
     & {
-      max-width: 64px;
+      width: 64px;
+      height: 64px;
     }
   }
 }
