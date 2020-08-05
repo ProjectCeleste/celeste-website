@@ -298,8 +298,10 @@ $logo-width: 160px;
   }
 
   .logo {
-    max-height: $logo-height;
-    max-width: $logo-width;
+    height: $logo-height;
+    width: $logo-width;
+    min-height: $logo-height;
+    min-width: $logo-width;
   }
 }
 </style>

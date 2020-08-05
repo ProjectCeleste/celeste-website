@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Ashley Crawford MT";
   src: url("/fonts/AshleyCrawfordMT-Bold.woff2") format("woff2"),
-    url("/fonts/AshleyCrawfordMT-Bold.woff") format("woff"),
-    local('Times New Roman'), local('Nimbus Roman');
+    url("/fonts/AshleyCrawfordMT-Bold.woff") format("woff"), local("Times New Roman"), local("Nimbus Roman");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arimo&display=swap");
 
-::-moz-selection, ::selection {
-  background: rgba( $color--selection, .7 );
+::-moz-selection,
+::selection {
+  background: rgba($color--selection, 0.7);
 }
 
 a {
@@ -28,8 +28,14 @@ a {
   }
 }
 
-.content, .menu, .button {
-  font-family: 'Arimo', 'Calibri', 'Carlito', sans-serif;
+.content,
+.menu,
+.button {
+  font-family: "Arimo", "Calibri", "Carlito", sans-serif;
+}
+
+.mdi::before {
+  font-family: "Material Design Icons", "Arimo", "Calibri", "Carlito", sans-serif !important;
 }
 
 .content {
@@ -43,13 +49,16 @@ a {
   font-size: 90%;
 }
 
-.title, .subtitle {
-  font-family: 'Ashley Crawford MT', 'Times New Roman', 'Arimo', sans-serif;
+.title,
+.subtitle {
+  font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
   text-shadow: 2px 0 2px #192b33;
 }
 
-.has-text-ashley, .menu-label, .tabs a {
-  font-family: 'Ashley Crawford MT', 'Times New Roman', 'Arimo', sans-serif;
+.has-text-ashley,
+.menu-label,
+.tabs a {
+  font-family: "Ashley Crawford MT", "Times New Roman", "Arimo", sans-serif;
 }
 
 .has-text-gold {
@@ -82,7 +91,8 @@ a {
 }
 
 @media screen and (max-width: $tablet - 1) {
-  .title, .subtitle {
+  .title,
+  .subtitle {
     @each $size in $sizes {
       $i: index($sizes, $size);
       &.is-#{$i} {
@@ -96,10 +106,10 @@ a {
       width: $icon-dimensions-large * 0.75;
       height: $icon-dimensions-large * 0.75;
 
-      .mdi-48px.mdi-set, .mdi-48px.mdi::before {
+      .mdi-48px.mdi-set,
+      .mdi-48px.mdi::before {
         font-size: 48px * 0.75;
       }
     }
   }
-  
 }
