@@ -224,12 +224,6 @@ $logo-width: 160px;
           background-color: rgba($color--darker--opaque, 0.92) !important;
         }
       }
-
-      .navbar-dropdown {
-        .navbar-item {
-          padding-right: 1rem;
-        }
-      }
     }
   }
 
@@ -253,6 +247,12 @@ $logo-width: 160px;
     .navbar-end {
       justify-content: flex-start;
       margin-left: $logo-width / 2;
+    }
+
+    .navbar-dropdown {
+      .navbar-item {
+        padding-right: 1rem;
+      }
     }
   }
 
