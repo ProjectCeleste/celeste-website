@@ -19,7 +19,7 @@
         <div class="card-content">
           <div class="columns is-multiline">
             <div class="column is-full">
-              <div class="columns is-centered">
+              <div class="columns is-centered is-multiline">
                 <div class="column is-4-desktop is-6-tablet is-12">
                   <a
                     class="button is-primary is-medium is-fullwidth"
