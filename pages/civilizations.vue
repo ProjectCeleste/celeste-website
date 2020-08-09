@@ -21,7 +21,7 @@
                   class="is-flex is-flex-column is-centered"
                 >
                   <img src="~/assets/img/civ/greek.webp" class="civ-icon" />
-                  <span>Greek</span>
+                  <span>Greeks</span>
                 </nuxt-link>
               </li>
               <li>
