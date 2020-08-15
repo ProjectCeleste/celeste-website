@@ -23,7 +23,7 @@
             </p>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 1 Pic.webp" />
             <p class="content">
@@ -49,7 +49,7 @@
             </p>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 2 Pic.webp" />
             <p class="content">
@@ -82,7 +82,7 @@
             </p>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G3/Tip 3 Pic.webp" />
             <p class="content">
@@ -104,19 +104,19 @@
       <div
         class="column is-narrow is-flex is-flex-column is-hidden-touch is-flex-space-evenly"
       >
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G3/Tip 1 Pic.webp" />
           <p class="content">
             1. Build your Dock
           </p>
         </div>
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G3/Tip 2 Pic.webp" />
           <p class="content">
             2. Use your Dock as a dropoff
           </p>
         </div>
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G3/Tip 3 Pic.webp" />
           <p class="content">
             3. Start training Fishing Boats

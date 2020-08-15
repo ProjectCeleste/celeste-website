@@ -26,7 +26,7 @@
           it!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G3/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -60,7 +60,7 @@
           find out more about Control Group Hotkeys.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G3/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -81,7 +81,7 @@
           yourself and your opponent.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G3/Tip 3 Pic.webp" />
       </div>
     </div>

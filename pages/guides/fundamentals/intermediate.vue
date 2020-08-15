@@ -12,7 +12,7 @@
           Building, such as a Town Center, or a Fortress.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G2/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -29,7 +29,7 @@
           Wood stockpiled? Make some more Military Buildings!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G2/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -47,7 +47,7 @@
           much higher quality army. Research them as soon as possible!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G2/Tip 3 Pic.webp" />
       </div>
     </div>

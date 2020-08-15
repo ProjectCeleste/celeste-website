@@ -12,7 +12,7 @@
           Gloves.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G1/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -29,7 +29,7 @@
           efficient Wood gathering.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G1/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -50,7 +50,7 @@
           than them.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G1/Tip 3 Pic.webp" />
       </div>
     </div>

@@ -25,7 +25,7 @@
           against what your opponent has is the key to victory!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G1/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -44,7 +44,7 @@
           attack the enemy and not stand idle at the back.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G1/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -70,7 +70,7 @@
           Bowman Type units.)
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G1/Tip 3 Pic.webp" />
       </div>
     </div>

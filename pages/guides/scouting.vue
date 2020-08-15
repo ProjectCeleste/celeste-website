@@ -16,7 +16,7 @@
           Villagers so that you have one on each Huntable animal.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 7/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -37,7 +37,7 @@
           your next decisions. Keep on Scouting!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 7/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -60,7 +60,7 @@
           prepared for a Tower Rush.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 7/Tip 3 Pic.webp" />
       </div>
     </div>
@@ -82,7 +82,7 @@
           Watch Posts. Preparation is key!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 7/Tip 4 Pic.webp" />
       </div>
     </div>

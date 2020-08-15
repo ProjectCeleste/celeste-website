@@ -181,8 +181,19 @@ export default {
     border: 2px solid #afa588;
     border-radius: 15px;
 
-    width: 219px;
-    height: 119px;
+    width: 215px;
+  }
+
+  &.guide-img-f1 img {
+    height: 115px; // basic questions, early game tips, scouting
+  }
+
+  &.guide-img-f2 img {
+    height: 113px; // build orders
+  }
+
+  &.guide-img-f3 img {
+    height: 138px; // fundamentals, unit control, economy
   }
 }
 
