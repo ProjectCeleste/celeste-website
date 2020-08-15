@@ -23,7 +23,7 @@
             </ul>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 1 Pic.webp" />
             <p class="content">
@@ -51,7 +51,7 @@
             </ul>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 2 Pic.webp" />
             <p class="content">
@@ -82,7 +82,7 @@
             </ul>
           </div>
           <div
-            class="column is-narrow guide-img is-visible-touch is-hidden-desktop"
+            class="column is-narrow guide-img guide-img-f2 is-visible-touch is-hidden-desktop"
           >
             <img src="~/assets/img/guides/Tab 3/G2/Tip 3 Pic.webp" />
             <p class="content">
@@ -101,19 +101,19 @@
       <div
         class="column is-narrow is-flex is-flex-column is-hidden-touch is-flex-space-evenly"
       >
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G2/Tip 1 Pic.webp" />
           <p class="content">
             1. Start with your Hunt
           </p>
         </div>
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G2/Tip 2 Pic.webp" />
           <p class="content">
             2. Start mining Stone
           </p>
         </div>
-        <div class="guide-img">
+        <div class="guide-img guide-img-f2">
           <img src="~/assets/img/guides/Tab 3/G2/Tip 3 Pic.webp" />
           <p class="content">
             3. Build your Town Center

@@ -11,7 +11,7 @@
           gather from more than one resource Type at a time!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G3/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -43,7 +43,7 @@
           it.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G3/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -72,7 +72,7 @@
           defense.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G3/Tip 3 Pic.webp" />
       </div>
     </div>

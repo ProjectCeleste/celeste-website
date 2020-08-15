@@ -29,7 +29,7 @@
               </nuxt-link>
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div class="column is-narrow guide-img guide-img-f2">
             <img src="~/assets/img/guides/Tab 3/G1/Tip 2 Pic.webp" />
           </div>
         </div>
@@ -53,7 +53,7 @@
               </nuxt-link>
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div class="column is-narrow guide-img guide-img-f2">
             <img src="~/assets/img/guides/Tab 3/G2/Tip 3 Pic.webp" />
           </div>
         </div>
@@ -77,7 +77,7 @@
               </nuxt-link>
             </p>
           </div>
-          <div class="column is-narrow guide-img">
+          <div class="column is-narrow guide-img guide-img-f2">
             <img src="~/assets/img/guides/Tab 3/G3/Tip 3 Pic.webp" />
           </div>
         </div>

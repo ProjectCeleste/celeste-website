@@ -12,7 +12,7 @@
           level and everyone plays on equal grounds.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 1/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -30,7 +30,7 @@
           worry!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 1/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -46,7 +46,7 @@
           badges and more! Check the Rewards page for more details.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 1/Tip 3 Pic.webp" />
       </div>
     </div>
@@ -63,7 +63,7 @@
           any questions you might have. We have an awesome community!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 1/Tip 4 Pic.webp" />
       </div>
     </div>

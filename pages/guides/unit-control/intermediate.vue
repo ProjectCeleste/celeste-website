@@ -23,7 +23,7 @@
           Ctrl-Click method which only selects the ones on your screen.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G2/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -48,7 +48,7 @@
           applicable) in your selection.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G2/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -72,7 +72,7 @@
           opponent&apos;s raids.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G2/Tip 3 Pic.webp" />
       </div>
     </div>

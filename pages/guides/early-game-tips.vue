@@ -12,7 +12,7 @@
           own troops and put pressure on your opponent instead.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 4/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -29,7 +29,7 @@
           time to react and escape with your Villagers. Better safe than sorry!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 4/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -46,7 +46,7 @@
           your Scout.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 4/Tip 3 Pic.webp" />
       </div>
     </div>
@@ -67,7 +67,7 @@
           research Picker&apos;s Gloves if you do so!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f1">
         <img src="~/assets/img/guides/Tab 4/Tip 4 Pic.webp" />
       </div>
     </div>

@@ -20,7 +20,7 @@
           groups of enemy Units to get the most out of your Splash Damage Unit.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G3/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -38,7 +38,7 @@
           of pressure from your own front line.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G3/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -62,7 +62,7 @@
           your injured Unit.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 5/G3/Tip 3 Pic.webp" />
       </div>
     </div>

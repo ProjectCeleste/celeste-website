@@ -13,7 +13,7 @@
           your matches.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G1/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -31,7 +31,7 @@
           useless Villagers!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G1/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -49,7 +49,7 @@
           to move your Villagers from one resource type to another!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 2/G1/Tip 3 Pic.webp" />
       </div>
     </div>

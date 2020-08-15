@@ -13,7 +13,7 @@
           income in the long run!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G2/Tip 1 Pic.webp" />
       </div>
     </div>
@@ -30,7 +30,7 @@
           Villager constantly building one House after another.
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G2/Tip 2 Pic.webp" />
       </div>
     </div>
@@ -65,7 +65,7 @@
           resources. Don&apos;t be afraid to move Villagers around!
         </p>
       </div>
-      <div class="column is-narrow guide-img">
+      <div class="column is-narrow guide-img guide-img-f3">
         <img src="~/assets/img/guides/Tab 6/G2/Tip 3 Pic.webp" />
       </div>
     </div>
