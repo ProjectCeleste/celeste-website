@@ -59,8 +59,9 @@
         <p class="content">
           This guide will provide you with everything you need to get started.
           Once you are done reading, you can also visit our Forums, Discord and
-          YouTube channels for additional learning resources. Don&apos;t be ask
-          any questions you might have. We have an awesome community!
+          YouTube channels for additional learning resources. Don&apos;t be
+          afraid to ask any questions you might have. We have an awesome
+          community!
         </p>
       </div>
       <div class="column is-narrow guide-img guide-img-f1">
