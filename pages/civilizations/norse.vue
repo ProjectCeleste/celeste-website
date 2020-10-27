@@ -39,7 +39,6 @@ export default {
         "Lots of Barracks Units"
       ],
       weaknesses: [
-        "Low Health",
         "Lack of powerful lategame Siege Units",
         "Sustained fights",
         "No access to early healing"
