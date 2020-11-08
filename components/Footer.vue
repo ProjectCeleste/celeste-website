@@ -61,6 +61,28 @@
       </div>
       <div class="column is-narrow">
         <a
+          class="social-media-link twitter"
+          href="https://twitter.com/AgeofEmpiresOn1"
+          rel="nofollow"
+          target="_blank"
+          title="Twitter"
+        >
+          <b-icon icon="twitter" icon-size="mdi-48px" size="is-large" />
+        </a>
+      </div>
+      <div class="column is-narrow">
+        <a
+          class="social-media-link instagram"
+          href="https://www.instagram.com/aoeo_projectceleste/"
+          rel="nofollow"
+          target="_blank"
+          title="Instagram"
+        >
+          <b-icon icon="instagram" icon-size="mdi-48px" size="is-large" />
+        </a>
+      </div>
+      <div class="column is-narrow">
+        <a
           class="social-media-link youtube"
           href="https://www.youtube.com/c/ProjectCeleste"
           rel="nofollow"

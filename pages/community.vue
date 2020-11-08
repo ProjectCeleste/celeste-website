@@ -1,7 +1,7 @@
 <template>
   <section class="section is-vcentered">
     <div class="container">
-      <div class="columns is-multiline">
+      <div class="columns is-multiline is-centered">
         <div
           v-for="(link, index) in links"
           :key="index"
@@ -51,7 +51,17 @@ export default {
         {
           title: "Facebook",
           url: "https://www.facebook.com/ProjectCelesteAoEO",
-          icon: require("~/assets/img/community/Facebook_Logo.webp")
+          icon: require("~/assets/img/community/FB_Logo.webp")
+        },
+        {
+          title: "Twitter",
+          url: "https://twitter.com/AgeofEmpiresOn1",
+          icon: require("~/assets/img/community/Twitter_Logo.webp")
+        },
+        {
+          title: "Instagram",
+          url: "https://www.instagram.com/aoeo_projectceleste/",
+          icon: require("~/assets/img/community/Insta_Logo.webp")
         },
         {
           title: "Youtube",

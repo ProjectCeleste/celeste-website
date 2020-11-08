@@ -1,22 +1,22 @@
 @import "~bulma/sass/utilities/_all";
 
-$primary: rgba(178, 0, 3, 0.90);
+$primary: rgba(178, 0, 3, 0.9);
 $primary-invert: findColorInvert($primary);
 
-$secondary: rgba(126, 21, 23, 0.90);
-$tertiary: rgba(176, 36, 38, 0.90);
+$secondary: rgba(126, 21, 23, 0.9);
+$tertiary: rgba(176, 36, 38, 0.9);
 $tertiary-invert: findColorInvert($tertiary);
 $info: $tertiary;
 
 $color--gold: #ffd400;
 $color--darker--opaque: #252019;
-$color--darker: rgba($color--darker--opaque,0.95);
+$color--darker: rgba($color--darker--opaque, 0.95);
 $color--darker--active: darken($color--darker--opaque, 5%);
-$color--dark: rgba(60,39,14,0.9);
-$color--medium: rgb(129,93,50);
-$color--lightish: rgb(175,130,74);
-$color--light: rgba(190,157,116,0.9);
-$color--lighter: rgba(218,180,133,0.9);
+$color--dark: rgba(60, 39, 14, 0.9);
+$color--medium: rgb(129, 93, 50);
+$color--lightish: rgb(175, 130, 74);
+$color--light: rgba(190, 157, 116, 0.9);
+$color--lighter: rgba(218, 180, 133, 0.9);
 $color--lighter-invert: findColorInvert($color--lighter);
 
 $color--epic: #b04bdf;
@@ -29,6 +29,8 @@ $color--youtube: #ff0000;
 $color--reddit: #ff4500;
 $color--twitch: #9146ff;
 $color--discord: #7289da;
+$color--twitter: #52a8e7;
+$color--instagram: #d62977;
 $color--forums: $tertiary;
 
 $body-background-color: #ffd398;
@@ -39,48 +41,48 @@ $negative: #ff0000;
 $colors: (
   "white": (
     $white,
-    $black
+    $black,
   ),
   "black": (
     $black,
-    $white
+    $white,
   ),
   "light": (
     $light,
-    $light-invert
+    $light-invert,
   ),
   "dark": (
     $dark,
-    $dark-invert
+    $dark-invert,
   ),
   "primary": (
     $primary,
-    $primary-invert
+    $primary-invert,
   ),
   "info": (
     $info,
-    $info-invert
+    $info-invert,
   ),
   "success": (
     $success,
-    $success-invert
+    $success-invert,
   ),
   "warning": (
     $warning,
-    $warning-invert
+    $warning-invert,
   ),
   "danger": (
     $danger,
-    $danger-invert
+    $danger-invert,
   ),
   "positive": (
     $positive,
-    $positive
+    $positive,
   ),
   "negative": (
     $negative,
-    $negative
-  )
+    $negative,
+  ),
 );
 
 // Links
