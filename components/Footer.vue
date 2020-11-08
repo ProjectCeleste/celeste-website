@@ -62,7 +62,7 @@
       <div class="column is-narrow">
         <a
           class="social-media-link twitter"
-          href="https://twitter.com/AgeofEmpiresOn1"
+          href="http://twitter.com/aoeoceleste"
           rel="nofollow"
           target="_blank"
           title="Twitter"

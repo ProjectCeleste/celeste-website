@@ -55,7 +55,7 @@ export default {
         },
         {
           title: "Twitter",
-          url: "https://twitter.com/AgeofEmpiresOn1",
+          url: "http://twitter.com/aoeoceleste",
           icon: require("~/assets/img/community/Twitter_Logo.webp")
         },
         {
