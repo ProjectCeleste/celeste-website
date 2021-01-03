@@ -40,7 +40,9 @@ export default {
     description: { type: String, default: undefined },
     url: { type: String, default: undefined },
     health: { type: String, required: true },
-    updateInterval: { type: Number, default: 1000 * 60 * 2 }
+    updateInterval: { type: Number, default: 1000 * 60 * 2 },
+    method: { type: String, default: "HEAD" },
+    ignoreBody: { type: Boolean, default: false }
   },
   data() {
     return {
@@ -69,25 +71,49 @@ export default {
           this.loading = false
           switch (xhttp.status) {
             case 200:
-              this.icon = "check-bold"
-              this.status = 0
-              this.statusTitle = "Up"
+              if (this.ignoreBody) {
+                this.setUp()
+                break
+              }
+              try {
+                const health = JSON.parse(xhttp.responseText)
+                if (health.isHealthy !== undefined) {
+                  if (health.isHealthy) {
+                    this.setUp()
+                    break
+                  }
+                }
+                this.setDown()
+              } catch (e) {
+                this.setUp()
+              }
               break
             case (500, 502, 503, 504):
-              this.icon = "close-circle-outline"
-              this.status = 1
-              this.statusTitle = "Down"
+              this.setDown()
               break
             default:
-              this.icon = "wifi-off"
-              this.status = 2
-              this.statusTitle = "Unknown"
+              this.setUnknown()
           }
         }
       }
-      xhttp.open("HEAD", this.health, true)
+      xhttp.open(this.method, this.health, true)
       xhttp.setRequestHeader("Cache-Control", "no-cache")
       xhttp.send()
+    },
+    setUp() {
+      this.icon = "check-bold"
+      this.status = 0
+      this.statusTitle = "Up"
+    },
+    setDown() {
+      this.icon = "close-circle-outline"
+      this.status = 1
+      this.statusTitle = "Down"
+    },
+    setUnknown() {
+      this.icon = "wifi-off"
+      this.status = 2
+      this.statusTitle = "Unknown"
     }
   }
 }

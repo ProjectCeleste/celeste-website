@@ -23,9 +23,9 @@
             <div class="column">
               <status-item
                 title="Game Server"
-                health="https://api.projectceleste.com/gamedb/favicon.ico"
+                health="https://api.projectceleste.com/status/health"
+                method="GET"
               />
-              <!-- TODO game server status: get a more accurate source -->
               <status-item
                 title="Forums"
                 url="https://forums.projectceleste.com"
@@ -39,9 +39,11 @@
               />
               <status-item
                 title="REST API"
-                url="https://api.projectceleste.com/gamedb/docs"
+                url="https://api.projectceleste.com/gamedb/"
                 description="https://api.projectceleste.com"
-                health="https://api.projectceleste.com/gamedb/favicon.ico"
+                health="https://api.projectceleste.com/gamedb/serverprotodata/Gr_Cap_Warehouse01"
+                :ignore-body="true"
+                method="GET"
               />
             </div>
           </div>
