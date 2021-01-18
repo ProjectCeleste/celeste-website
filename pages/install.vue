@@ -90,6 +90,18 @@
                         [OPTION 2] Install the original game without using Steam
                       </nuxt-link>
                     </li>
+                    <li>
+                      <nuxt-link
+                        v-scroll-to="{
+                          el: '#install_on_linux'
+                        }"
+                        :to="{
+                          hash: '#install_on_linux'
+                        }"
+                      >
+                        Install the game on Linux
+                      </nuxt-link>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -223,6 +235,25 @@
                   or you can install the game in a custom location).
                 </li>
               </ul>
+              <h5
+                id="install_on_linux"
+                class="subtitle is-5 has-text-grey-lighter"
+              >
+                Install the game on Linux
+              </h5>
+              <ul class="content">
+                <li>
+                  The game can be played on Linux using the
+                  <a
+                    rel="nofollow"
+                    href="https://lutris.net/games/age-of-empires-online/"
+                    target="_blank"
+                  >
+                    Lutris installer
+                  </a>
+                  .
+                </li>
+              </ul>
             </div>
 
             <div class="column is-full">
@@ -244,42 +275,39 @@
                   </a>
                 </li>
                 <li>
-                  <b>2:</b> Once the download is complete you need to extract
-                  all the content of the zip archive in a folder and copy it in
-                  the same folder has the game was installed, overwrite all
-                  existing file if system ask you (If you have used Steam to
-                  install the game the default folder will be "
-                  <span class="monospace">
-                    C:\Program Files\Steam\steamapps\common\Age Of Empires
-                    Online
-                  </span>
-                  " or "
-                  <span class="monospace">
-                    C:\Program Files (x86)\Steam\steamapps\common\Age Of Empires
-                    Online
-                  </span>
-                  ", and if you have used non-steam installer game will be
-                  located here (by default) "
-                  <span class="monospace">
-                    C:\Program Files\Age Of Empires Online
-                  </span>
-                  " or "
-                  <span class="monospace">
-                    C:\Program Files (x86)\Age Of Empires Online
-                  </span>
-                  ")
+                  <b>2:</b> Once the download is finished you'll need to extract
+                  the .zip file's contents.
+                  <ul class="list-disc">
+                    <li>
+                      If you installed through Steam, extract the files directly
+                      into the "Age Of Empires Online" folder within your steam
+                      library. (By default, this is located in
+                      <span class="monospace">
+                        C:\Program Files (x86)\Steam\steamapps\common\Age Of
+                        Empires Online
+                      </span>
+                      )
+                    </li>
+                    <li>
+                      Otherwise, if you did not use Steam, create a folder in
+                      your Documents folder (Named anything you'd like) and
+                      extract the contents there.
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  <b>3:</b> Now search in game folder the executable "Celeste
-                  Launcher" you just copied, right click on it then "Copy To
-                  &gt; Desktop (Shortcut)".
+                  <b>3:</b> You can create a shortcut to the Celeste Launcher by
+                  right-clicking the Celeste Launcher's executable file then
+                  clicking "Copy To > Desktop (Shortcut)". You will use the
+                  celeste launcher (or that shortcut) to open the game.
                 </li>
               </ul>
               <p class="content">
-                <b>Note:</b> If you used Steam to install the game then click on
-                the Settings icon in the launcher and then "Helpers &gt; Steam".
-                After finishing the Steam integration process, you can start the
-                launcher via Steam.
+                <b>Note:</b> If you used Steam to install the game and want to
+                use Steam to launch the Celeste Launcher correctly, then click
+                on the <b>Hammer Button</b> in the launcher, then "Convert to
+                Steam Game". Steam should now launch the Celeste Launcher
+                instead of the old, original launcher that is broken.
               </p>
             </div>
 

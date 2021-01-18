@@ -64,6 +64,10 @@ ul {
       margin-top: 0 !important;
     }
   }
+
+  &.list-disc {
+    list-style: disc;
+  }
 }
 
 ul.is-marginless {
