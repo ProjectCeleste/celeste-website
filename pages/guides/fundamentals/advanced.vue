@@ -37,7 +37,7 @@
           2. Use Control Groups
         </p>
         <p class="content">
-          Control groups let you select Units or Buildings that curently
+          Control groups let you select Units or Buildings that currently
           aren&apos;t on your screen and learning them will turn you into a much
           better player.
         </p>
@@ -68,10 +68,10 @@
     <div class="columns is-multiline is-centered is-vcentered">
       <div class="column is-12-touch">
         <p class="content title is-5 has-text-gold">
-          3. Watch your Minimap
+          3. Watch your Mini-map
         </p>
         <p class="content">
-          The minimap is an excellent tool to keep an overview of what&apos;s
+          The mini-map is an excellent tool to keep an overview of what&apos;s
           going on in your match. You can see enemy Units moving towards your
           base and prepare your defenses accordingly, always being one step
           ahead of your opponent.
