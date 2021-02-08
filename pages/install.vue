@@ -395,31 +395,17 @@
                 <li>
                   <b>1:</b> Download and install
                   <a
-                    href="http://www.majorgeeks.com/files/details/visual_c_runtime_installer.html"
+                    href="https://aka.ms/vs/16/release/vc_redist.x86.exe"
                     rel="nofollow"
                     target="_blank"
                   >
                     Visual C++ Runtime AIO
                   </a>
-                  <ul>
-                    <li>
-                      (For the AIO Installer, if it asks to reboot, it is not
-                      needed. Also, when you get to
-                      <a
-                        href="https://i.imgur.com/J8QSmR3.png"
-                        rel="nofollow"
-                        target="_blank"
-                      >
-                        this Choice
-                      </a>
-                      , type 'Y' and hit enter)
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <b>2:</b> Download and install
                   <a
-                    href="https://www.microsoft.com/en-US/download/details.aspx?id=35"
+                    href="https://downloads.projectceleste.com/static/dxwebsetup.exe"
                     rel="nofollow"
                     target="_blank"
                   >
