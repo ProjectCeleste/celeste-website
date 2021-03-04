@@ -133,6 +133,10 @@ export default {
           title: "Community",
           items: [
             {
+              title: "The Team",
+              to: { name: "team" }
+            },
+            {
               title: "Community sites",
               to: { name: "community" }
             },
