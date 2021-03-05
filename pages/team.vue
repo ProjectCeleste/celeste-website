@@ -78,7 +78,7 @@ export default {
         },
         {
           name: "Shop Design",
-          names: ["Lukipr0", "Jeinks", "PF2K", "[BBA]Kog"]
+          names: ["Jeinx", "PF2K", "Lukipr0", "[BBA]Kog"]
         },
         {
           name: "Campaign Design",
@@ -147,7 +147,8 @@ export default {
         },
         {
           name: "2d Art",
-          names: ["PF2K and countless original Artists"]
+          note: "PF2K and countless original Artists",
+          names: []
         },
         {
           name: "Sound Directors",
@@ -156,11 +157,11 @@ export default {
         },
         {
           name: "Audio Engineering",
-          names: ["Eamon.G", "Vladan Stančić"]
+          names: ["Vladan Stančić (WeRFury)", "Eamon.G"]
         },
         {
           name: "Music Design",
-          names: ["Vladan Stančić", "Eamon.G"]
+          names: ["Vladan Stančić (WeRFury)", "Eamon.G"]
         },
         {
           name: "Vocals",
@@ -237,7 +238,7 @@ export default {
         },
         {
           name: "Roman Trailer",
-          names: ["Mandy", "Kire", "Andy P XIII"]
+          names: ["Mandy", "Andy P XIII", "Vladan Stančić (WeRFury)", "Kire"]
         },
         {
           name: "Wikipedia Communications",
