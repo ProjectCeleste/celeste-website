@@ -127,7 +127,7 @@ export default {
         },
         {
           name: "3d Modeling Assistance",
-          names: ["PF2K", "Eamon.G"]
+          names: ["PF2K"]
         },
         {
           name: "Rigging",
@@ -173,7 +173,7 @@ export default {
             "Phillus",
             "Taz",
             "Verhuver",
-            "YetAnotherYoutuber",
+            "Jan Zapletal (YetAnotherYoutuber)",
             "Viviana Dragani",
             "Zawnius"
           ]
@@ -191,7 +191,7 @@ export default {
             "Phillus",
             "Servimomia",
             "SystemGlitch",
-            "Zenorhk",
+            "Zenorhk (Zanetti)",
             "Lukipr0"
           ]
         },
