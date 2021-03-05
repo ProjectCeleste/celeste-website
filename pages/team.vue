@@ -54,7 +54,7 @@ export default {
       categories: [
         {
           name: "Executive Producer",
-          names: ["PF2K"]
+          names: ["Pooya Fatehi (PF2K)"]
         },
         {
           name: "Project Celeste Lead Developers",
@@ -156,11 +156,11 @@ export default {
         },
         {
           name: "Audio Engineering",
-          names: ["Eamon.G", "WeRFury"]
+          names: ["Eamon.G", "Vladan Stančić"]
         },
         {
           name: "Music Design",
-          names: ["WeRFury", "Eamon.G"]
+          names: ["Vladan Stančić", "Eamon.G"]
         },
         {
           name: "Vocals",
@@ -200,6 +200,10 @@ export default {
           separator: true
         },
         {
+          name: "PvP Balance Team",
+          names: ["RecoN", "Carnage", "ZertoN", "StrikeR", "Eery", "Wout"]
+        },
+        {
           name: "Balance Assistance",
           names: [
             "Andy P XIII",
@@ -213,10 +217,6 @@ export default {
             "Jeinx",
             "Kire"
           ]
-        },
-        {
-          name: "PvP Balance Team",
-          names: ["RecoN", "Carnage", "ZertoN", "StrikeR", "Eery", "Wout"]
         },
         {
           name: "Playtesting",
