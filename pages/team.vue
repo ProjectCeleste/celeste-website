@@ -238,7 +238,14 @@ export default {
         },
         {
           name: "Roman Trailer",
-          names: ["Mandy", "Andy P XIII", "Vladan Stančić (WeRFury)", "Kire"]
+          names: [
+            "Mandy",
+            "Andy P XIII",
+            "Vladan Stančić (WeRFury)",
+            "Kire",
+            "Phillus",
+            "Max v.R."
+          ]
         },
         {
           name: "Wikipedia Communications",
