@@ -58,7 +58,12 @@ export default {
         },
         {
           name: "Project Celeste Lead Developers",
-          names: ["PF2K", "Luciano", "Kevsoft", "kisonik"]
+          names: [
+            "PF2K",
+            "Luciano Pereira (Luciano)",
+            "Kevin Waldock (Kevsoft)",
+            "kisonik"
+          ]
         },
         {
           name: "Conceptual Research and Design",
@@ -110,7 +115,7 @@ export default {
         },
         {
           name: "Server Backend",
-          names: ["Ryddag", "martinmine", "Kevsoft"]
+          names: ["Ryddag", "Martin Storø Nyfløtt (martinmine)", "Kevsoft"]
         },
         {
           name: "IT Operations",
@@ -118,7 +123,7 @@ export default {
         },
         {
           name: "Web Director",
-          names: ["SystemGlitch"]
+          names: ["Jérémy Lambert (SystemGlitch)"]
         },
         {
           name: "3d Modeling Directors",
@@ -161,7 +166,7 @@ export default {
         },
         {
           name: "Music Design",
-          names: ["Vladan Stančić (WeRFury)", "Eamon.G"]
+          names: ["Vladan Stančić", "Eamon.G"]
         },
         {
           name: "Vocals",
@@ -241,7 +246,7 @@ export default {
           names: [
             "Mandy",
             "Andy P XIII",
-            "Vladan Stančić (WeRFury)",
+            "Vladan Stančić",
             "Kire",
             "Phillus",
             "Max v.R."
