@@ -166,7 +166,7 @@ export default {
         },
         {
           name: "Music Design",
-          names: ["Vladan Stančić", "Eamon.G"]
+          names: ["Vladan Stančić", "Eamon.G", "Paul Anthony Romero"]
         },
         {
           name: "Vocals",
@@ -197,7 +197,8 @@ export default {
             "Servimomia",
             "SystemGlitch",
             "Zenorhk (Zanetti)",
-            "Lukipr0"
+            "Lukipr0",
+            "Rekiemone"
           ]
         },
         {
