@@ -1,6 +1,6 @@
 <template>
   <civilization
-    name="Romans (Coming Soon)"
+    name="Romans"
     subtitle="Quality over Quantity"
     :strengths="strengths"
     :weaknesses="weaknesses"
