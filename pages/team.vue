@@ -83,7 +83,7 @@ export default {
         },
         {
           name: "Shop Design",
-          names: ["Jeinx", "PF2K", "Lukipr0", "[BBA]Kog"]
+          names: ["Jeinx", "PF2K", "lukipr0", "[BBA]Kog"]
         },
         {
           name: "Campaign Design",
@@ -197,7 +197,7 @@ export default {
             "Servimomia",
             "SystemGlitch",
             "Zenorhk (Zanetti)",
-            "Lukipr0",
+            "lukipr0",
             "Rekiemone"
           ]
         },
