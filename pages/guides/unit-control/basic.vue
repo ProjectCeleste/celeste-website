@@ -21,8 +21,11 @@
         <p class="content">
           There are a few exceptions to this rule, but you can find out about
           each unit&apos;s specific role by hovering over its icon in the Unit
-          Production tab (inside each Building). \n \nMaking the proper Units
-          against what your opponent has is the key to victory!
+          Production tab (inside each Building).
+        </p>
+        <p class="content">
+          Making the proper Units against what your opponent has is the key to
+          victory!
         </p>
       </div>
       <div class="column is-narrow guide-img guide-img-f3">
