@@ -35,7 +35,11 @@ export default {
         "High Damage",
         "Sustained fights"
       ],
-      weaknesses: ["Low Health", "Lack of powerful lategame Siege Units"],
+      weaknesses: [
+        "Low Health",
+        "Lack of powerful lategame Siege Units",
+        "Only one Warship"
+      ],
       keyUnits: [
         {
           name: "Long Swordsman",
