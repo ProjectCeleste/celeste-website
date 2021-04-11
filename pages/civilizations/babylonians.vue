@@ -1,7 +1,7 @@
 <template>
   <civilization
     name="Babylonians"
-    subtitle="Economic Juggernaut"
+    subtitle="Economic Powerhouse"
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
