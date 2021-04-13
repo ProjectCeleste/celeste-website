@@ -236,7 +236,7 @@ export default {
         },
         {
           name: "Moderator Team",
-          names: ["NCSGeeks", "Smileyguyx", "Wartai", "Wout"]
+          names: ["NCSGeek", "Smileyguyx", "Wartai", "Wout"]
         },
         {
           name: "Media Team",
