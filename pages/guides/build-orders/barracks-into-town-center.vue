@@ -11,10 +11,10 @@
         <div class="columns is-multiline is-centered is-vcentered">
           <div class="column is-12-touch">
             <ul class="content ul">
-              <li>Start by sending your first 3 Villagers to your Hunt.</li>
+              <li>Start by sending your first 3 Villagers to the nearby Trees.</li>
               <li>
-                The next Villagers that are trained from your Town Center will
-                go to the small Tree patches around the Town Center.
+                The next Villagers that are trained from your Town Center will 
+                go to the nearest Huntables and build a Storehouse there.
               </li>
             </ul>
           </div>
@@ -31,7 +31,8 @@
           <div class="column is-12-touch">
             <ul class="content ul">
               <li>
-                Once you have 200 Wood you can start building your Barracks.
+                Once you have 200 Wood (after spending 50 Wood to build your Hunt Storehouse) 
+                you can start building your Barracks. 
               </li>
               <li>
                 Gather 50 more Wood so you can afford a Storehouse next to your
