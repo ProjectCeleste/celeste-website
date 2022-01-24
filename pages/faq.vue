@@ -94,7 +94,7 @@ export default {
         },
         {
           title: "What civilizations are available to play?",
-          content: `<p>The campaigns in Age of Empires Online are based on historical periods that provide rich settings for storytelling. Choose from a number of historic civilizations including the Babylonians, Celts, Egyptians, Greeks, Persians and the Norse. We are proud to announce that the Roman civilization will be available to play soon as well! History provides the setting; from there, you make your own story.</p>`
+          content: `<p>The campaigns in Age of Empires Online are based on historical periods that provide rich settings for storytelling. Choose from a number of historic civilizations including the Babylonians, Celts, Egyptians, Greeks, Romans, Persians and the Norse. We are proud to announce that the Indian civilization will be available to play soon as well! History provides the setting; from there, you make your own story.</p>`
         },
         {
           title: "What is the Capital City? How does it work?",
