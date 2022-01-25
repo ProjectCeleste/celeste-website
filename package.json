@@ -2,7 +2,7 @@
   "name": "project-celeste",
   "version": "0.0.0",
   "engines": {
-    "node": ">=0.14.0 <15"
+    "node": ">=14 <15"
   },
   "description": "The main website for the Celeste Age of Empires Online Fan Project",
   "author": "SystemGlitch",
