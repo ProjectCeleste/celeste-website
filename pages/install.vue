@@ -222,7 +222,7 @@
                 <li>
                   <b>1</b>: You need to download the game using this link
                   <a
-                    href="http://www.mediafire.com/file/afo6kcizm5qhl4e/AOEO_Installer.zip"
+                    href="https://www.mediafire.com/file/afo6kcizm5qhl4e/AOEO_Installer.zip"
                     rel="nofollow"
                     target="_blank"
                   >
