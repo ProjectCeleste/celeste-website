@@ -372,7 +372,7 @@
                 </li>
                 <li>
                   <b>3</b>: Right click on the new shortcut, then press
-                  "Propriety" and edit "Target" field like in this example (you
+                  "Properties" and edit "Target" field like in this example (you
                   need to change credential with yours):
                   <span class="monospace">
                     "C:\Program Files (x86)\Age Of Empires Online\Spartan.exe"
