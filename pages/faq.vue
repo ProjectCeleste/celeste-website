@@ -105,6 +105,10 @@ export default {
           content: `<p>No, there is no penalty for not playing. Your city can not be attacked and you will not lose levels if you don’t play for a period of time.</p>`
         },
         {
+          title: "How can I support the project?",
+          content: `<p>You can help spread the word around the project by telling your friends! Project Celeste is completely free and always will be. However, we gladly accept donations for our overhead costs, which are larger than we have budgeted. If you want to support us, you can do so <a href="https://forums.projectceleste.com/donations/project-celeste-donations.2/campaign" rel="nofollow" target="_blank">here</a>. Thank you so much for your help!</p>`
+        },
+        {
           title: "Where can I find additional help?",
           content: `<p>Please <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">join us on discord</a>.</p>`
         }
