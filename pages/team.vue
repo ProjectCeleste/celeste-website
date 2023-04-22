@@ -207,10 +207,6 @@ export default {
           separator: true
         },
         {
-          name: "PvP Balance Team",
-          names: ["RecoN", "Carnage", "ZertoN", "StrikeR", "Eery", "Wout"]
-        },
-        {
           name: "Balance Assistance",
           names: [
             "Andy P XIII",
