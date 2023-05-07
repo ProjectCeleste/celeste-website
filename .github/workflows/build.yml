@@ -33,20 +33,20 @@ jobs:
       - name: Delete old files
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          host: ${{ vars.DEPLOY_HOST }}
+          username: ${{ vars.DEPLOY_USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
+          port: ${{ vars.DEPLOY_PORT }}
           script: |
-            cd ${{ secrets.DEPLOY_TARGET }}
+            cd ${{ vars.DEPLOY_TARGET_STAGING }}
             rm -rf * .nojekyll
       - name: Upload files
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          host: ${{ vars.DEPLOY_HOST }}
+          username: ${{ vars.DEPLOY_USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
+          port: ${{ vars.DEPLOY_PORT }}
           strip_components: 1
           source: "dist"
-          target: "${{ secrets.DEPLOY_TARGET }}"
+          target: "${{ vars.DEPLOY_TARGET_STAGING }}"
