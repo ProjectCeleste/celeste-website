@@ -31,7 +31,7 @@ jobs:
         with:
           name: dist
       - name: Delete old files
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.3
         with:
           host: ${{ vars.DEPLOY_HOST }}
           username: ${{ vars.DEPLOY_USERNAME }}
@@ -41,7 +41,7 @@ jobs:
             cd ${{ vars.DEPLOY_TARGET_STAGING }}
             rm -rf * .nojekyll
       - name: Upload files
-        uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@v0.1.3
         with:
           host: ${{ vars.DEPLOY_HOST }}
           username: ${{ vars.DEPLOY_USERNAME }}
