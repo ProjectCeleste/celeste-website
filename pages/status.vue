@@ -33,8 +33,8 @@
               />
               <status-item
                 title="Downloads"
-                url="https://downloads.projectceleste.com/static/Celeste_Launcher.zip"
-                description="https://downloads.projectceleste.com"
+                url="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/CelesteLauncher.zip"
+                description="https://github.com/ProjectCeleste/Celeste.Launcher"
                 health="https://downloads.projectceleste.com/favicon.ico"
               />
               <status-item
