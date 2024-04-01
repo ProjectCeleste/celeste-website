@@ -28,9 +28,29 @@
           </div>
         </div>
         <div class="card-content">
+          <h3 class="subtitle has-text-grey-lighter">
+            General
+          </h3>
           <div class="columns is-multiline">
             <div
               v-for="(question, key) of questions"
+              :key="key"
+              class="column is-full"
+            >
+              <b-collapse :open="false">
+                <span slot="header">{{ question.title }}</span>
+                <div slot="content" v-html="question.content" />
+              </b-collapse>
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="subtitle has-text-grey-lighter">
+            Technical Issues
+          </h3>
+          <div class="columns is-multiline">
+            <div
+              v-for="(question, key) of techquestions"
               :key="key"
               class="column is-full"
             >
@@ -112,6 +132,12 @@ export default {
           title: "Where can I find additional help?",
           content: `<p>Please <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">join us on discord</a>.</p>`
         }
+      ],
+      techquestions: [
+        {
+          title: "When I join a party then I get kicked out of the game, how to fix?",
+          content: `<p>You or your partner most likely have to many quests active. Try to abandon some first.</p>`
+        },
       ]
     }
   },
