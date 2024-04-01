@@ -135,8 +135,18 @@ export default {
       ],
       techquestions: [
         {
-          title: "When I join a party then I get kicked out of the game, how to fix?",
-          content: `<p>You or your partner most likely have to many quests active. Try to abandon some first.</p>`
+          title: "Why do I get kicked out of the game when I join a party?",
+          content: `<p>If the error you get is "Connection to the Age of Empires Online Chat Server Was Lost" then You or your partner most likely have too many quests active. Try abandoning some first.</p>`
+        },
+        {
+          title: "Why do I get a \"Game Failed to Launch\" error in chat when trying to play with other players? (Co-op or PvP)",
+          content: `<p>You and/or the other players you tried to play with may need to do some extra setup in order to get co-op/pvp working.</p>
+          <p>Please see <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project" rel="nofollow" target="_blank">this guide</a> for information on what to do.</p>
+          <p>Tip: To know which player(s) may need to follow the guide, you can test a coop game between each player individually with someone else that knows for sure that their co-op works with anyone.</p>`
+        },
+        {
+          title: "",
+          content: ``
         },
       ]
     }
