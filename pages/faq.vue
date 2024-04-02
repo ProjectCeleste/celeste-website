@@ -145,8 +145,46 @@ export default {
           <p>Tip: To know which player(s) may need to follow the guide, you can test a coop game between each player individually with someone else that knows for sure that their co-op works with anyone.</p>`
         },
         {
-          title: "",
-          content: ``
+          title: "How do I fix the \"Game Initialization failed. [...] (CORE)\" error?",
+          content: `<p>In the Celeste Launcher, click the hammer button and then choose "Windows Features". Click "Enable" for "DirectPlay". If this does not solve the issue, you can also try <a href="https://youtu.be/ldkte26nbdU" rel="nofollow" target="_blank">this video</a>.</p>`
+        },
+        {
+          title: "Why am I getting kicked out of the game with the \"The Age of Empires Online Server is not available at this time\" error?",
+          content: `<p>This usually happens when your connection to the game drops or gets interrupted for too long. Slower internet connections make this more likely as well.</p>`
+        },
+        {
+          title: "How do I fix the \"Early std::exception - Failed opening file <My Documents>\\Spartan\\xlive.log\" error message when trying to launch the game?",
+          content: `<p>Sometimes this is a filesystem permission issue, in which case running the launcher as an administrator can solve it. However, the most common cause is OneDrive. If the location to the xlive.log file in the error message contains a OneDrive folder, this is likely the issue.</p>
+          <p>In which case, Uninstalling OneDrive should solve the issue. But of course, if you use OneDrive and want to keep it installed, then the next option is to configure your documents folder to not be within OneDrive's contorl.</p>` // TODO: Create separate guide for this. It's outside the scope of what fits well in this section
+        },
+        {
+          title: "When I try to launch the game, I get an error saying \"The code execution cannot proceed because xlive.dll was not found.\", How can I fix this?",
+          content: `<p>If xlive.dll is missing then running a \"Gamescan\" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
+        },
+        {
+          title: "My game is crashing during specific quests. What should I do to fix this problem?",
+          content: `<p>Usually if you are crashing only on certain quests, abandoning those quests and re-accepting them fixes the issue.</p>`
+        },
+        {
+          title: "I got an error while playing a quest that said \"Random map <map name> Caused an unhandled exception\". What should I do?",
+          content: `<p>First, try running a \"Gamescan\" within the Celeste Launcher. Re-open the game and see if that fixes the issue. If it did not help, make sure that any antivirus or antimalware applications you have installed are excluding the game's and launcher's files just in case.</p>`
+        },
+        {
+          title: "When I tried to log in, I got an error saying \"Login to \"Celeste Fan Project\" Server failed (Invlaid xlive.dll)\". What can I do?",
+          content: `<p>Run a \"Gamescan\" within the Celeste Launcher in order to update your game's files. (Including xlive.dll)</p>`
+        },
+        {
+          title: "My launcher had an error that said \"An unexpected error occurred.\". What should I do?",
+          content: `<p>Check the "Logs" folder for the most recent log files. (The "Logs" folder will be wherever your launcher files are) - Inside of the logs, look for any errors or warnings (Not lines that begin with "[INF]") then join <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">us on discord</a> to ask for help in the "#tech-support" channel.</p>
+          <p>When you ask for help on discord, please include any errors you found in the log files.</p>`
+        },
+        {
+          title: "", // TODO
+          content: `<p></p>`
+        },
+        {
+          title: "I still need more help!",
+          content: `<p>Please <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">join us on discord</a> and describe your issue in the "#tech-support" channel or message a member of the team with the "Tech Support" discord role.</p>`
         },
       ]
     }
