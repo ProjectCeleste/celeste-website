@@ -159,7 +159,7 @@ export default {
         },
         {
           title: "When I try to launch the game, I get an error saying \"The code execution cannot proceed because xlive.dll was not found.\", How can I fix this?",
-          content: `<p>If xlive.dll is missing then running a \"Gamescan\" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
+          content: `<p>If xlive.dll is missing then running a "Gamescan" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
         },
         {
           title: "My game is crashing during specific quests. What should I do to fix this problem?",
@@ -167,11 +167,11 @@ export default {
         },
         {
           title: "I got an error while playing a quest that said \"Random map <map name> Caused an unhandled exception\". What should I do?",
-          content: `<p>First, try running a \"Gamescan\" within the Celeste Launcher. Re-open the game and see if that fixes the issue. If it did not help, make sure that any antivirus or antimalware applications you have installed are excluding the game's and launcher's files just in case.</p>`
+          content: `<p>First, try running a "Gamescan" within the Celeste Launcher. Re-open the game and see if that fixes the issue. If it did not help, make sure that any antivirus or antimalware applications you have installed are excluding the game's and launcher's files just in case.</p>`
         },
         {
-          title: "When I tried to log in, I got an error saying \"Login to \"Celeste Fan Project\" Server failed (Invlaid xlive.dll)\". What can I do?",
-          content: `<p>Run a \"Gamescan\" within the Celeste Launcher in order to update your game's files. (Including xlive.dll)</p>`
+          title: "When I tried to log in, I got an error saying \"Login to \"Celeste Fan Project\" Server failed (Invalid xlive.dll)\". What can I do?",
+          content: `<p>Run a "Gamescan" within the Celeste Launcher in order to update your game's files. (Including xlive.dll)</p>`
         },
         {
           title: "My launcher had an error that said \"An unexpected error occurred.\". What should I do?",
