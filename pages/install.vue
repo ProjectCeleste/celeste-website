@@ -20,9 +20,27 @@
           <div class="columns is-multiline">
             <div class="column is-full">
               <div class="columns is-centered is-multiline">
-                <div class="column is-4-desktop is-6-tablet is-12">
+                <div class="column is-8-desktop is-6-tablet is-12">
                   <a
                     class="button is-primary is-medium is-fullwidth"
+                    href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow"
+                  >
+                    <b-icon
+                      icon="download"
+                      size="is-medium"
+                      icon-size="mdi-36px"
+                    />
+                    <span>Download Installer (Recommended)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-full">
+              <div class="columns is-centered is-multiline">
+                <div class="column is-4-desktop is-6-tablet is-12">
+                  <a
+                    class="button is-link is-medium is-fullwidth"
                     href="steam://install/105430"
                     rel="nofollow"
                   >
@@ -36,7 +54,7 @@
                 </div>
                 <div class="column is-4-desktop is-6-tablet is-12">
                   <a
-                    class="button is-primary is-medium is-fullwidth"
+                    class="button is-link is-medium is-fullwidth"
                     href="https://github.com/ProjectCeleste/Celeste_Launcher/releases/latest"
                     rel="nofollow"
                     target="_blank"
@@ -46,7 +64,7 @@
                       size="is-medium"
                       icon-size="mdi-36px"
                     />
-                    <span>Download Celeste Patch</span>
+                    <span>Other Downloads</span>
                   </a>
                 </div>
               </div>
@@ -71,11 +89,21 @@
                     <li>
                       <nuxt-link
                         v-scroll-to="{
+                          el: '#install_the_original_game_using_installer'
+                        }"
+                        :to="{ hash: '#install_the_original_game_using_installer' }"
+                      >
+                        [OPTION 1] Install the original game using the automated installer
+                      </nuxt-link>
+                    </li>
+                    <li>
+                      <nuxt-link
+                        v-scroll-to="{
                           el: '#install_the_original_game_using_steam'
                         }"
                         :to="{ hash: '#install_the_original_game_using_steam' }"
                       >
-                        [OPTION 1] Install the original game using Steam
+                        [OPTION 2] Install the original game using Steam
                       </nuxt-link>
                     </li>
                     <li>
@@ -87,7 +115,7 @@
                           hash: '#install_the_original_game_without_using_steam'
                         }"
                       >
-                        [OPTION 2] Install the original game without using Steam
+                        [OPTION 3] Install the original game without using Steam
                       </nuxt-link>
                     </li>
                     <li>
@@ -186,12 +214,33 @@
               </h4>
 
               <h5
+                id="install_the_original_game_using_installer"
+                class="subtitle is-5 has-text-grey-lighter"
+              >
+                [OPTION 1] Install the original game using the automated installer
+              </h5>
+              <ul class="content">
+                <li>
+                  <b>1</b>: Download the 
+                  <a
+                    href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    Installer
+                  </a>
+                </li>
+                <li>
+                  <b>2</b>: Run the installer. If you get the SmartScreen message from Windows, then go to "more information" and then "run".
+                  <br />
+                </li>
+              </ul>
+              <h5
                 id="install_the_original_game_using_steam"
                 class="subtitle is-5 has-text-grey-lighter"
               >
-                [OPTION 1] Install the original game using Steam
+                [OPTION 2] Install the original game using Steam
               </h5>
-
               <ul class="content">
                 <li>
                   <b>1</b>: You need to install
@@ -216,7 +265,7 @@
                 id="install_the_original_game_without_using_steam"
                 class="subtitle is-5 has-text-grey-lighter"
               >
-                [OPTION 2] Install the original game without using Steam
+                [OPTION 3] Install the original game without using Steam (Legacy)
               </h5>
               <ul class="content">
                 <li>
