@@ -19,23 +19,23 @@
         <div class="card-content">
           <div class="columns is-multiline">
             <div class="column is-full">
-  <div class="columns is-centered is-multiline">
-    <div class="column is-6-desktop is-6-tablet is-12-mobile">
-      <a class="button is-primary is-medium is-fullwidth"
-        href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
-        rel="nofollow">
-        <b-icon icon="download" size="is-medium" icon-size="mdi-30px" />
-        <span>Download Installer</span>
-      </a>
-    </div>
-    <div class="column is-6-desktop is-6-tablet is-12-mobile">
-      <a class="button is-link is-medium is-fullwidth" href="steam://install/105430" rel="nofollow">
-        <b-icon icon="steam" size="is-medium" icon-size="mdi-30px" />
-        <span>Install using Steam</span>
-      </a>
-    </div>
-  </div>
-</div>
+              <div class="columns is-centered is-multiline">
+                <div class="column is-6-desktop is-6-tablet is-12-mobile">
+                  <a class="button is-primary is-medium is-fullwidth"
+                    href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow">
+                    <b-icon icon="download" size="is-medium" icon-size="mdi-30px" />
+                    <span>Download Installer</span>
+                  </a>
+                </div>
+                <div class="column is-6-desktop is-6-tablet is-12-mobile">
+                  <a class="button is-link is-medium is-fullwidth" href="steam://install/105430" rel="nofollow">
+                    <b-icon icon="steam" size="is-medium" icon-size="mdi-30px" />
+                    <span>Install using Steam</span>
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <div class="column table-of-contents is-full">
               <h5 class="subtitle is-5 has-text-grey-lighter">
@@ -104,8 +104,7 @@
                   <div
                     style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
                     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                      src="https://www.youtube.com/embed/7CIN3CG3qns" frameborder="0"
-                      allowfullscreen></iframe>
+                      src="https://www.youtube.com/embed/7CIN3CG3qns" frameborder="0" allowfullscreen></iframe>
                   </div>
                   <br />
                 </li>
@@ -188,21 +187,22 @@
             </h4>
             <ul class="content">
               <li>
-                For error messages and general technical issues, first try 
+                For error messages and general technical issues, first try
                 <a href="https://www.projectceleste.com/faq" rel="nofollow" target="_blank">
                   the FAQ's technical issue section.
                 </a>
               </li>
               <li>
-                If the FAQ did not have an answer for you, visit our 
+                If the FAQ did not have an answer for you, visit our
                 <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">
                   discord server
                 </a>
                 and ask for help in the tech support channel.
               </li>
               <li>
-                Coop/PvP may not work out-of-the-box for everyone. In which case, check out the 
-                <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project/" rel="nofollow" target="_blank">
+                Coop/PvP may not work out-of-the-box for everyone. In which case, check out the
+                <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project/"
+                  rel="nofollow" target="_blank">
                   coop/pvp guide here.
                 </a>
               </li>
