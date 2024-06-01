@@ -19,42 +19,24 @@
         <div class="card-content">
           <div class="columns is-multiline">
             <div class="column is-full">
-              <div class="columns is-centered is-multiline">
-                <div class="column is-8-desktop is-6-tablet is-12">
-                  <a class="button is-primary is-medium is-fullwidth"
-                    href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
-                    rel="nofollow">
-                    <b-icon icon="download" size="is-medium" icon-size="mdi-36px" />
-                    <span>Download Installer (Recommended)</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="column is-full">
-              <div class="columns is-centered is-multiline">
-                <div class="column is-4-desktop is-6-tablet is-12">
-                  <a class="button is-link is-medium is-fullwidth" href="steam://install/105430" rel="nofollow">
-                    <b-icon icon="steam" size="is-medium" icon-size="mdi-36px" />
-                    <span>Install using Steam</span>
-                  </a>
-                </div>
-                <!-- <div class="column is-4-desktop is-6-tablet is-12">
-                  <a
-                    class="button is-link is-medium is-fullwidth"
-                    href="https://github.com/ProjectCeleste/Celeste_Launcher/releases/latest"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    <b-icon
-                      icon="download"
-                      size="is-medium"
-                      icon-size="mdi-36px"
-                    />
-                    <span>Other Downloads</span>
-                  </a>
-                </div> -->
-              </div>
-            </div>
+  <div class="columns is-centered is-multiline">
+    <div class="column is-6-desktop is-6-tablet is-12-mobile">
+      <a class="button is-primary is-medium is-fullwidth"
+        href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+        rel="nofollow">
+        <b-icon icon="download" size="is-medium" icon-size="mdi-30px" />
+        <span>Download Installer</span>
+      </a>
+    </div>
+    <div class="column is-6-desktop is-6-tablet is-12-mobile">
+      <a class="button is-link is-medium is-fullwidth" href="steam://install/105430" rel="nofollow">
+        <b-icon icon="steam" size="is-medium" icon-size="mdi-30px" />
+        <span>Install using Steam</span>
+      </a>
+    </div>
+  </div>
+</div>
+
             <div class="column table-of-contents is-full">
               <h5 class="subtitle is-5 has-text-grey-lighter">
                 Table of Contents
