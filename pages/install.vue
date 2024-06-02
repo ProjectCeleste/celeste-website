@@ -20,157 +20,59 @@
           <div class="columns is-multiline">
             <div class="column is-full">
               <div class="columns is-centered is-multiline">
-                <div class="column is-4-desktop is-6-tablet is-12">
-                  <a
-                    class="button is-primary is-medium is-fullwidth"
-                    href="steam://install/105430"
-                    rel="nofollow"
-                  >
-                    <b-icon
-                      icon="steam"
-                      size="is-medium"
-                      icon-size="mdi-36px"
-                    />
-                    <span>Install using Steam</span>
+                <div class="column is-6-desktop is-6-tablet is-12-mobile">
+                  <a class="button is-primary is-medium is-fullwidth"
+                    href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow">
+                    <b-icon icon="download" size="is-medium" icon-size="mdi-30px" />
+                    <span>Download Installer</span>
                   </a>
                 </div>
-                <div class="column is-4-desktop is-6-tablet is-12">
-                  <a
-                    class="button is-primary is-medium is-fullwidth"
-                    href="https://github.com/ProjectCeleste/Celeste_Launcher/releases/latest"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    <b-icon
-                      icon="download"
-                      size="is-medium"
-                      icon-size="mdi-36px"
-                    />
-                    <span>Download Celeste Patch</span>
+                <div class="column is-6-desktop is-6-tablet is-12-mobile">
+                  <a class="button is-link is-medium is-fullwidth" href="steam://install/105430" rel="nofollow">
+                    <b-icon icon="steam" size="is-medium" icon-size="mdi-30px" />
+                    <span>Install using Steam</span>
                   </a>
                 </div>
               </div>
             </div>
+
             <div class="column table-of-contents is-full">
               <h5 class="subtitle is-5 has-text-grey-lighter">
                 Table of Contents
               </h5>
               <ul class="content">
                 <li>
-                  <nuxt-link
-                    v-scroll-to="{
-                      el: '#install_the_original_game'
-                    }"
-                    :to="{ hash: '#install_the_original_game' }"
-                  >
-                    1: Install The Original Game
+                  <nuxt-link v-scroll-to="{
+                      el: '#install-standard'
+                    }" :to="{ hash: '#install-standard' }">
+                    1: Standard Installation (Recommended)
                   </nuxt-link>
                 </li>
                 <li>
-                  <ul>
-                    <li>
-                      <nuxt-link
-                        v-scroll-to="{
-                          el: '#install_the_original_game_using_steam'
-                        }"
-                        :to="{ hash: '#install_the_original_game_using_steam' }"
-                      >
-                        [OPTION 1] Install the original game using Steam
-                      </nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link
-                        v-scroll-to="{
-                          el: '#install_the_original_game_without_using_steam'
-                        }"
-                        :to="{
-                          hash: '#install_the_original_game_without_using_steam'
-                        }"
-                      >
-                        [OPTION 2] Install the original game without using Steam
-                      </nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link
-                        v-scroll-to="{
-                          el: '#install_on_linux'
-                        }"
-                        :to="{
-                          hash: '#install_on_linux'
-                        }"
-                      >
-                        Install the game on Linux
-                      </nuxt-link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <nuxt-link
-                    v-scroll-to="{
-                      el: '#install_celeste_fan_project_patch'
-                    }"
-                    :to="{
-                      hash: '#install_celeste_fan_project_patch'
-                    }"
-                  >
-                    2: Install Celeste Fan Project Patch
+                  <nuxt-link v-scroll-to="{
+                      el: '#install-steam'
+                    }" :to="{
+                      hash: '#install-steam'
+                    }">
+                    2: Install Using Steam
                   </nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link
-                    v-scroll-to="{
-                      el: '#play_aoeo_celeste_fan_project'
-                    }"
-                    :to="{
-                      hash: '#play_aoeo_celeste_fan_project'
-                    }"
-                  >
-                    3: Play AOEO Celeste Fan Project
+                  <nuxt-link v-scroll-to="{
+                      el: '#install_on_linux'
+                    }" :to="{
+                      hash: '#install_on_linux'
+                    }">
+                    3: Install on Linux
                   </nuxt-link>
                 </li>
                 <li>
-                  <ul>
-                    <li>
-                      <nuxt-link
-                        v-scroll-to="{
-                          el:
-                            '#play_aoeo_celeste_fan_project_using_celeste_launcher'
-                        }"
-                        :to="{
-                          hash:
-                            '#play_aoeo_celeste_fan_project_using_celeste_launcher'
-                        }"
-                      >
-                        [OPTION 1] Play AOEO Celeste Fan Project Using Celeste
-                        Launcher
-                      </nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link
-                        v-scroll-to="{
-                          el:
-                            '#play_aoeo_celeste_fan_project_without_using_celeste_launcher'
-                        }"
-                        :to="{
-                          hash:
-                            '#play_aoeo_celeste_fan_project_without_using_celeste_launcher'
-                        }"
-                      >
-                        [OPTION 2 (ADVANCED)] Play AOEO Celeste Fan Project
-                        Without Using Celeste Launcher
-                      </nuxt-link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <nuxt-link
-                    v-scroll-to="{
+                  <nuxt-link v-scroll-to="{
                       el: '#troubleshooting'
-                    }"
-                    :to="{
+                    }" :to="{
                       hash: '#troubleshooting'
-                    }"
-                  >
+                    }">
                     4: Troubleshooting
                   </nuxt-link>
                 </li>
@@ -178,320 +80,133 @@
             </div>
 
             <div class="column is-full">
-              <h4
-                id="install_the_original_game"
-                class="title is-4 has-text-gold"
-              >
-                1: Install The Original Game
+              <h4 id="install-standard" class="title is-4 has-text-gold">
+                1: Standard Installation (Recommended)
               </h4>
-
-              <h5
-                id="install_the_original_game_using_steam"
-                class="subtitle is-5 has-text-grey-lighter"
-              >
-                [OPTION 1] Install the original game using Steam
-              </h5>
-
               <ul class="content">
-                <li>
-                  <b>1</b>: You need to install
-                  <a
-                    href="http://store.steampowered.com/about/"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    STEAM
+                <!-- <li>
+                  <b>1</b>: Download the
+                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow" target="_blank">
+                    Installer
                   </a>
-                  and create an account if you haven't already.
                 </li>
                 <li>
-                  <b>2</b>: Follow this link to install "Age Of Empires Online"
-                  <a href="steam://install/105430" rel="nofollow">
-                    steam://install/105430
-                  </a>
+                  <b>2</b>: Run the installer. If you get the SmartScreen message from Windows, then go to "more
+                  information" and then "run".
+                  <br />
+                </li>
+                <li>
+                  <b>Extra</b>: See the video below.
+                  <br />
+                </li> -->
+                <li>
+                  <div
+                    style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                      src="https://www.youtube.com/embed/7CIN3CG3qns" frameborder="0" allowfullscreen></iframe>
+                  </div>
                   <br />
                 </li>
               </ul>
-              <h5
-                id="install_the_original_game_without_using_steam"
-                class="subtitle is-5 has-text-grey-lighter"
-              >
-                [OPTION 2] Install the original game without using Steam
-              </h5>
-              <ul class="content">
-                <li>
-                  <b>1</b>: You need to download the game using this link
-                  <a
-                    href="https://www.mediafire.com/file/afo6kcizm5qhl4e/AOEO_Installer.zip"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    AOEO_Setup.exe
-                  </a>
-                </li>
-                <li>
-                  <b>2</b>: Once the download is complete you can install the
-                  game (You can install in the default installation directory,
-                  or you can install the game in a custom location).
-                </li>
-              </ul>
-              <h5
-                id="install_on_linux"
-                class="subtitle is-5 has-text-grey-lighter"
-              >
-                Install the game on Linux
-              </h5>
-              <ul class="content">
-                <li>
-                  The game can be played on Linux using the
-                  <a
-                    rel="nofollow"
-                    href="https://lutris.net/games/age-of-empires-online/"
-                    target="_blank"
-                  >
-                    Lutris installer
-                  </a>
-                  .
-                </li>
-              </ul>
             </div>
+          </div>
 
-            <div class="column is-full">
-              <h4
-                id="install_celeste_fan_project_patch"
-                class="title is-4 has-text-gold"
-              >
-                2: Install Celeste Fan Project Patch
-              </h4>
-              <ul class="content">
-                <li>
-                  <b>1:</b> You need to download
-                  <a
-                    href="https://github.com/ProjectCeleste/Celeste_Launcher/releases/latest"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    CelesteLauncher.zip
-                  </a>
-                </li>
-                <li>
-                  <b>2:</b> Once the download is finished you'll need to extract
-                  the .zip file's contents.
-                  <ul class="list-disc">
-                    <li>
-                      If you installed through Steam, extract the files directly
-                      into the "Age Of Empires Online" folder within your steam
-                      library. (By default, this is located in
-                      <span class="monospace">
-                        C:\Program Files (x86)\Steam\steamapps\common\Age Of
-                        Empires Online
-                      </span>
-                      )
-                    </li>
-                    <li>
-                      Otherwise, if you did not use Steam, create a folder in
-                      your Documents folder (Named anything you'd like) and
-                      extract the contents there.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <b>3:</b> You can create a shortcut to the Celeste Launcher by
-                  right-clicking the Celeste Launcher's executable file then
-                  clicking "Copy To > Desktop (Shortcut)". You will use the
-                  celeste launcher (or that shortcut) to open the game.
-                </li>
-              </ul>
-              <p class="content">
-                <b>Note:</b> If you used Steam to install the game and want to
-                use Steam to launch the Celeste Launcher correctly, then click
-                on the <b>Hammer Button</b> in the launcher, then "Convert to
-                Steam Game". Steam should now launch the Celeste Launcher
-                instead of the old, original launcher that is broken.
-              </p>
-            </div>
-
-            <div class="column">
-              <h4
-                id="play_aoeo_celeste_fan_project"
-                class="title is-4 has-text-gold"
-              >
-                3: Play AOEO Celeste Fan Project
-              </h4>
-              <h5
-                id="play_aoeo_celeste_fan_project_using_celeste_launcher"
-                class="subtitle is-5 has-text-grey-lighter"
-              >
-                [OPTION 1] Play AOEO Celeste Fan Project Using Celeste Launcher
-              </h5>
-              <ul class="content">
-                <li>
-                  <b>1</b>: Launch "Celeste Launcher.exe" by using the shorcut
-                  on your desktop created during previous step
-                  <a
-                    v-scroll-to="{
-                      el: '#install_celeste_fan_project_patch'
-                    }"
-                  >
-                    (Install Celeste Fan Project Patch)
-                  </a>
-                  .
-                </li>
-                <li>
-                  <b>2</b>: Click on register if don't have already an account,
-                  if not go to step 4.
-                </li>
-                <li>
-                  <b>3</b>: Register your account (you need to use an valid
-                  email).
-                </li>
-                <li><b>4</b>: Login using your credetentials.</li>
-                <li>
-                  <b>5</b>: Set the game language in celeste launcher if
-                  incorrect.
-                </li>
-                <li><b>6</b>: Click "PLAY" and enjoy the game :).</li>
-              </ul>
-
-              <h5
-                id="play_aoeo_celeste_fan_project_without_using_celeste_launcher"
-                class="subtitle is-5 has-text-grey-lighter"
-              >
-                [OPTION 2 (ADVANCED)] Play AOEO Celeste Fan Project Without
-                Using Celeste Launcher
-              </h5>
-
-              <ul class="content">
-                <li>
-                  <b>1</b>: You need to be already registered, if not use
-                  "Celeste Launcher.exe" to do it.
-                </li>
-                <li>
-                  <b>2</b>: Navigate to your game folder and create an shortcut
-                  for "Spartan.exe".
-                </li>
-                <li>
-                  <b>3</b>: Right click on the new shortcut, then press
-                  "Properties" and edit "Target" field like in this example (you
-                  need to change credential with yours):
-                  <span class="monospace">
-                    "C:\Program Files (x86)\Age Of Empires Online\Spartan.exe"
-                    --email "mymail@mail.com" --password "mypassword1234"
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="column is-full">
-              <h4 id="troubleshooting" class="title is-4 has-text-gold">
-                4: Troubleshooting
-              </h4>
-
-              <p class="content">
-                Follow these steps if you have any issue to run the game and/or
-                "Celeste Launcher.exe".
-              </p>
-              <ul class="content">
-                <li>
-                  <b>1:</b> Download and install
-                  <a
-                    href="https://aka.ms/vs/16/release/vc_redist.x86.exe"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    Visual C++ Runtime AIO
-                  </a>
-                </li>
-                <li>
-                  <b>2:</b> Download and install
-                  <a
-                    href="https://downloads.projectceleste.com/static/dxwebsetup.exe"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    DirectX End-User Runtime
-                  </a>
-                </li>
-                <li>
-                  <b>3:</b> Download and install
-                  <a
-                    href="https://www.microsoft.com/en-us/download/details.aspx?id=21"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    Microsoft .NET Framework 3.5
-                  </a>
-                </li>
-                <li>
-                  <b>4:</b> Download and install
-                  <a
-                    href="https://www.microsoft.com/en-US/download/details.aspx?id=30653"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    Microsoft .NET Framework 4.5
-                  </a>
-                </li>
-                <li>
-                  <b>5:</b> Download and install
-                  <a
-                    href="https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows"
-                    rel="nofollow"
-                    target="_blank"
-                  >
-                    Windows Universal CRT
-                  </a>
-                </li>
-              </ul>
-
-              <p class="content">
-                Additional step (Windows 8 and up only):
-              </p>
-              <ul class="content">
-                <li><b>5.1:</b> Right click on "Start" button.</li>
-                <li><b>5.2:</b> Click on "Programs and Features".</li>
-                <li>
-                  <b>5.3:</b> Click on the label "Programs and Features" (Top
-                  Right of the opened windows in previous step).
-                </li>
-                <li><b>5.4:</b> Click "Turn Windows features on or off".</li>
-                <li>
-                  <b>5.5:</b> Search for "Legacy Components" and expand it.
-                </li>
-                <li>
-                  <b>5.6:</b> Check the box for DirectPlay if not already
-                  checked.
-                </li>
-                <li><b>5.7:</b> Confirm new settings by clicking "OK".</li>
-              </ul>
-
-              <p class="content">
-                If you have any issue to connect to server with the game and/or
-                "Celeste Launcher" you need to allow "Spartan.exe" and "Celeste
-                Launcher.exe" in your firewall. If you use the default Windows
-                Firewall follow this
-                <a
-                  href="https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/"
-                  rel="nofollow"
-                  target="_blank"
-                >
-                  guide (by howtogeek.com)
+          <div class="column is-full">
+            <h4 id="install-steam" class="title is-4 has-text-gold">
+              2: Install with Steam
+            </h4>
+            <ul class="content">
+              <li>
+                <b>1</b>: You need to install
+                <a href="http://store.steampowered.com/about/" rel="nofollow" target="_blank">
+                  Steam
                 </a>
-                , and if you use another one refer to his documentation.
-              </p>
+                and create an account if you haven't already.
+              </li>
+              <li>
+                <b>2</b>: Follow this link to install "Age Of Empires Online"
+                <a href="steam://install/105430" rel="nofollow">
+                  steam://install/105430
+                </a>
+                <br />
+              </li>
+              <li>
+                <b>3</b>: Download
+                <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest" rel="nofollow">
+                  CelesteLauncher.zip
+                </a>
+                <br />
+              </li>
+              <li>
+                <b>4</b>: Extract CelesteLauncher.zip into the game's folder (Where Steam downloaded the game)
+                <br />
+              </li>
+              <li>
+                <b>5</b>: Run "Celeste Launcher.exe" (Without the "exe" if your file extensions are hidden) and
+                register/login.
+                <br />
+              </li>
+              <li>
+                <b>6</b>: In the Celeste Launcher, click the hammer button and choose "Convert to Steam Game". Click
+                "Confirm" when prompted. This will make it so when you hit "Play" within steam for Age of Empires
+                Online, it will correctly launch the Celeste Launcher.
+                <br />
+              </li>
+              <li>
+                <b>7</b>: Click the hammer button again and choose "Game Scan". Set the scan's location to the game's
+                root folder. Example: "C:\Program Files (x86)\Steam\steamapps\common\Age of Empires Online" - Once
+                it's set, run the scan. This will download the rest of the game files and patch the game.
+                <br />
+              </li>
+              <li>
+                <b>8</b>: The game is now installed. Press "Play" in the Celeste Launcher to play the game!
+                <br />
+              </li>
+            </ul>
+          </div>
 
-              <p class="content">
-                If you have trouble playing coop or pvp, read
-                <a
-                  href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project"
-                  rel="nofollow"
-                  target="_blank"
-                >
-                  this guide
+          <div class="column is-full">
+            <h4 id="install_on_linux" class="title is-4 has-text-gold">
+              3: Install on Linux
+            </h4>
+            <ul class="content">
+              <li>
+                The game can be played on Linux using the
+                <a rel="nofollow" href="https://lutris.net/games/age-of-empires-online/" target="_blank">
+                  Lutris installer
                 </a>
                 .
-              </p>
-            </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="column is-full">
+            <h4 id="troubleshooting" class="title is-4 has-text-gold">
+              4: Troubleshooting
+            </h4>
+            <ul class="content">
+              <li>
+                For error messages and general technical issues, first try
+                <a href="https://www.projectceleste.com/faq" rel="nofollow" target="_blank">
+                  the FAQ's technical issue section.
+                </a>
+              </li>
+              <li>
+                If the FAQ did not have an answer for you, visit our
+                <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">
+                  discord server
+                </a>
+                and ask for help in the tech support channel.
+              </li>
+              <li>
+                Coop/PvP may not work out-of-the-box for everyone. In which case, check out the
+                <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project/"
+                  rel="nofollow" target="_blank">
+                  coop/pvp guide here.
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
