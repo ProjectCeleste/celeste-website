@@ -110,60 +110,60 @@
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div class="column is-full">
-              <h4 id="install-steam" class="title is-4 has-text-gold">
-                2: Install with Steam
-              </h4>
-              <ul class="content">
-                <li>
-                  <b>1</b>: You need to install
-                  <a href="http://store.steampowered.com/about/" rel="nofollow" target="_blank">
-                    Steam
-                  </a>
-                  and create an account if you haven't already.
-                </li>
-                <li>
-                  <b>2</b>: Follow this link to install "Age Of Empires Online"
-                  <a href="steam://install/105430" rel="nofollow">
-                    steam://install/105430
-                  </a>
-                  <br />
-                </li>
-                <li>
-                  <b>3</b>: Download
-                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest" rel="nofollow">
-                    CelesteLauncher.zip
-                  </a>
-                  <br />
-                </li>
-                <li>
-                  <b>4</b>: Extract CelesteLauncher.zip into the game's folder (Where Steam downloaded the game)
-                  <br />
-                </li>
-                <li>
-                  <b>5</b>: Run "Celeste Launcher.exe" (Without the "exe" if your file extensions are hidden) and
-                  register/login.
-                  <br />
-                </li>
-                <li>
-                  <b>6</b>: In the Celeste Launcher, click the hammer button and choose "Convert to Steam Game". Click
-                  "Confirm" when prompted. This will make it so when you hit "Play" within steam for Age of Empires
-                  Online, it will correctly launch the Celeste Launcher.
-                  <br />
-                </li>
-                <li>
-                  <b>7</b>: Click the hammer button again and choose "Game Scan". Set the scan's location to the game's
-                  root folder. Example: "C:\Program Files (x86)\Steam\steamapps\common\Age of Empires Online" - Once
-                  it's set, run the scan. This will download the rest of the game files and patch the game.
-                  <br />
-                </li>
-                <li>
-                  <b>8</b>: The game is now installed. Press "Play" in the Celeste Launcher to play the game!
-                  <br />
-                </li>
-              </ul>
-            </div>
+          <div class="column is-full">
+            <h4 id="install-steam" class="title is-4 has-text-gold">
+              2: Install with Steam
+            </h4>
+            <ul class="content">
+              <li>
+                <b>1</b>: You need to install
+                <a href="http://store.steampowered.com/about/" rel="nofollow" target="_blank">
+                  Steam
+                </a>
+                and create an account if you haven't already.
+              </li>
+              <li>
+                <b>2</b>: Follow this link to install "Age Of Empires Online"
+                <a href="steam://install/105430" rel="nofollow">
+                  steam://install/105430
+                </a>
+                <br />
+              </li>
+              <li>
+                <b>3</b>: Download
+                <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest" rel="nofollow">
+                  CelesteLauncher.zip
+                </a>
+                <br />
+              </li>
+              <li>
+                <b>4</b>: Extract CelesteLauncher.zip into the game's folder (Where Steam downloaded the game)
+                <br />
+              </li>
+              <li>
+                <b>5</b>: Run "Celeste Launcher.exe" (Without the "exe" if your file extensions are hidden) and
+                register/login.
+                <br />
+              </li>
+              <li>
+                <b>6</b>: In the Celeste Launcher, click the hammer button and choose "Convert to Steam Game". Click
+                "Confirm" when prompted. This will make it so when you hit "Play" within steam for Age of Empires
+                Online, it will correctly launch the Celeste Launcher.
+                <br />
+              </li>
+              <li>
+                <b>7</b>: Click the hammer button again and choose "Game Scan". Set the scan's location to the game's
+                root folder. Example: "C:\Program Files (x86)\Steam\steamapps\common\Age of Empires Online" - Once
+                it's set, run the scan. This will download the rest of the game files and patch the game.
+                <br />
+              </li>
+              <li>
+                <b>8</b>: The game is now installed. Press "Play" in the Celeste Launcher to play the game!
+                <br />
+              </li>
+            </ul>
           </div>
 
           <div class="column is-full">
