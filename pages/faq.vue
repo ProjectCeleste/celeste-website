@@ -8,9 +8,9 @@
               <h2 class="title is-3 has-text-gold">
                 FAQ
                 <b-icon
-                  icon="comment-question"
-                  size="is-large"
-                  icon-size="mdi-48px"
+                icon="comment-question"
+                size="is-large"
+                icon-size="mdi-48px"
                 />
               </h2>
 
@@ -33,13 +33,13 @@
           </h3>
           <div class="columns is-multiline">
             <div
-              v-for="(question, key) of questions"
-              :key="key"
-              class="column is-full"
+            v-for="(question, key) of questions"
+            :key="key"
+            class="column is-full"
             >
               <b-collapse :open="false">
-                <span slot="header">{{ question.title }}</span>
-                <div slot="content" v-html="question.content" />
+                <span slot="header" class="faq-header">{{ question.title }}</span>
+                <div slot="content" v-html="question.content" class="faq-content" />
               </b-collapse>
             </div>
           </div>
@@ -50,13 +50,13 @@
           </h3>
           <div class="columns is-multiline">
             <div
-              v-for="(question, key) of techquestions"
-              :key="key"
-              class="column is-full"
+            v-for="(question, key) of techquestions"
+            :key="key"
+            class="column is-full"
             >
               <b-collapse :open="false">
-                <span slot="header">{{ question.title }}</span>
-                <div slot="content" v-html="question.content" />
+                <span slot="header" class="faq-header">{{ question.title }}</span>
+                <div slot="content" v-html="question.content" class="faq-content" />
               </b-collapse>
             </div>
           </div>
@@ -249,5 +249,19 @@ export default {
 <style lang="scss" scoped>
 .section {
   background-image: url("~assets/img/background_7.webp");
+}
+
+.faq-content {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 1px 1.5 0.2px #000000;
+}
+
+.faq-header {
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  color: #ffffffea;
+  text-shadow: 1px 1.5 0.2px #000000;
 }
 </style>
