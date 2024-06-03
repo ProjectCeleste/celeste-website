@@ -89,9 +89,11 @@
                   <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe" rel="nofollow" target="_blank">
                   https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe
                 </a>
+                <br />
                 </li>
                 <h5 class="subtitle is-5 has-text-grey-lighter">
-                Installaion Video Guide
+                Installation Video Guide
+                <br />
                 </h5>
                 <li>
                   <div
