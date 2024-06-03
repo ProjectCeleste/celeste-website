@@ -148,17 +148,23 @@
                 <br />
               </li>
               <li>
-                <b>6</b>: In the Celeste Launcher, click the hammer button and choose "Convert to Steam Game". Click
-                "Confirm" when prompted. This will make it so when you hit "Play" within steam for Age of Empires
-                Online, it will correctly launch the Celeste Launcher.
-                <br />
-              </li>
-              <li>
-                <b>7</b>: Click the hammer button again and choose "Game Scan". Set the scan's location to the game's
-                root folder. Example: "C:\Program Files (x86)\Steam\steamapps\common\Age of Empires Online" - Once
-                it's set, run the scan. This will download the rest of the game files and patch the game.
-                <br />
-              </li>
+                  <b>6</b>: In the Celeste Launcher, click the
+                  <img src="~assets/img/HammerButton.png" alt="hammer icon"
+                    style="width: 37px; height: 40px; vertical-align: middle; margin-left: 5px; margin-right: 5px;" />
+                  hammer button and choose "Convert to Steam Game". Click "Confirm" when prompted. This will make it so
+                  when you hit "Play" within steam for Age of Empires Online, it will correctly launch the Celeste
+                  Launcher.
+                  <br />
+                </li>
+                <li>
+                  <b>7</b>: Click the 
+                  <img src="~assets/img/HammerButton.png" alt="hammer icon"
+                    style="width: 37px; height: 40px; vertical-align: middle; margin-left: 5px; margin-right: 5px;" />
+                  hammer button again and choose "Game Scan". Set the scan's location to the game's root folder.
+                  Example: "C:\Program Files (x86)\Steam\steamapps\common\Age of Empires Online" - Once it's set, run
+                  the scan. This will download the rest of the game files and patch the game.
+                  <br />
+                </li>
               <li>
                 <b>8</b>: The game is now installed. Press "Play" in the Celeste Launcher to play the game!
                 <br />
