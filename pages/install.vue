@@ -94,9 +94,9 @@
                 </li>
                 <li>
                   Installer download link:
-                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
-                    rel="nofollow" target="_blank">
-                  </a>
+                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe" rel="nofollow" target="_blank">
+                  https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe
+                </a>
                 </li>
               </ul>
             </div>
