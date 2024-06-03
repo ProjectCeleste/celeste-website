@@ -84,22 +84,6 @@
                 1: Standard Installation (Recommended)
               </h4>
               <ul class="content">
-                <!-- <li>
-                  <b>1</b>: Download the
-                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
-                    rel="nofollow" target="_blank">
-                    Installer
-                  </a>
-                </li>
-                <li>
-                  <b>2</b>: Run the installer. If you get the SmartScreen message from Windows, then go to "more
-                  information" and then "run".
-                  <br />
-                </li>
-                <li>
-                  <b>Extra</b>: See the video below.
-                  <br />
-                </li> -->
                 <li>
                   <div
                     style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -107,6 +91,12 @@
                       src="https://www.youtube.com/embed/7CIN3CG3qns" frameborder="0" allowfullscreen></iframe>
                   </div>
                   <br />
+                </li>
+                <li>
+                  Installer download link:
+                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe"
+                    rel="nofollow" target="_blank">
+                  </a>
                 </li>
               </ul>
             </div>
