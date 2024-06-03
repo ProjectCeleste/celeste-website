@@ -91,10 +91,12 @@
                 </a>
                 <br />
                 </li>
-                <h5 class="subtitle is-5 has-text-grey-lighter">
-                Installation Video Guide
-                <br />
+                <li>
+                  <h5 class="subtitle is-5 has-text-grey-lighter">
+                  Installation Video Guide
+                  <br />
                 </h5>
+                </li>
                 <li>
                   <div
                     style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -105,9 +107,7 @@
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div class="column is-full">
+            <div class="column is-full">
             <h4 id="install-steam" class="title is-4 has-text-gold">
               2: Install with Steam
             </h4>
@@ -176,38 +176,37 @@
                 The game can be played on Linux using the
                 <a rel="nofollow" href="https://lutris.net/games/age-of-empires-online/" target="_blank">
                   Lutris installer
-                </a>
-                .
+                </a>.
               </li>
             </ul>
           </div>
-
-          <div class="column is-full">
-            <h4 id="troubleshooting" class="title is-4 has-text-gold">
-              4: Troubleshooting
-            </h4>
-            <ul class="content">
-              <li>
-                For error messages and general technical issues, first try
-                <a href="https://www.projectceleste.com/faq" rel="nofollow" target="_blank">
-                  the FAQ's technical issue section.
-                </a>
-              </li>
-              <li>
-                If the FAQ did not have an answer for you, visit our
-                <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">
-                  discord server
-                </a>
-                and ask for help in the tech support channel.
-              </li>
-              <li>
-                Coop/PvP may not work out-of-the-box for everyone. In which case, check out the
-                <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project/"
-                  rel="nofollow" target="_blank">
-                  coop/pvp guide here.
-                </a>
-              </li>
-            </ul>
+            <div class="column is-full">
+              <h4 id="troubleshooting" class="title is-4 has-text-gold">
+                4: Troubleshooting
+              </h4>
+              <ul class="content">
+                <li>
+                  For error messages and general technical issues, first try
+                  <a href="https://www.projectceleste.com/faq" rel="nofollow" target="_blank">
+                    the FAQ's technical issue section
+                  </a>.
+                </li>
+                <li>
+                  If the FAQ did not have an answer for you, visit our
+                  <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">
+                    discord server
+                  </a>
+                  and ask for help in the tech support channel.
+                </li>
+                <li>
+                  Coop/PvP may not work out-of-the-box for everyone. In which case, check out the
+                  <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project/"
+                    rel="nofollow" target="_blank">
+                    coop/pvp guide here
+                  </a>.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
