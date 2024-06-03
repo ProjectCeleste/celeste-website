@@ -85,9 +85,7 @@
               </h4>
               <ul class="content">
                 <li>
-                  Installer Download Link:
-                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe" rel="nofollow" target="_blank">
-                  https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe
+                  The installer can be downloaded from the "Download Installer" button above. You can also look at the video guide below for step-by-step instructions.
                 </a>
                 <br />
                 </li>
