@@ -85,18 +85,21 @@
               </h4>
               <ul class="content">
                 <li>
+                  Installer Download Link:
+                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe" rel="nofollow" target="_blank">
+                  https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe
+                </a>
+                </li>
+                <li>
+                  Installation Video Guide:
+                </li>
+                <li>
                   <div
-                    style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+                    style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 60%; height: auto;">
                     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
                       src="https://www.youtube.com/embed/7CIN3CG3qns" frameborder="0" allowfullscreen></iframe>
                   </div>
                   <br />
-                </li>
-                <li>
-                  Installer download link:
-                  <a href="https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe" rel="nofollow" target="_blank">
-                  https://github.com/ProjectCeleste/Celeste.Launcher/releases/latest/download/Celeste.Installer.exe
-                </a>
                 </li>
               </ul>
             </div>
