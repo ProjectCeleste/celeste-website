@@ -134,6 +134,17 @@ export default {
         }
       ],
       techquestions: [
+      {
+          title: "When I try to launch the game, I get an error saying \"The code execution cannot proceed because xlive.dll was not found.\", How can I fix this?",
+          content: `<p>If xlive.dll is missing then running a "Gamescan" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
+        },
+        {
+          title: "I'm getting an error for a different missing DLL file other than xlive.dll. How do I fix this?",
+          content: `<p>You need to install all of the game's prerequisites and dependencies.</p>
+          <p>DLL files with "dx", "d9" or "d3" within the name are generally related to DirectX. <a href="https://downloads.projectceleste.com/static/dxwebsetup.exe" rel="nofollow" target="_blank">Download it here</a>.</p>
+          <p>MSVCR*.dll, VCRUNTIME*.dll, MSVCP*.dll, UCRTBASE.dll, API-MS-WIN-CRT*.dll and CONCRT*.dll Are related to Visual C++ Runtime/Redistributable or Windows Universal CRT <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe" rel="nofollow" target="_blank">Download the C++ Runtime here</a> and the <a href="https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows" rel="nofollow" target="_blank">Universal CRT here</a>.</p>
+          <p>Any other missing DLLs (other than xlive.dll, for which, a "Game Scan" is required as mentioned in the above FAQ question) are likely related to the .NET Framework versions required by the game or launcher. Download the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=21" rel="nofollow" target="_blank">.NET Framework 3.5 here</a> and the <a href="https://www.microsoft.com/en-US/download/details.aspx?id=30653" rel="nofollow" target="_blank">.NET Framework 4.5 here</a>.</p>`
+        },
         {
           title: "Why do I get kicked out of the game when I join a party?",
           content: `<p>If the error you get is "Connection to the Age of Empires Online Chat Server Was Lost" then you or your partner most likely have too many quests active. Try abandoning some first.</p>`
@@ -156,17 +167,6 @@ export default {
           title: "How do I fix the \"Early std::exception - Failed opening file <My Documents>\\Spartan\\xlive.log\" error message when trying to launch the game?",
           content: `<p>Sometimes this is a filesystem permission issue, in which case running the launcher as an administrator can solve it. However, the most common cause is OneDrive. If the location to the xlive.log file in the error message contains a OneDrive folder, this is likely the issue.</p>
           <p>If this is the case, Uninstalling OneDrive should solve the issue. But of course, if you use OneDrive and want to keep it installed, then you may not want to do that. If you do want to keep OneDrive but it's causing this issue for you, then join the <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">discord server</a> and ask for help with this.</p>`
-        },
-        {
-          title: "When I try to launch the game, I get an error saying \"The code execution cannot proceed because xlive.dll was not found.\", How can I fix this?",
-          content: `<p>If xlive.dll is missing then running a "Gamescan" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
-        },
-        {
-          title: "I'm getting an error for a different missing DLL file other than xlive.dll. How do I fix this?",
-          content: `<p>You need to install all of the game's prerequisites and dependencies. Links to them can be found in the install guide's "Troubleshooting" section.</p>
-          <p>DLL files with "dx", "d9" or "d3" within the name are generally related to DirectX. In this game's case, DirectX 9.</p>
-          <p>MSVCR*.dll, VCRUNTIME*.dll, MSVCP*.dll, UCRTBASE.dll, API-MS-WIN-CRT*.dll and CONCRT*.dll Are related to Visual C++ Runtime/Redistributable or Windows Universal CRT</p>
-          <p>Any other missing DLLs (other than xlive.dll, for which, see the above FAQ question) are likely related to the .NET Framework versions required by the game or launcher.</p>`
         },
         {
           title: "My game is crashing during specific quests. What should I do to fix this problem?",
