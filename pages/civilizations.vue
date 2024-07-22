@@ -84,6 +84,16 @@
                   <span>Norse</span>
                 </nuxt-link>
               </li>
+              <li>
+                <nuxt-link
+                  to="/civilizations/indians"
+                  exact-active-class="is-active"
+                  class="is-flex is-flex-column is-centered"
+                >
+                  <img src="~/assets/img/civ/norse.webp" class="civ-icon" />
+                  <span>Indians</span>
+                </nuxt-link>
+              </li>
             </ul>
           </div>
           <nuxt-child />
