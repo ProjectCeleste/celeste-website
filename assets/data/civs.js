@@ -47,5 +47,12 @@ export default {
       "The Romans bring a new aspect to Age of Empires Online - Officers. Officers are powerful, semi-heroic Units that greatly impact battles and increase the effectiveness of your other Units. Having Officers in your army can quickly make the difference between a decisive victory and a crushing defeat. The Romans are fairly well-rounded, like their Greek counterparts, but are also generally more expensive and even more bottle-necked by their Economy. Utilize Roman Engineers to greatly speed up Building construction while your Villagers spend more time gathering resources rather than constructing Buildings.",
     icon: require("~/assets/img/civ/roman.webp"),
     character: require("~/assets/img/civ/roman_character.webp")
+  },
+  i: {
+    name: "Indians",
+    description:
+      "The Indians bring Choose-One Techs onto the battlefield, which is a unique mechanic that allows them to choose one of multiple powerful upgrades that can greatly improve their army and economy. They also have access to Gatherer Elephants - a specialist worker unit that gathers resources much faster than Villagers, but cannot repair any buildings and can only construct Plantations, which is a unique Indian Farm that can be utilized by more than one gatherer. In the lategame, you have access to Juggernauts which are extremely powerful but also extremely expensive armored Elephant units that can dominate any fight, but are very costly to replace if lost, and also vulnerable to enemy Priest units.",
+    icon: require("~/assets/img/civ/indian.webp"),
+    character: require("~/assets/img/civ/indian_character.webp")
   }
 }

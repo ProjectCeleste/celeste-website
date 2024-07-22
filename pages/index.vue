@@ -133,6 +133,9 @@
           <div class="column is-narrow civ-icon">
             <img src="~/assets/img/civ/norse.webp" />
           </div>
+          <div class="column is-narrow civ-icon">
+            <img src="~/assets/img/civ/indian.webp" />
+          </div>
         </div>
         <div class="has-text-centered">
           <p class="title is-4 has-text-gold">
@@ -140,9 +143,9 @@
           </p>
           <p class="content">
             Play as the Greeks, Egyptians, Celts, Persians, Romans, Babylonians
-            and Norse. Each civilization is unique in its own way and has its
-            own play style. Find out which one suits you the most by answering a
-            few questions in our personality test!
+            Norse and Indians. Each civilization is unique in its own way and
+            has its own play style. Find out which one suits you the most by
+            answering a few questions in our personality test!
           </p>
           <nuxt-link
             to="personality-test"

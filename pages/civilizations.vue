@@ -90,7 +90,7 @@
                   exact-active-class="is-active"
                   class="is-flex is-flex-column is-centered"
                 >
-                  <img src="~/assets/img/civ/norse.webp" class="civ-icon" />
+                  <img src="~/assets/img/civ/indian.webp" class="civ-icon" />
                   <span>Indians</span>
                 </nuxt-link>
               </li>
