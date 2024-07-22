@@ -7,6 +7,10 @@
     <h3 class="subtitle has-text-grey-lighter has-text-centered">
       {{ subtitle }}
     </h3>
+    <!-- New layout later when wider screenshots are provided -->
+    <!-- <div class="civ-img">
+      <img class="bordered" :src="img" />
+    </div> -->
 
     <div class="columns">
       <div class="column is-flex is-flex-column">
