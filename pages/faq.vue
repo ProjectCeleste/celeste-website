@@ -8,9 +8,9 @@
               <h2 class="title is-3 has-text-gold">
                 FAQ
                 <b-icon
-                icon="comment-question"
-                size="is-large"
-                icon-size="mdi-48px"
+                  icon="comment-question"
+                  size="is-large"
+                  icon-size="mdi-48px"
                 />
               </h2>
 
@@ -33,13 +33,19 @@
           </h3>
           <div class="columns is-multiline">
             <div
-            v-for="(question, key) of questions"
-            :key="key"
-            class="column is-full"
+              v-for="(question, key) of questions"
+              :key="key"
+              class="column is-full"
             >
               <b-collapse :open="false">
-                <span slot="header" class="faq-header">{{ question.title }}</span>
-                <div slot="content" v-html="question.content" class="faq-content" />
+                <span slot="header" class="faq-header">{{
+                  question.title
+                }}</span>
+                <div
+                  slot="content"
+                  class="faq-content"
+                  v-html="question.content"
+                />
               </b-collapse>
             </div>
           </div>
@@ -50,13 +56,19 @@
           </h3>
           <div class="columns is-multiline">
             <div
-            v-for="(question, key) of techquestions"
-            :key="key"
-            class="column is-full"
+              v-for="(question, key) of techquestions"
+              :key="key"
+              class="column is-full"
             >
               <b-collapse :open="false">
-                <span slot="header" class="faq-header">{{ question.title }}</span>
-                <div slot="content" v-html="question.content" class="faq-content" />
+                <span slot="header" class="faq-header">{{
+                  question.title
+                }}</span>
+                <div
+                  slot="content"
+                  class="faq-content"
+                  v-html="question.content"
+                />
               </b-collapse>
             </div>
           </div>
@@ -134,12 +146,14 @@ export default {
         }
       ],
       techquestions: [
-      {
-          title: "When I try to launch the game, I get an error saying \"The code execution cannot proceed because xlive.dll was not found.\", How can I fix this?",
+        {
+          title:
+            'When I try to launch the game, I get an error saying "The code execution cannot proceed because xlive.dll was not found.", How can I fix this?',
           content: `<p>If xlive.dll is missing then running a "Gamescan" within the Celeste Launcher will fix this. It'll be downloaded alongside any other game files that are missing, corrupted, or outdated.</p>`
         },
         {
-          title: "I'm getting an error for a different missing DLL file other than xlive.dll. How do I fix this?",
+          title:
+            "I'm getting an error for a different missing DLL file other than xlive.dll. How do I fix this?",
           content: `<p>You need to install all of the game's prerequisites and dependencies.</p>
           <p>DLL files with "dx", "d9" or "d3" within the name are generally related to DirectX. <a href="https://downloads.projectceleste.com/static/dxwebsetup.exe" rel="nofollow" target="_blank">Download it here</a>.</p>
           <p>MSVCR*.dll, VCRUNTIME*.dll, MSVCP*.dll, UCRTBASE.dll, API-MS-WIN-CRT*.dll and CONCRT*.dll Are related to Visual C++ Runtime/Redistributable or Windows Universal CRT <a href="https://aka.ms/vs/16/release/vc_redist.x86.exe" rel="nofollow" target="_blank">Download the C++ Runtime here</a> and the <a href="https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows" rel="nofollow" target="_blank">Universal CRT here</a>.</p>
@@ -150,43 +164,52 @@ export default {
           content: `<p>If the error you get is "Connection to the Age of Empires Online Chat Server Was Lost" then you or your partner most likely have too many quests active. Try abandoning some first.</p>`
         },
         {
-          title: "Why do I get a \"Game Failed to Launch\" error in chat when trying to play with other players? (Co-op or PvP)",
+          title:
+            'Why do I get a "Game Failed to Launch" error in chat when trying to play with other players? (Co-op or PvP)',
           content: `<p>You and/or the other players you tried to play with may need to do some extra setup in order to get Co-op/PvP working.</p>
           <p>Please see <a href="https://www.reddit.com/r/projectceleste/wiki/how-to-play-coop-pvp-aoeo-celeste-fan-project" rel="nofollow" target="_blank">this guide</a> for information on what to do.</p>
           <p>Tip: To know which player(s) may need to follow the guide, you can test a coop game between each player individually with someone else that knows for sure that their co-op works with anyone.</p>`
         },
         {
-          title: "How do I fix the \"Game Initialization failed. [...] (CORE)\" error?",
+          title:
+            'How do I fix the "Game Initialization failed. [...] (CORE)" error?',
           content: `<p>In the Celeste Launcher, click the hammer button and then choose "Windows Features". Click "Enable" for "DirectPlay". If this does not solve the issue, you can also try <a href="https://youtu.be/ldkte26nbdU" rel="nofollow" target="_blank">this video</a>.</p>`
         },
         {
-          title: "Why am I getting kicked out of the game with the \"The Age of Empires Online Server is not available at this time\" error?",
+          title:
+            'Why am I getting kicked out of the game with the "The Age of Empires Online Server is not available at this time" error?',
           content: `<p>This usually happens when your connection to the game drops or gets interrupted for too long. Slower internet connections make this more likely as well.</p>`
         },
         {
-          title: "How do I fix the \"Early std::exception - Failed opening file <My Documents>\\Spartan\\xlive.log\" error message when trying to launch the game?",
+          title:
+            'How do I fix the "Early std::exception - Failed opening file <My Documents>\\Spartan\\xlive.log" error message when trying to launch the game?',
           content: `<p>Sometimes this is a filesystem permission issue, in which case running the launcher as an administrator can solve it. However, the most common cause is OneDrive. If the location to the xlive.log file in the error message contains a OneDrive folder, this is likely the issue.</p>
           <p>If this is the case, Uninstalling OneDrive should solve the issue. But of course, if you use OneDrive and want to keep it installed, then you may not want to do that. If you do want to keep OneDrive but it's causing this issue for you, then join the <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">discord server</a> and ask for help with this.</p>`
         },
         {
-          title: "My game is crashing during specific quests. What should I do to fix this problem?",
+          title:
+            "My game is crashing during specific quests. What should I do to fix this problem?",
           content: `<p>Usually if you are crashing only on certain quests, abandoning those quests and re-accepting them fixes the issue. If not, a "Gamescan" within the Celeste Launcher may help in case the files are corrupted or outdated.</p>`
         },
         {
-          title: "I got an error while playing a quest that said \"Random map <map name> Caused an unhandled exception\". What should I do?",
+          title:
+            'I got an error while playing a quest that said "Random map <map name> Caused an unhandled exception". What should I do?',
           content: `<p>First, try running a "Gamescan" within the Celeste Launcher. Re-open the game and see if that fixes the issue. If it did not help, make sure that any antivirus or antimalware applications you have installed are excluding the game's and launcher's files just in case.</p>`
         },
         {
-          title: "When I tried to log in, I got an error saying \"Login to \"Celeste Fan Project\" Server failed (Invalid xlive.dll)\". What can I do?",
+          title:
+            'When I tried to log in, I got an error saying "Login to "Celeste Fan Project" Server failed (Invalid xlive.dll)". What can I do?',
           content: `<p>Run a "Gamescan" within the Celeste Launcher in order to update your game's files. (Including xlive.dll)</p>`
         },
         {
-          title: "My launcher had an error that said \"An unexpected error occurred.\". What should I do?",
+          title:
+            'My launcher had an error that said "An unexpected error occurred.". What should I do?',
           content: `<p>Check the "Logs" folder for the most recent log files. (The "Logs" folder will be wherever your launcher files are) - Inside of the logs, look for any errors or warnings (Not lines that begin with "[INF]") then join <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">us on discord</a> to ask for help in the "#tech-support" channel.</p>
           <p>When you ask for help on discord, please include any errors you found in the log files.</p>`
         },
         {
-          title: "I'm experiencing stutters or lag during specific actions such as placing a rally flag",
+          title:
+            "I'm experiencing stutters or lag during specific actions such as placing a rally flag",
           content: `<p>On AMD Radeon 7000 & 6000 series graphics cards, certain situations are known to be able to cause framerate drops. (Such as setting a rally point flag for a building)
         Disabling Smart Access Memory within Adrenaline before playing Age of Empires Online seems to resolve this. (You can re-enable SAM when not playing Age of Empires Online)</p>
         <p>If you are not playing on the graphics cards mentioned above, then this should not apply to you. Make sure you meet the minimum system requirements below.</p>
@@ -199,24 +222,28 @@ export default {
         </ul>`
         },
         {
-          title: "I'm getting a runtime error that says \"This application has requested the Runtime to terminate it in an unusual way\". How can I fix this error?",
+          title:
+            'I\'m getting a runtime error that says "This application has requested the Runtime to terminate it in an unusual way". How can I fix this error?',
           content: `<p>This error is pretty vague and can mean a several things, but generally the common fix is to reinstall your Visual C++ Redistributable Runtimes. Once they are uninstalled, use the link to the Visual C++ Runtime found in the installation guide to reinstall them.</p>
           <p>Additionally, the Celeste Launcher's "Limit CPU Cores" option may fix this issue on some CPUs.</p>`
         },
         {
-          title: "When I press \"Play\" in the launcher, I get an error saying \"An error occured in a xlive function! Login to Celeste Fan Project Server failed (timeout)\". How do I fix this?",
+          title:
+            'When I press "Play" in the launcher, I get an error saying "An error occured in a xlive function! Login to Celeste Fan Project Server failed (timeout)". How do I fix this?',
           content: `<p>Usually this is because your xlive.dll file is out of date or corrupted. Running a "Gamescan" within the Celeste Launcher resolves this.</p>
           <p>Another, less likely, possibility is that the connection to the game servers is timing out due to something on your network/computer interfering with the connection (or other reasons). Try using the Celeste Launcher's "Firewall Helper" to make sure the launcher and game are allowed within the Windows firewall. Otherwise, make sure any software or firewall settings are not blocking the launcher or game.</p>`
         },
         {
-          title: "When trying to register for a game account within the Celeste Launcher, I'm getting an error that says \"You are not allowed to do that\". What do I do?",
+          title:
+            'When trying to register for a game account within the Celeste Launcher, I\'m getting an error that says "You are not allowed to do that". What do I do?',
           content: `<p>This can be a few things but mainly make sure are not trying to create multiple accounts when you already have one. This is against the rules. Also make sure that your email and password only contain fairly standard characters.</p>`
         },
         {
-          title: "I still need more help with a technical issue or error message!",
+          title:
+            "I still need more help with a technical issue or error message!",
           content: `<p>Please <a href="https://discordapp.com/invite/YbkZ9GZ" rel="nofollow" target="_blank">join us on discord</a> and describe your issue in the "#tech-support" channel or message a member of the team with the "Tech Support" discord role.</p>
           <p>Please try to include as many relevant details as possible when requested help. If your error is from the Celeste Launcher, it'd help the tech support staff if you have the launcher's log files ready. They are located in the "Logs" folder which can be found in the same directory as your launcher files.</p>`
-        },
+        }
       ]
     }
   },
@@ -252,14 +279,14 @@ export default {
 }
 
 .faq-content {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 16px;
   color: #ffffff;
   text-shadow: 1px 1.5 0.2px #000000;
 }
 
 .faq-header {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 18px;
   color: #ffffffea;
   text-shadow: 1px 1.5 0.2px #000000;
