@@ -5,7 +5,7 @@
     :strengths="strengths"
     :weaknesses="weaknesses"
     :key-units="keyUnits"
-    :img="require('~/assets/img/civ/indians/image.png')"
+    :img="require('~/assets/img/civ/indians/civ.webp')"
   >
     <p class="content">
       The Indians bring Choose-One Techs onto the battlefield, which is a unique

@@ -102,6 +102,6 @@ export default {
   border: 2px solid #afa588;
   border-radius: 7px;
   background-size: cover;
-  background-position: center;
+  background-position: 10%;
 }
 </style>
