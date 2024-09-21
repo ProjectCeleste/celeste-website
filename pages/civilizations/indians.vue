@@ -36,13 +36,13 @@ export default {
         "Choose-One Techs",
         "Powerful Elephant Units",
         "Diverse set of Military Units",
-        "Gatherer Elephants and Plantaions",
+        "Gatherer Elephants and Plantations",
         "Powerful Military and Technology in the midgame"
       ],
       weaknesses: [
         "Lots of different Production Buildings",
         "No access to early healing",
-        "Expensive Plantation that are costly to replace",
+        "Expensive Plantations that are costly to replace",
         "Susceptible to raids"
       ],
       keyUnits: [
