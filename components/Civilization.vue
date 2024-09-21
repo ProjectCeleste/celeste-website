@@ -8,9 +8,7 @@
       {{ subtitle }}
     </h3>
     <!-- New layout later when wider screenshots are provided -->
-    <!-- <div class="civ-img">
-      <img class="bordered" :src="img" />
-    </div> -->
+    <div class="civ-img" :style="{ backgroundImage: `url(${img})` }" />
 
     <div class="columns">
       <div class="column is-flex is-flex-column">
@@ -42,9 +40,9 @@
         </div>
       </div>
       <div class="column is-narrow">
-        <div class="civ-img">
+        <!-- <div class="civ-img">
           <img class="bordered" :src="img" />
-        </div>
+        </div> -->
 
         <h5 class="title is-5 has-text-white has-text-centered">
           Key Units
@@ -99,10 +97,11 @@ export default {
 .civ-img {
   margin-bottom: 0.75rem;
   text-align: center;
-
-  img {
-    width: 251px;
-    height: 135px;
-  }
+  width: 100%;
+  height: 132px;
+  border: 2px solid #afa588;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
 }
 </style>
