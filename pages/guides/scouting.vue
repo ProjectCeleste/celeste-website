@@ -27,9 +27,9 @@
           2. Scout your opponent&apos;s Base
         </p>
         <p class="content">
-          Once you are done killing your Huntables, send your Scout towards
-          your opponent&apos;s base. See where their resources are located, if
-          they are gathering from Huntables or Berries, if they are making early
+          Once you are done killing your Huntables, send your Scout towards your
+          opponent&apos;s base. See where their resources are located, if they
+          are gathering from Huntables or Berries, if they are making early
           Military Units, etc.
         </p>
         <p class="content">

@@ -106,7 +106,8 @@ export default {
         p: 0, // Persia
         r: 0, // Roman
         b: 0, // Babylon
-        n: 0 // Norse
+        n: 0, // Norse
+        i: 0 // Indians
       }
     }
   },
@@ -220,7 +221,8 @@ export default {
         p: 0, // Persia
         r: 0, // Roman
         b: 0, // Babylon
-        n: 0 // Norse
+        n: 0, // Norse
+        i: 0 // Indians
       }
     },
     navigateToCiv(civ) {
