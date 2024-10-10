@@ -60,9 +60,9 @@ export default {
           name: "Project Celeste Lead Developers",
           names: [
             "PF2K",
-            "Luciano Pereira (Luciano)",
             "Kevin Waldock (Kevsoft)",
-            "kisonik"
+            "Martin Storø Nyfløtt (martinmine)"
+            "Elle Pereira (Luciano)",
           ]
         },
         {
@@ -71,7 +71,7 @@ export default {
         },
         {
           name: "Civilization Design",
-          names: ["PF2K", "Andy P XIII", "RecoN"]
+          names: ["PF2K"]
         },
         {
           name: "Gear Design",
@@ -79,43 +79,28 @@ export default {
         },
         {
           name: "Regional City Designs",
-          names: ["Max v.R.", "RecoN", "Andy P XIII"]
+          names: ["Kire Arizanovski (Kire)", "Max v.R.", "PF2K"]
         },
         {
           name: "Shop Design",
-          names: ["Jeinx", "PF2K", "lukipr0", "[BBA]Kog"]
-        },
-        {
-          name: "Campaign Design",
-          names: ["PF2K", "Andy P XIII"]
-        },
-        {
-          name: "Campaign Assistance",
-          names: ["Fristi61", "Eamon.G"]
+          names: ["PF2K"]
         },
         {
           name: "Quest Design",
-          names: ["PF2K", "RecoN", "Kire", "JilgueriN", "FinishedBlock21"]
+          names: ["Kire", "PF2K"]
         },
         {
           name: "Technical Design",
-          names: [
-            "PF2K",
-            "kangcliff",
-            "Kevsoft",
-            "kisonik",
-            "Luciano",
-            "Ryddag"
-          ],
+          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft", "PF2K"]
           separator: true
         },
         {
           name: "Technical Support",
-          names: ["kangcliff", "kisonik", "Kevsoft", "PF2K"]
+          names: ["Kevsoft", "kisonik"]
         },
         {
           name: "Server Backend",
-          names: ["Ryddag", "Martin Storø Nyfløtt (martinmine)", "Kevsoft"]
+          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft"]
         },
         {
           name: "IT Operations",
@@ -126,38 +111,41 @@ export default {
           names: ["Jérémy Lambert (SystemGlitch)"]
         },
         {
-          name: "3d Modeling Directors",
+          name: "Website Assistance",
+          names: ["Moattaz Khallaf (Taz)"]
+        },
+        {
+          name: "3D Modeling Directors",
           names: ["Max v.R.", "Eamon.G"],
           separator: true
         },
         {
-          name: "3d Modeling Assistance",
-          names: ["PF2K"]
+          name: "3D Modeling Assistance",
+          names: ["PF2K", "Kire"]
         },
         {
           name: "Rigging",
           names: ["Max v.R.", "Eamon.G"]
         },
         {
-          name: "3d Texturing",
-          names: ["Eamon.G", "Max v.R.", "PF2K"]
+          name: "3D Texturing",
+          names: ["Eamon.G", "Max v.R.", "Natsata", "PF2K"]
         },
         {
           name: "3D Animation Director",
-          names: ["Phillus"]
+          names: ["Eamon.G", "Max v.R."]
         },
         {
           name: "Animations",
-          names: ["Phillus", "Anubis", "Max v.R.", "Eamon.G", "PF2K"]
+          names: ["Max v.R.", "Eamon.G", ", "Enrique A. Enríquez V. (BikeAlex)", "PF2K"]
         },
         {
-          name: "2d Art",
-          note: "PF2K and countless original Artists",
-          names: []
+          name: "2D Art",
+          names: ["Nayden Romanov (Natsata)", "Bryan Rafael Blanco Landaeta (Cain)", "PF2K"]
         },
         {
           name: "Sound Directors",
-          names: ["Eamon.G", "PF2K", "Andy P XIII"],
+          names: ["PF2K", "Eamon.G"],
           separator: true
         },
         {
@@ -166,39 +154,29 @@ export default {
         },
         {
           name: "Music Design",
-          names: ["Vladan Stančić", "Eamon.G", "Paul Anthony Romero"]
+          names: ["Vladan Stančić", "Eamon.G"]
         },
         {
           name: "Vocals",
           names: [
-            "Andy P XIII",
-            "Jeinx",
-            "Max v.R.",
             "PF2K",
-            "Phillus",
-            "Taz",
-            "Verhuver",
-            "Jan Zapletal (YetAnotherYoutuber)",
-            "Viviana Dragani",
-            "Zawnius"
+            "Eamon. G",
+            "Several Freelancer Voice Actors",
           ]
         },
         {
           name: "Written Content",
-          names: ["Andy P XIII", "PF2K"],
+          names: ["PF2K"],
           separator: true
         },
         {
           name: "Localization",
           names: [
-            "MatrixSoft",
-            "Mr.Star Sky",
-            "Phillus",
-            "Servimomia",
-            "SystemGlitch",
-            "Zenorhk (Zanetti)",
-            "lukipr0",
-            "Rekiemone"
+            "Servimomia (ES)",
+            "SimonSo (CHS)",
+            "Lorenzeo_Aha!Okay (DE)",
+            "Zenorhk (Zanetti) (IT)",
+            "Gerkiki (FR)",
           ]
         },
         {
@@ -207,46 +185,53 @@ export default {
           separator: true
         },
         {
-          name: "Balance Assistance",
+          name: "Playtesting and Civilization Balance Assistance",
           names: [
-            "Andy P XIII",
-            "CrimsonCantab",
-            "FinishedBlock21",
-            "Madlib",
-            "TheSpaniard",
-            "UR_Coolblade",
+            "NeoXist",
+            "Atlas",
+            "Smiga",
+            "Hawkster",
+            "DestroyerArcher",
+            "Kire",
+            "Flutters",
+            "fairplay",
+            "Mandos",
+            "Tim619",
+            "VC_Ardeshir",
+            "Andres",
+            "Servimomia",
+            "_Puinisher_",
             "Verhuver",
-            "warlock_ant",
-            "Jeinx",
-            "Kire"
+            "EKA",
+            "FFNEZ",
+            "Starofknight",
+            "StrikeR"
           ]
         },
         {
-          name: "Playtesting",
-          names: ["Everyone"]
-        },
-        {
           name: "Marketing",
-          names: ["PF2K", "Andy P XIII", "Wout"],
+          names: ["PF2K"],
           separator: true
         },
         {
           name: "Moderator Team",
-          names: ["NCSGeek", "Smileyguyx", "Wartai", "Wout"]
+          names: ["NCSGeek", "Smileyguyx", "Wartai"]
+        },
+        {
+          name: "Tech Support Team",
+          names: ["NCSGeek", "CWO", "Wartai"]
         },
         {
           name: "Media Team",
-          names: ["Eery", "Mandy", "Taz", "VC_Ardeshir"]
+          names: ["Mandy (Talos)", "Kire", "Taz"]
         },
         {
-          name: "Roman Trailer",
+          name: "Indians Trailer",
           names: [
-            "Mandy",
-            "Andy P XIII",
-            "Vladan Stančić",
+            "Mandy (Talos)",
             "Kire",
-            "Phillus",
-            "Max v.R."
+            "PF2K",
+            "Vladan Stančić",
           ]
         },
         {
@@ -267,7 +252,7 @@ export default {
           name: "Additional Thanks",
           note:
             "Members of the AoE3 Modding Council for their generous expertise",
-          names: ["Mandos", "Eaglemut", "KEremey"]
+          names: ["Mandos", "Alistair", "ageekhere"]
         }
       ]
     }
