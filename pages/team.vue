@@ -61,8 +61,8 @@ export default {
           names: [
             "PF2K",
             "Kevin Waldock (Kevsoft)",
-            "Martin Storø Nyfløtt (martinmine)"
-            "Elle Pereira (Luciano)",
+            "Martin Storø Nyfløtt (martinmine)",
+            "Elle Pereira (Luciano)"
           ]
         },
         {
