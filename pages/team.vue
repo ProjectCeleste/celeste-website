@@ -91,7 +91,7 @@ export default {
         },
         {
           name: "Technical Design",
-          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft", "PF2K"]
+          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft", "PF2K"],
           separator: true
         },
         {
@@ -137,7 +137,7 @@ export default {
         },
         {
           name: "Animations",
-          names: ["Max v.R.", "Eamon.G", ", "Enrique A. Enríquez V. (BikeAlex)", "PF2K"]
+          names: ["Max v.R.", "Eamon.G", "Enrique A. Enríquez V. (BikeAlex)", "PF2K"]
         },
         {
           name: "2D Art",
