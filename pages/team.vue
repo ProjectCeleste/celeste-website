@@ -59,10 +59,10 @@ export default {
         {
           name: "Project Celeste Lead Developers",
           names: [
-            "PF2K",
             "Kevin Waldock (Kevsoft)",
+            "PF2K",
             "Martin Storø Nyfløtt (martinmine)",
-            "Elle Pereira (Luciano)"
+            "Elle Pereira"
           ]
         },
         {
@@ -79,7 +79,7 @@ export default {
         },
         {
           name: "Regional City Designs",
-          names: ["Kire Arizanovski (Kire)", "Max v.R.", "PF2K"]
+          names: ["Max v.R.", "Kire Arizanovski (Kire)", "PF2K"]
         },
         {
           name: "Shop Design",
@@ -91,7 +91,7 @@ export default {
         },
         {
           name: "Technical Design",
-          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft", "PF2K"],
+          names: ["martinmine", "Kevsoft", "PF2K"],
           separator: true
         },
         {
@@ -100,7 +100,7 @@ export default {
         },
         {
           name: "Server Backend",
-          names: ["Martin Storø Nyfløtt (martinmine)", "Kevsoft"]
+          names: ["martinmine", "Kevsoft"]
         },
         {
           name: "IT Operations",
@@ -112,7 +112,7 @@ export default {
         },
         {
           name: "Website Assistance",
-          names: ["Moattaz Khallaf (Taz)"]
+          names: ["Taz Khallaf (Taz)"]
         },
         {
           name: "3D Modeling Directors",
@@ -141,7 +141,7 @@ export default {
         },
         {
           name: "2D Art",
-          names: ["Nayden Romanov (Natsata)", "Bryan Rafael Blanco Landaeta (Cain)", "PF2K"]
+          names: ["Nayden Romanov (Natsata)", "PF2K", "Bryan Rafael Blanco Landaeta (Cain)"]
         },
         {
           name: "Sound Directors",
@@ -215,23 +215,19 @@ export default {
         },
         {
           name: "Moderator Team",
-          names: ["NCSGeek", "Smileyguyx", "Wartai"]
+          names: ["Smileyguyx", "NCSGeek", "Wartai"]
         },
         {
           name: "Tech Support Team",
-          names: ["NCSGeek", "CWO", "Wartai"]
-        },
-        {
-          name: "Media Team",
-          names: ["Mandy (Talos)", "Kire", "Taz"]
+          names: ["CWO", "NCSGeek", "Wartai"]
         },
         {
           name: "Indians Trailer",
           names: [
-            "Mandy (Talos)",
             "Kire",
-            "PF2K",
+            "Mandy (Talos)",
             "Vladan Stančić",
+            "PF2K",
           ]
         },
         {
@@ -246,7 +242,7 @@ export default {
         },
         {
           name: "Moral Support",
-          names: ["IamPrezSteve"]
+          names: ["Kieffer Bryant (IamPREZSTEVE)"]
         },
         {
           name: "Additional Thanks",
