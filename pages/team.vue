@@ -141,7 +141,7 @@ export default {
         },
         {
           name: "2D Art",
-          names: ["Nayden Romanov (Natsata)", "PF2K", "Bryan Rafael Blanco Landaeta (Cain)"]
+          names: ["Nayden Romanov (Natsata)", "PF2K", "Bryan Rafael Blanco Landaeta (Cain)", "Hans"]
         },
         {
           name: "Sound Directors",
