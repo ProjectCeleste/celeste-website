@@ -35,7 +35,7 @@
               <strong>Build your empire</strong>
             </p>
             <p class="content">
-              Choose from 7 civilizations and complete quests to level up your
+              Choose from 8 civilizations and complete quests to level up your
               civilization – unlocking new units, tech and challenges!
             </p>
           </div>
