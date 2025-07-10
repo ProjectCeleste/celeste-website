@@ -269,6 +269,17 @@
                     coop/pvp guide here.
                   </a>
                 </li>
+                <li>
+                  If your game does not start after pressing the "PLAY" button in the launcher,
+                  try installing the newest version of Microsoft Visual C++ Redistributable packages
+                  <a
+                    href="https://aka.ms/vs/17/release/vc_redist.x86.exe"
+                    rel="nofollow"
+                    target="_blank"
+                  >
+                    by clicking on the download link.
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
